@@ -1,0 +1,769 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ByteCounter	face-counters.hpp	/^  ByteCounter()$/;"	f	class:nfd::ByteCounter
+ByteCounter	face-counters.hpp	/^class ByteCounter : noncopyable$/;"	c	namespace:nfd
+CLOSING	transport.hpp	/^  CLOSING, \/\/\/< the transport is requested to be closed$/;"	m	class:nfd::face::TransportState
+Channel	channel.hpp	/^class Channel : noncopyable$/;"	c	namespace:nfd
+ConnectFailedCallback	channel.hpp	/^  typedef function<void(const std::string& reason)> ConnectFailedCallback;$/;"	t	class:nfd::Channel
+DECL_CLASS_FINAL	lp-face.hpp	/^DECL_CLASS_FINAL$/;"	c	namespace:nfd::face
+DECL_OVERRIDE	datagram-transport.hpp	/^  doClose() DECL_OVERRIDE;$/;"	m	class:nfd::face::DatagramTransport
+DECL_OVERRIDE	datagram-transport.hpp	/^  doSend(Transport::Packet&& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::DatagramTransport
+DECL_OVERRIDE	ethernet-face.hpp	/^  close() DECL_OVERRIDE;$/;"	m	class:nfd::EthernetFace
+DECL_OVERRIDE	ethernet-face.hpp	/^  sendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::EthernetFace
+DECL_OVERRIDE	ethernet-face.hpp	/^  sendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::EthernetFace
+DECL_OVERRIDE	ethernet-factory.hpp	/^             const FaceCreationFailedCallback& onConnectFailed) DECL_OVERRIDE;$/;"	m	class:nfd::EthernetFactory
+DECL_OVERRIDE	ethernet-factory.hpp	/^  getChannels() const DECL_OVERRIDE;$/;"	m	class:nfd::EthernetFactory
+DECL_OVERRIDE	generic-link-service.hpp	/^  doReceivePacket(Transport::Packet&& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::GenericLinkService
+DECL_OVERRIDE	generic-link-service.hpp	/^  doSendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::face::GenericLinkService
+DECL_OVERRIDE	generic-link-service.hpp	/^  doSendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::face::GenericLinkService
+DECL_OVERRIDE	generic-link-service.hpp	/^  doSendNack(const ndn::lp::Nack& nack) DECL_OVERRIDE;$/;"	m	class:nfd::face::GenericLinkService
+DECL_OVERRIDE	internal-transport.hpp	/^  doClose() DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalForwarderTransport
+DECL_OVERRIDE	internal-transport.hpp	/^  doSend(Packet&& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalForwarderTransport
+DECL_OVERRIDE	internal-transport.hpp	/^  receiveFromLink(const Block& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalClientTransport
+DECL_OVERRIDE	internal-transport.hpp	/^  receiveFromLink(const Block& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalForwarderTransport
+DECL_OVERRIDE	internal-transport.hpp	/^  send(const Block& header, const Block& payload) DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalClientTransport
+DECL_OVERRIDE	internal-transport.hpp	/^  send(const Block& wire) DECL_OVERRIDE;$/;"	m	class:nfd::face::InternalClientTransport
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  close() DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  getCounters() const DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  isUp() const DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  sendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  sendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  sendNack(const lp::Nack& nack) DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  setId(nfd::FaceId faceId) DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	lp-face-wrapper.hpp	/^  setPersistency(ndn::nfd::FacePersistency persistency) DECL_OVERRIDE;$/;"	m	class:nfd::face::LpFaceWrapper
+DECL_OVERRIDE	multicast-udp-transport.hpp	/^  doClose() DECL_OVERRIDE;$/;"	m	class:nfd::face::MulticastUdpTransport
+DECL_OVERRIDE	multicast-udp-transport.hpp	/^  doSend(Transport::Packet&& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::MulticastUdpTransport
+DECL_OVERRIDE	null-face.hpp	/^  close() DECL_OVERRIDE;$/;"	m	class:nfd::NullFace
+DECL_OVERRIDE	null-face.hpp	/^  sendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::NullFace
+DECL_OVERRIDE	null-face.hpp	/^  sendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::NullFace
+DECL_OVERRIDE	stream-face.hpp	/^  close() DECL_OVERRIDE;$/;"	m	class:nfd::StreamFace
+DECL_OVERRIDE	stream-face.hpp	/^  sendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::StreamFace
+DECL_OVERRIDE	stream-face.hpp	/^  sendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::StreamFace
+DECL_OVERRIDE	stream-transport.hpp	/^  doClose() DECL_OVERRIDE;$/;"	m	class:nfd::face::StreamTransport
+DECL_OVERRIDE	stream-transport.hpp	/^  doSend(Transport::Packet&& packet) DECL_OVERRIDE;$/;"	m	class:nfd::face::StreamTransport
+DECL_OVERRIDE	tcp-factory.hpp	/^             const FaceCreationFailedCallback& onConnectFailed) DECL_OVERRIDE;$/;"	m	class:nfd::TcpFactory
+DECL_OVERRIDE	tcp-factory.hpp	/^  getChannels() const DECL_OVERRIDE;$/;"	m	class:nfd::TcpFactory
+DECL_OVERRIDE	udp-factory.hpp	/^             const FaceCreationFailedCallback& onConnectFailed) DECL_OVERRIDE;$/;"	m	class:nfd::UdpFactory
+DECL_OVERRIDE	udp-factory.hpp	/^  getChannels() const DECL_OVERRIDE;$/;"	m	class:nfd::UdpFactory
+DECL_OVERRIDE	unix-stream-channel.hpp	/^  ~UnixStreamChannel() DECL_OVERRIDE;$/;"	m	class:nfd::UnixStreamChannel
+DECL_OVERRIDE	unix-stream-factory.hpp	/^             const FaceCreationFailedCallback& onConnectFailed) DECL_OVERRIDE;$/;"	m	class:nfd::UnixStreamFactory
+DECL_OVERRIDE	unix-stream-factory.hpp	/^  getChannels() const DECL_OVERRIDE;$/;"	m	class:nfd::UnixStreamFactory
+DECL_OVERRIDE	websocket-face.hpp	/^  close() DECL_OVERRIDE;$/;"	m	class:nfd::WebSocketFace
+DECL_OVERRIDE	websocket-face.hpp	/^  sendData(const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::WebSocketFace
+DECL_OVERRIDE	websocket-face.hpp	/^  sendInterest(const Interest& interest) DECL_OVERRIDE;$/;"	m	class:nfd::WebSocketFace
+DECL_OVERRIDE	websocket-factory.hpp	/^             const FaceCreationFailedCallback& onConnectFailed) DECL_OVERRIDE;$/;"	m	class:nfd::WebSocketFactory
+DECL_OVERRIDE	websocket-factory.hpp	/^  getChannels() const DECL_OVERRIDE;$/;"	m	class:nfd::WebSocketFactory
+DOWN	transport.hpp	/^  DOWN, \/\/\/< the transport is down temporarily, and is being recovered$/;"	m	class:nfd::face::TransportState
+DatagramTransport	datagram-transport.hpp	/^DatagramTransport<T, U>::DatagramTransport(typename DatagramTransport::protocol::socket&& socket)$/;"	f	class:nfd::face::DatagramTransport
+DatagramTransport	datagram-transport.hpp	/^class DatagramTransport : public Transport$/;"	c	namespace:nfd::face
+Endpoint	tcp-channel.hpp	/^typedef boost::asio::ip::tcp::endpoint Endpoint;$/;"	t	namespace:nfd::tcp
+Endpoint	udp-channel.hpp	/^typedef boost::asio::ip::udp::endpoint Endpoint;$/;"	t	namespace:nfd::udp
+Endpoint	unix-stream-channel.hpp	/^typedef boost::asio::local::stream_protocol::endpoint Endpoint;$/;"	t	namespace:nfd::unix_stream
+Endpoint	websocket-channel.hpp	/^typedef boost::asio::ip::tcp::endpoint Endpoint;$/;"	t	namespace:nfd::websocket
+EndpointId	transport.hpp	/^  typedef uint64_t EndpointId;$/;"	t	class:nfd::face::Transport
+Error	ethernet-face.hpp	/^    Error(const std::string& what) : Face::Error(what) {}$/;"	f	struct:nfd::EthernetFace::Error
+Error	ethernet-face.hpp	/^  struct Error : public Face::Error$/;"	s	class:nfd::EthernetFace
+Error	ethernet-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::EthernetFactory::Error
+Error	ethernet-factory.hpp	/^  class Error : public ProtocolFactory::Error$/;"	c	class:nfd::EthernetFactory
+Error	face.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::Face::Error
+Error	face.hpp	/^  class Error : public std::runtime_error$/;"	c	class:nfd::Face
+Error	protocol-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::ProtocolFactory::Error
+Error	protocol-factory.hpp	/^  class Error : public std::runtime_error$/;"	c	class:nfd::ProtocolFactory
+Error	tcp-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::TcpFactory::Error
+Error	tcp-factory.hpp	/^  class Error : public ProtocolFactory::Error$/;"	c	class:nfd::TcpFactory
+Error	udp-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::UdpFactory::Error
+Error	udp-factory.hpp	/^  class Error : public ProtocolFactory::Error$/;"	c	class:nfd::UdpFactory
+Error	unix-stream-channel.hpp	/^    Error(const std::string& what) : std::runtime_error(what) {}$/;"	f	struct:nfd::UnixStreamChannel::Error
+Error	unix-stream-channel.hpp	/^  struct Error : public std::runtime_error$/;"	s	class:nfd::UnixStreamChannel
+Error	unix-stream-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::UnixStreamFactory::Error
+Error	unix-stream-factory.hpp	/^  class Error : public ProtocolFactory::Error$/;"	c	class:nfd::UnixStreamFactory
+Error	websocket-factory.hpp	/^    Error(const std::string& what)$/;"	f	class:nfd::WebSocketFactory::Error
+Error	websocket-factory.hpp	/^  class Error : public ProtocolFactory::Error$/;"	c	class:nfd::WebSocketFactory
+EthernetFace	ethernet-face.cpp	/^EthernetFace::EthernetFace(boost::asio::posix::stream_descriptor socket,$/;"	f	class:nfd::EthernetFace
+EthernetFace	ethernet-face.hpp	/^class EthernetFace : public Face$/;"	c	namespace:nfd
+EthernetFactory	ethernet-factory.hpp	/^class EthernetFactory : public ProtocolFactory$/;"	c	namespace:nfd
+FACEID_CONTENT_STORE	face.hpp	/^const FaceId FACEID_CONTENT_STORE = 254;$/;"	m	namespace:nfd
+FACEID_CONTENT_STORE	lp-face.hpp	/^const FaceId FACEID_CONTENT_STORE = 254;$/;"	m	namespace:nfd::face
+FACEID_INTERNAL_FACE	face.hpp	/^const FaceId FACEID_INTERNAL_FACE = 1;$/;"	m	namespace:nfd
+FACEID_INTERNAL_FACE	lp-face.hpp	/^const FaceId FACEID_INTERNAL_FACE = 1;$/;"	m	namespace:nfd::face
+FACEID_NULL	face.hpp	/^const FaceId FACEID_NULL = 255;$/;"	m	namespace:nfd
+FACEID_NULL	lp-face.hpp	/^const FaceId FACEID_NULL = 255;$/;"	m	namespace:nfd::face
+FACEID_RESERVED_MAX	face.hpp	/^const FaceId FACEID_RESERVED_MAX = 255;$/;"	m	namespace:nfd
+FACEID_RESERVED_MAX	lp-face.hpp	/^const FaceId FACEID_RESERVED_MAX = 255;$/;"	m	namespace:nfd::face
+FAILED	transport.hpp	/^  FAILED, \/\/\/< the transport is being closed due to a failure$/;"	m	class:nfd::face::TransportState
+Face	face.cpp	/^Face::Face(const FaceUri& remoteUri, const FaceUri& localUri, bool isLocal, bool isMultiAccess)$/;"	f	class:nfd::Face
+Face	face.hpp	/^class Face : noncopyable, public enable_shared_from_this<Face>$/;"	c	namespace:nfd
+FaceCounters	face-counters.hpp	/^class FaceCounters : public NetworkLayerCounters, public LinkLayerCounters$/;"	c	namespace:nfd
+FaceCreatedCallback	channel.hpp	/^  typedef function<void(const shared_ptr<Face>& newFace)> FaceCreatedCallback;$/;"	t	class:nfd::Channel
+FaceCreatedCallback	protocol-factory.hpp	/^typedef function<void(const shared_ptr<Face>& newFace)> FaceCreatedCallback;$/;"	t	namespace:nfd
+FaceCreationFailedCallback	protocol-factory.hpp	/^typedef function<void(const std::string& reason)> FaceCreationFailedCallback;$/;"	t	namespace:nfd
+FaceId	face.hpp	/^typedef int FaceId;$/;"	t	namespace:nfd
+FaceId	lp-face.hpp	/^typedef uint64_t FaceId;$/;"	t	namespace:nfd::face
+FaceLogHelper	face-log.hpp	/^  FaceLogHelper(const T& obj1)$/;"	f	class:nfd::face::FaceLogHelper
+FaceLogHelper	face-log.hpp	/^class FaceLogHelper$/;"	c	namespace:nfd::face
+FaceState	lp-face.hpp	/^typedef TransportState FaceState;$/;"	t	namespace:nfd::face
+GenericLinkService	generic-link-service.cpp	/^GenericLinkService::GenericLinkService(const GenericLinkService::Options& options)$/;"	f	class:nfd::face::GenericLinkService
+GenericLinkService	generic-link-service.hpp	/^class GenericLinkService : public LinkService$/;"	c	namespace:nfd::face
+INVALID_FACEID	face.hpp	/^const FaceId INVALID_FACEID = -1;$/;"	m	namespace:nfd
+INVALID_FACEID	lp-face.hpp	/^const FaceId INVALID_FACEID = 0;$/;"	m	namespace:nfd::face
+InternalClientTransport	internal-transport.hpp	/^class InternalClientTransport : public ndn::Transport, public InternalTransportBase$/;"	c	namespace:nfd::face
+InternalForwarderTransport	internal-transport.cpp	/^InternalForwarderTransport::InternalForwarderTransport($/;"	f	class:nfd::face::InternalForwarderTransport
+InternalForwarderTransport	internal-transport.hpp	/^class InternalForwarderTransport : public face::Transport, public InternalTransportBase$/;"	c	namespace:nfd::face
+InternalTransportBase	internal-transport.hpp	/^class InternalTransportBase$/;"	c	namespace:nfd::face
+LOCAL_CONTROL_FEATURE_ANY	local-face.hpp	/^  static const size_t LOCAL_CONTROL_FEATURE_ANY = 0; \/\/\/ any feature$/;"	m	class:nfd::LocalFace
+LOCAL_CONTROL_FEATURE_MAX	local-face.hpp	/^  static const size_t LOCAL_CONTROL_FEATURE_MAX = 3; \/\/\/ upper bound of LocalControlFeature enum$/;"	m	class:nfd::LocalFace
+LinkLayerCounters	face-counters.hpp	/^class LinkLayerCounters : noncopyable$/;"	c	namespace:nfd
+LinkService	link-service.cpp	/^LinkService::LinkService()$/;"	f	class:nfd::face::LinkService
+LinkService	link-service.hpp	/^class LinkService : noncopyable$/;"	c	namespace:nfd::face
+LocalFace	local-face.hpp	/^LocalFace::LocalFace(const FaceUri& remoteUri, const FaceUri& localUri)$/;"	f	class:nfd::LocalFace
+LocalFace	local-face.hpp	/^class LocalFace : public Face$/;"	c	namespace:nfd
+LpFace	lp-face.cpp	/^LpFace::LpFace(unique_ptr<LinkService> service, unique_ptr<Transport> transport)$/;"	f	class:nfd::face::LpFace
+LpFaceWrapper	lp-face-wrapper.cpp	/^LpFaceWrapper::LpFaceWrapper(unique_ptr<LpFace> face)$/;"	f	class:nfd::face::LpFaceWrapper
+LpFaceWrapper	lp-face-wrapper.hpp	/^class LpFaceWrapper : public Face$/;"	c	namespace:nfd::face
+MTU_UNLIMITED	transport.hpp	/^const ssize_t MTU_UNLIMITED = -1;$/;"	m	namespace:nfd::face
+Multicast	datagram-transport.hpp	/^struct Multicast {};$/;"	s	namespace:nfd::face
+MulticastFaceMap	ethernet-factory.hpp	/^                   shared_ptr<EthernetFace>> MulticastFaceMap;$/;"	t	class:nfd::EthernetFactory
+MulticastFaceMap	udp-factory.hpp	/^  typedef std::map<udp::Endpoint, shared_ptr<face::LpFaceWrapper>> MulticastFaceMap;$/;"	t	class:nfd::UdpFactory
+MulticastUdpTransport	multicast-udp-transport.cpp	/^MulticastUdpTransport::MulticastUdpTransport(const protocol::endpoint& localEndpoint,$/;"	f	class:nfd::face::MulticastUdpTransport
+MulticastUdpTransport	multicast-udp-transport.hpp	/^class MulticastUdpTransport : public DatagramTransport<boost::asio::ip::udp, Multicast>$/;"	c	namespace:nfd::face
+NFD_DAEMON_FACE_CHANNEL_HPP	channel.hpp	26;"	d
+NFD_DAEMON_FACE_DATAGRAM_TRANSPORT_HPP	datagram-transport.hpp	27;"	d
+NFD_DAEMON_FACE_ETHERNET_FACE_HPP	ethernet-face.hpp	27;"	d
+NFD_DAEMON_FACE_ETHERNET_FACTORY_HPP	ethernet-factory.hpp	27;"	d
+NFD_DAEMON_FACE_FACE_COUNTERS_HPP	face-counters.hpp	27;"	d
+NFD_DAEMON_FACE_FACE_HPP	face.hpp	27;"	d
+NFD_DAEMON_FACE_FACE_LOG_HPP	face-log.hpp	27;"	d
+NFD_DAEMON_FACE_GENERIC_LINK_SERVICE_HPP	generic-link-service.hpp	27;"	d
+NFD_DAEMON_FACE_INTERNAL_FACE_HPP	internal-face.hpp	27;"	d
+NFD_DAEMON_FACE_INTERNAL_TRANSPORT_HPP	internal-transport.hpp	27;"	d
+NFD_DAEMON_FACE_LINK_SERVICE_HPP	link-service.hpp	27;"	d
+NFD_DAEMON_FACE_LOCAL_FACE_HPP	local-face.hpp	27;"	d
+NFD_DAEMON_FACE_LP_FACE_WRAPPER_HPP	lp-face-wrapper.hpp	27;"	d
+NFD_DAEMON_FACE_MULTICAST_UDP_TRANSPORT_HPP	multicast-udp-transport.hpp	27;"	d
+NFD_DAEMON_FACE_NDNLP_PARSE_HPP	ndnlp-data.hpp	27;"	d
+NFD_DAEMON_FACE_NDNLP_PARTIAL_MESSAGE_STORE_HPP	ndnlp-partial-message-store.hpp	27;"	d
+NFD_DAEMON_FACE_NDNLP_SEQUENCE_GENERATOR_HPP	ndnlp-sequence-generator.hpp	26;"	d
+NFD_DAEMON_FACE_NDNLP_SLICER_HPP	ndnlp-slicer.hpp	27;"	d
+NFD_DAEMON_FACE_NDNLP_TLV_HPP	ndnlp-tlv.hpp	26;"	d
+NFD_DAEMON_FACE_NULL_FACE_HPP	null-face.hpp	27;"	d
+NFD_DAEMON_FACE_PROTOCOL_FACTORY_HPP	protocol-factory.hpp	27;"	d
+NFD_DAEMON_FACE_STREAM_FACE_HPP	stream-face.hpp	27;"	d
+NFD_DAEMON_FACE_STREAM_TRANSPORT_HPP	stream-transport.hpp	27;"	d
+NFD_DAEMON_FACE_TCP_CHANNEL_HPP	tcp-channel.hpp	27;"	d
+NFD_DAEMON_FACE_TCP_FACE_HPP	tcp-face.hpp	26;"	d
+NFD_DAEMON_FACE_TCP_FACTORY_HPP	tcp-factory.hpp	27;"	d
+NFD_DAEMON_FACE_TRANSPORT_HPP	transport.hpp	27;"	d
+NFD_DAEMON_FACE_UDP_CHANNEL_HPP	udp-channel.hpp	27;"	d
+NFD_DAEMON_FACE_UDP_FACTORY_HPP	udp-factory.hpp	27;"	d
+NFD_DAEMON_FACE_UDP_PROTOCOL_HPP	udp-protocol.hpp	27;"	d
+NFD_DAEMON_FACE_UNICAST_UDP_TRANSPORT_HPP	unicast-udp-transport.hpp	27;"	d
+NFD_DAEMON_FACE_UNIX_STREAM_CHANNEL_HPP	unix-stream-channel.hpp	26;"	d
+NFD_DAEMON_FACE_UNIX_STREAM_FACTORY_HPP	unix-stream-factory.hpp	27;"	d
+NFD_DAEMON_FACE_UNIX_STREAM_TRANSPORT_HPP	unix-stream-transport.hpp	27;"	d
+NFD_DAEMON_FACE_WEBSOCKETPP_HPP	websocketpp.hpp	27;"	d
+NFD_DAEMON_FACE_WEBSOCKET_CHANNEL_HPP	websocket-channel.hpp	27;"	d
+NFD_DAEMON_FACE_WEBSOCKET_FACE_HPP	websocket-face.hpp	27;"	d
+NFD_DAEMON_FACE_WEBSOCKET_FACTORY_HPP	websocket-factory.hpp	27;"	d
+NFD_DAEMON_LP_FACE_HPP	lp-face.hpp	27;"	d
+NFD_LOG_FACE	face-log.hpp	65;"	d
+NFD_LOG_FACE_DEBUG	face-log.hpp	77;"	d
+NFD_LOG_FACE_ERROR	face-log.hpp	86;"	d
+NFD_LOG_FACE_INFO	face-log.hpp	80;"	d
+NFD_LOG_FACE_TRACE	face-log.hpp	74;"	d
+NFD_LOG_FACE_WARN	face-log.hpp	83;"	d
+NONE	transport.hpp	/^  NONE,$/;"	m	class:nfd::face::TransportState
+NdnlpData	ndnlp-data.hpp	/^class NdnlpData$/;"	c	namespace:nfd::ndnlp
+NdnlpData	ndnlp-tlv.hpp	/^  NdnlpData      = 80,$/;"	e	enum:nfd::tlv::__anon1
+NdnlpFragCount	ndnlp-tlv.hpp	/^  NdnlpFragCount = 83,$/;"	e	enum:nfd::tlv::__anon1
+NdnlpFragIndex	ndnlp-tlv.hpp	/^  NdnlpFragIndex = 82,$/;"	e	enum:nfd::tlv::__anon1
+NdnlpPayload	ndnlp-tlv.hpp	/^  NdnlpPayload   = 84$/;"	e	enum:nfd::tlv::__anon1
+NdnlpSequence	ndnlp-tlv.hpp	/^  NdnlpSequence  = 81,$/;"	e	enum:nfd::tlv::__anon1
+NetworkLayerCounters	face-counters.hpp	/^class NetworkLayerCounters : noncopyable$/;"	c	namespace:nfd
+NullFace	null-face.cpp	/^NullFace::NullFace(const FaceUri& uri)$/;"	f	class:nfd::NullFace
+NullFace	null-face.hpp	/^class NullFace : public Face$/;"	c	namespace:nfd
+Options	generic-link-service.cpp	/^GenericLinkService::Options::Options()$/;"	f	class:nfd::face::GenericLinkService::Options
+Options	generic-link-service.hpp	/^  class Options$/;"	c	class:nfd::face::GenericLinkService
+PCAP_NETMASK_UNKNOWN	ethernet-face.cpp	56;"	d	file:
+Packet	transport.cpp	/^Transport::Packet::Packet(Block&& packet1)$/;"	f	class:nfd::face::Transport::Packet
+Packet	transport.hpp	/^  class Packet$/;"	c	class:nfd::face::Transport
+PacketArray	ndnlp-slicer.hpp	/^typedef shared_ptr<std::vector<Block>> PacketArray;$/;"	t	namespace:nfd::ndnlp
+PacketCounter	face-counters.hpp	/^  PacketCounter()$/;"	f	class:nfd::PacketCounter
+PacketCounter	face-counters.hpp	/^class PacketCounter : noncopyable$/;"	c	namespace:nfd
+PartialMessage	ndnlp-partial-message-store.cpp	/^PartialMessage::PartialMessage()$/;"	f	class:nfd::ndnlp::PartialMessage
+PartialMessage	ndnlp-partial-message-store.hpp	/^class PartialMessage$/;"	c	namespace:nfd::ndnlp
+PartialMessageStore	ndnlp-partial-message-store.cpp	/^PartialMessageStore::PartialMessageStore(const time::nanoseconds& idleDuration)$/;"	f	class:nfd::ndnlp::PartialMessageStore
+PartialMessageStore	ndnlp-partial-message-store.hpp	/^class PartialMessageStore : noncopyable$/;"	c	namespace:nfd::ndnlp
+ProtocolFactory	protocol-factory.hpp	/^class ProtocolFactory$/;"	c	namespace:nfd
+REASSEMBLER_LIFETIME	ethernet-face.cpp	/^const time::nanoseconds EthernetFace::REASSEMBLER_LIFETIME = time::seconds(60);$/;"	m	class:nfd::EthernetFace	file:
+REASSEMBLER_LIFETIME	ethernet-face.hpp	/^  static const time::nanoseconds REASSEMBLER_LIFETIME;$/;"	m	class:nfd::EthernetFace
+Reassembler	ethernet-face.hpp	/^  struct Reassembler$/;"	s	class:nfd::EthernetFace
+SequenceBlock	ndnlp-sequence-generator.cpp	/^SequenceBlock::SequenceBlock(uint64_t start, size_t count)$/;"	f	class:nfd::ndnlp::SequenceBlock
+SequenceBlock	ndnlp-sequence-generator.hpp	/^class SequenceBlock$/;"	c	namespace:nfd::ndnlp
+SequenceGenerator	ndnlp-sequence-generator.cpp	/^SequenceGenerator::SequenceGenerator()$/;"	f	class:nfd::ndnlp::SequenceGenerator
+SequenceGenerator	ndnlp-sequence-generator.hpp	/^class SequenceGenerator : noncopyable$/;"	c	namespace:nfd::ndnlp
+Server	websocket-face.hpp	/^typedef websocketpp::server<websocketpp::config::asio> Server;$/;"	t	namespace:nfd::websocket
+Slicer	ndnlp-slicer.cpp	/^Slicer::Slicer(size_t mtu)$/;"	f	class:nfd::ndnlp::Slicer
+Slicer	ndnlp-slicer.hpp	/^class Slicer : noncopyable$/;"	c	namespace:nfd::ndnlp
+StreamFace	stream-face.hpp	/^StreamFace<T, FaceBase>::StreamFace(const FaceUri& remoteUri, const FaceUri& localUri,$/;"	f	class:nfd::StreamFace
+StreamFace	stream-face.hpp	/^class StreamFace : public FaceBase$/;"	c	namespace:nfd
+StreamFaceSenderImpl	stream-face.hpp	/^struct StreamFaceSenderImpl$/;"	s	namespace:nfd
+StreamFaceSenderImpl	stream-face.hpp	/^struct StreamFaceSenderImpl<Protocol, LocalFace, Packet>$/;"	s	namespace:nfd
+StreamFaceValidator	stream-face.hpp	/^struct StreamFaceValidator$/;"	s	namespace:nfd
+StreamFaceValidator	tcp-face.hpp	/^struct StreamFaceValidator<TcpLocalFace::protocol, LocalFace>$/;"	s	namespace:nfd
+StreamTransport	stream-transport.hpp	/^StreamTransport<T>::StreamTransport(typename StreamTransport::protocol::socket&& socket)$/;"	f	class:nfd::face::StreamTransport
+StreamTransport	stream-transport.hpp	/^class StreamTransport : public Transport$/;"	c	namespace:nfd::face
+TcpChannel	tcp-channel.cpp	/^TcpChannel::TcpChannel(const tcp::Endpoint& localEndpoint)$/;"	f	class:nfd::TcpChannel
+TcpChannel	tcp-channel.hpp	/^class TcpChannel : public Channel$/;"	c	namespace:nfd
+TcpFace	tcp-face.cpp	/^TcpFace::TcpFace(const FaceUri& remoteUri, const FaceUri& localUri,$/;"	f	class:nfd::TcpFace
+TcpFace	tcp-face.hpp	/^class TcpFace : public StreamFace<boost::asio::ip::tcp>$/;"	c	namespace:nfd
+TcpFactory	tcp-factory.hpp	/^class TcpFactory : public ProtocolFactory$/;"	c	namespace:nfd
+TcpLocalFace	tcp-face.cpp	/^TcpLocalFace::TcpLocalFace(const FaceUri& remoteUri, const FaceUri& localUri,$/;"	f	class:nfd::TcpLocalFace
+TcpLocalFace	tcp-face.hpp	/^class TcpLocalFace : public StreamFace<boost::asio::ip::tcp, LocalFace>$/;"	c	namespace:nfd
+Transport	transport.cpp	/^Transport::Transport()$/;"	f	class:nfd::face::Transport
+Transport	transport.hpp	/^class Transport : noncopyable$/;"	c	namespace:nfd::face
+TransportState	transport.hpp	/^enum class TransportState {$/;"	c	namespace:nfd::face
+UP	transport.hpp	/^  UP, \/\/\/< the transport is up$/;"	m	class:nfd::face::TransportState
+UdpChannel	udp-channel.cpp	/^UdpChannel::UdpChannel(const udp::Endpoint& localEndpoint,$/;"	f	class:nfd::UdpChannel
+UdpChannel	udp-channel.hpp	/^class UdpChannel : public Channel$/;"	c	namespace:nfd
+UdpFactory	udp-factory.hpp	/^class UdpFactory : public ProtocolFactory$/;"	c	namespace:nfd
+Unicast	datagram-transport.hpp	/^struct Unicast {};$/;"	s	namespace:nfd::face
+UnicastUdpTransport	unicast-udp-transport.cpp	/^UnicastUdpTransport::UnicastUdpTransport(protocol::socket&& socket,$/;"	f	class:nfd::face::UnicastUdpTransport
+UnicastUdpTransport	unicast-udp-transport.hpp	/^class UnicastUdpTransport : public DatagramTransport<boost::asio::ip::udp, Unicast>$/;"	c	namespace:nfd::face
+UnixStreamChannel	unix-stream-channel.cpp	/^UnixStreamChannel::UnixStreamChannel(const unix_stream::Endpoint& endpoint)$/;"	f	class:nfd::UnixStreamChannel
+UnixStreamChannel	unix-stream-channel.hpp	/^class UnixStreamChannel : public Channel$/;"	c	namespace:nfd
+UnixStreamFactory	unix-stream-factory.hpp	/^class UnixStreamFactory : public ProtocolFactory$/;"	c	namespace:nfd
+UnixStreamTransport	unix-stream-transport.cpp	/^UnixStreamTransport::UnixStreamTransport(protocol::socket&& socket)$/;"	f	class:nfd::face::UnixStreamTransport
+UnixStreamTransport	unix-stream-transport.hpp	/^class UnixStreamTransport : public StreamTransport<boost::asio::local::stream_protocol>$/;"	c	namespace:nfd::face
+WebSocketChannel	websocket-channel.cpp	/^WebSocketChannel::WebSocketChannel(const websocket::Endpoint& localEndpoint)$/;"	f	class:nfd::WebSocketChannel
+WebSocketChannel	websocket-channel.hpp	/^class WebSocketChannel : public Channel$/;"	c	namespace:nfd
+WebSocketFace	websocket-face.cpp	/^WebSocketFace::WebSocketFace(const FaceUri& remoteUri, const FaceUri& localUri,$/;"	f	class:nfd::WebSocketFace
+WebSocketFace	websocket-face.hpp	/^class WebSocketFace : public Face$/;"	c	namespace:nfd
+WebSocketFactory	websocket-factory.hpp	/^class WebSocketFactory : public ProtocolFactory$/;"	c	namespace:nfd
+accept	tcp-channel.cpp	/^TcpChannel::accept(const FaceCreatedCallback& onFaceCreated,$/;"	f	class:nfd::TcpChannel
+accept	unix-stream-channel.cpp	/^UnixStreamChannel::accept(const FaceCreatedCallback& onFaceCreated,$/;"	f	class:nfd::UnixStreamChannel
+add	ndnlp-partial-message-store.cpp	/^PartialMessage::add(uint16_t fragIndex, uint16_t fragCount, const Block& payload)$/;"	f	class:nfd::ndnlp::PartialMessage
+afterReceiveData	link-service.hpp	/^  signal::Signal<LinkService, Data> afterReceiveData;$/;"	m	class:nfd::face::LinkService
+afterReceiveData	lp-face.hpp	/^  signal::Signal<LinkService, Data>& afterReceiveData;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+afterReceiveInterest	link-service.hpp	/^  signal::Signal<LinkService, Interest> afterReceiveInterest;$/;"	m	class:nfd::face::LinkService
+afterReceiveInterest	lp-face.hpp	/^  signal::Signal<LinkService, Interest>& afterReceiveInterest;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+afterReceiveNack	link-service.hpp	/^  signal::Signal<LinkService, lp::Nack> afterReceiveNack;$/;"	m	class:nfd::face::LinkService
+afterReceiveNack	lp-face.hpp	/^  signal::Signal<LinkService, lp::Nack>& afterReceiveNack;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+afterSend	internal-transport.hpp	/^  signal::Signal<InternalTransportBase, Block> afterSend;$/;"	m	class:nfd::face::InternalTransportBase
+afterStateChange	lp-face.hpp	/^  signal::Signal<Transport, FaceState\/*old*\/, FaceState\/*new*\/>& afterStateChange;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+afterStateChange	transport.hpp	/^  signal::Signal<Transport, TransportState\/*old*\/, TransportState\/*new*\/> afterStateChange;$/;"	m	class:nfd::face::Transport
+allowLocalFields	generic-link-service.hpp	/^    bool allowLocalFields;$/;"	m	class:nfd::face::GenericLinkService::Options
+asyncReceive	internal-transport.cpp	/^asyncReceive(InternalTransportBase* recipient, const Block& packet)$/;"	f	namespace:nfd::face
+beforeChangePersistency	transport.hpp	/^  beforeChangePersistency(ndn::nfd::FacePersistency newPersistency)$/;"	f	class:nfd::face::Transport
+cleanup	ndnlp-partial-message-store.cpp	/^PartialMessageStore::cleanup(uint64_t messageIdentifier)$/;"	f	class:nfd::ndnlp::PartialMessageStore
+close	ethernet-face.cpp	/^EthernetFace::close()$/;"	f	class:nfd::EthernetFace
+close	lp-face-wrapper.hpp	/^LpFaceWrapper::close()$/;"	f	class:nfd::face::LpFaceWrapper
+close	lp-face.hpp	/^LpFace::close()$/;"	f	class:nfd::face::LpFace
+close	null-face.cpp	/^NullFace::close()$/;"	f	class:nfd::NullFace
+close	stream-face.hpp	/^StreamFace<T, U>::close()$/;"	f	class:nfd::StreamFace
+close	transport.cpp	/^Transport::close()$/;"	f	class:nfd::face::Transport
+close	websocket-face.cpp	/^WebSocketFace::close()$/;"	f	class:nfd::WebSocketFace
+closeIfIdle	unicast-udp-transport.cpp	/^UnicastUdpTransport::closeIfIdle()$/;"	f	class:nfd::face::UnicastUdpTransport
+computeMtu	udp-protocol.cpp	/^computeMtu(const boost::asio::ip::udp::endpoint& localEndpoint)$/;"	f	namespace:nfd::udp
+connect	tcp-channel.cpp	/^TcpChannel::connect(const tcp::Endpoint& remoteEndpoint,$/;"	f	class:nfd::TcpChannel
+connect	udp-channel.cpp	/^UdpChannel::connect(const udp::Endpoint& remoteEndpoint,$/;"	f	class:nfd::UdpChannel
+connectToForwarder	internal-transport.cpp	/^InternalClientTransport::connectToForwarder(InternalForwarderTransport* forwarderTransport)$/;"	f	class:nfd::face::InternalClientTransport
+copyStatusTo	face.cpp	/^Face::copyStatusTo(FaceTraits& traits) const$/;"	f	class:nfd::Face
+copyTo	face-counters.hpp	/^  copyTo(R& recipient) const$/;"	f	class:nfd::FaceCounters
+copyTo	face-counters.hpp	/^  copyTo(R& recipient) const$/;"	f	class:nfd::LinkLayerCounters
+copyTo	face-counters.hpp	/^  copyTo(R& recipient) const$/;"	f	class:nfd::NetworkLayerCounters
+count	ndnlp-sequence-generator.hpp	/^SequenceBlock::count() const$/;"	f	class:nfd::ndnlp::SequenceBlock
+createChannel	tcp-factory.cpp	/^TcpFactory::createChannel(const std::string& localIp, const std::string& localPort)$/;"	f	class:nfd::TcpFactory
+createChannel	tcp-factory.cpp	/^TcpFactory::createChannel(const tcp::Endpoint& endpoint)$/;"	f	class:nfd::TcpFactory
+createChannel	udp-factory.cpp	/^UdpFactory::createChannel(const std::string& localIp, const std::string& localPort,$/;"	f	class:nfd::UdpFactory
+createChannel	udp-factory.cpp	/^UdpFactory::createChannel(const udp::Endpoint& endpoint,$/;"	f	class:nfd::UdpFactory
+createChannel	unix-stream-factory.cpp	/^UnixStreamFactory::createChannel(const std::string& unixSocketPath)$/;"	f	class:nfd::UnixStreamFactory
+createChannel	websocket-factory.cpp	/^WebSocketFactory::createChannel(const std::string& localIp, const std::string& localPort)$/;"	f	class:nfd::WebSocketFactory
+createChannel	websocket-factory.cpp	/^WebSocketFactory::createChannel(const websocket::Endpoint& endpoint)$/;"	f	class:nfd::WebSocketFactory
+createFace	ethernet-factory.cpp	/^EthernetFactory::createFace(const FaceUri& uri,$/;"	f	class:nfd::EthernetFactory
+createFace	tcp-channel.cpp	/^TcpChannel::createFace(ip::tcp::socket socket,$/;"	f	class:nfd::TcpChannel
+createFace	tcp-factory.cpp	/^TcpFactory::createFace(const FaceUri& uri,$/;"	f	class:nfd::TcpFactory
+createFace	udp-channel.cpp	/^UdpChannel::createFace(const udp::Endpoint& remoteEndpoint, ndn::nfd::FacePersistency persistency)$/;"	f	class:nfd::UdpChannel
+createFace	udp-factory.cpp	/^UdpFactory::createFace(const FaceUri& uri,$/;"	f	class:nfd::UdpFactory
+createFace	unix-stream-factory.cpp	/^UnixStreamFactory::createFace(const FaceUri& uri,$/;"	f	class:nfd::UnixStreamFactory
+createFace	websocket-factory.cpp	/^WebSocketFactory::createFace(const FaceUri& uri,$/;"	f	class:nfd::WebSocketFactory
+createMulticastFace	ethernet-factory.cpp	/^EthernetFactory::createMulticastFace(const NetworkInterfaceInfo& interface,$/;"	f	class:nfd::EthernetFactory
+createMulticastFace	udp-factory.cpp	/^UdpFactory::createMulticastFace(const std::string& localIp,$/;"	f	class:nfd::UdpFactory
+createMulticastFace	udp-factory.cpp	/^UdpFactory::createMulticastFace(const udp::Endpoint& localEndpoint,$/;"	f	class:nfd::UdpFactory
+decodeAndDispatchInput	face.cpp	/^Face::decodeAndDispatchInput(const Block& element)$/;"	f	class:nfd::Face
+decodeAndDispatchInput	local-face.hpp	/^LocalFace::decodeAndDispatchInput(const Block& element)$/;"	f	class:nfd::LocalFace
+decodeData	generic-link-service.cpp	/^GenericLinkService::decodeData(const Block& netPkt, const lp::Packet& firstPkt)$/;"	f	class:nfd::face::GenericLinkService
+decodeInterest	generic-link-service.cpp	/^GenericLinkService::decodeInterest(const Block& netPkt, const lp::Packet& firstPkt)$/;"	f	class:nfd::face::GenericLinkService
+decodeNack	generic-link-service.cpp	/^GenericLinkService::decodeNack(const Block& netPkt, const lp::Packet& firstPkt)$/;"	f	class:nfd::face::GenericLinkService
+deferredClose	stream-face.hpp	/^StreamFace<T, U>::deferredClose(const shared_ptr<Face>& face)$/;"	f	class:nfd::StreamFace
+deferredClose	stream-transport.hpp	/^StreamTransport<T>::deferredClose()$/;"	f	class:nfd::face::StreamTransport
+dispatchData	lp-face-wrapper.cpp	/^LpFaceWrapper::dispatchData(const Data& data)$/;"	f	class:nfd::face::LpFaceWrapper
+dispatchInterest	lp-face-wrapper.cpp	/^LpFaceWrapper::dispatchInterest(const Interest& interest)$/;"	f	class:nfd::face::LpFaceWrapper
+dispatchNack	lp-face-wrapper.cpp	/^LpFaceWrapper::dispatchNack(const ndn::lp::Nack& nack)$/;"	f	class:nfd::face::LpFaceWrapper
+doClose	datagram-transport.hpp	/^DatagramTransport<T, U>::doClose()$/;"	f	class:nfd::face::DatagramTransport
+doClose	internal-transport.cpp	/^InternalForwarderTransport::doClose()$/;"	f	class:nfd::face::InternalForwarderTransport
+doClose	multicast-udp-transport.cpp	/^MulticastUdpTransport::doClose()$/;"	f	class:nfd::face::MulticastUdpTransport
+doClose	stream-transport.hpp	/^StreamTransport<T>::doClose()$/;"	f	class:nfd::face::StreamTransport
+doReceivePacket	generic-link-service.cpp	/^GenericLinkService::doReceivePacket(Transport::Packet&& packet)$/;"	f	class:nfd::face::GenericLinkService
+doSend	datagram-transport.hpp	/^DatagramTransport<T, U>::doSend(Transport::Packet&& packet)$/;"	f	class:nfd::face::DatagramTransport
+doSend	internal-transport.cpp	/^InternalForwarderTransport::doSend(Packet&& packet)$/;"	f	class:nfd::face::InternalForwarderTransport
+doSend	multicast-udp-transport.cpp	/^MulticastUdpTransport::doSend(Transport::Packet&& packet)$/;"	f	class:nfd::face::MulticastUdpTransport
+doSend	stream-transport.hpp	/^StreamTransport<T>::doSend(Transport::Packet&& packet)$/;"	f	class:nfd::face::StreamTransport
+doSendData	generic-link-service.cpp	/^GenericLinkService::doSendData(const Data& data)$/;"	f	class:nfd::face::GenericLinkService
+doSendInterest	generic-link-service.cpp	/^GenericLinkService::doSendInterest(const Interest& interest)$/;"	f	class:nfd::face::GenericLinkService
+doSendNack	generic-link-service.cpp	/^GenericLinkService::doSendNack(const lp::Nack& nack)$/;"	f	class:nfd::face::GenericLinkService
+encodeFragment	ndnlp-slicer.cpp	/^Slicer::encodeFragment(ndn::EncodingImpl<T>& blk,$/;"	f	class:nfd::ndnlp::Slicer
+encodeLocalFields	generic-link-service.cpp	/^GenericLinkService::encodeLocalFields(const Data& data, lp::Packet& lpPacket)$/;"	f	class:nfd::face::GenericLinkService
+encodeLocalFields	generic-link-service.cpp	/^GenericLinkService::encodeLocalFields(const Interest& interest, lp::Packet& lpPacket)$/;"	f	class:nfd::face::GenericLinkService
+estimateOverhead	ndnlp-slicer.cpp	/^Slicer::estimateOverhead()$/;"	f	class:nfd::ndnlp::Slicer
+expireEvent	ethernet-face.hpp	/^    scheduler::EventId expireEvent;$/;"	m	struct:nfd::EthernetFace::Reassembler
+expiry	ndnlp-partial-message-store.hpp	/^  scheduler::ScopedEventId expiry;$/;"	m	class:nfd::ndnlp::PartialMessage
+face	datagram-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	face-log.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	generic-link-service.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	generic-link-service.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	internal-face.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	internal-face.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	internal-transport.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	internal-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	link-service.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	link-service.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	lp-face-wrapper.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	lp-face-wrapper.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	lp-face.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	lp-face.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	multicast-udp-transport.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	multicast-udp-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	stream-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	transport.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	unicast-udp-transport.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	unicast-udp-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+face	unix-stream-transport.cpp	/^namespace face {$/;"	n	namespace:nfd	file:
+face	unix-stream-transport.hpp	/^namespace face {$/;"	n	namespace:nfd
+fail	face.cpp	/^Face::fail(const std::string& reason)$/;"	f	class:nfd::Face
+filterAndEncodeLocalControlHeader	local-face.hpp	/^LocalFace::filterAndEncodeLocalControlHeader(const Packet& packet)$/;"	f	class:nfd::LocalFace
+findChannel	tcp-factory.cpp	/^TcpFactory::findChannel(const tcp::Endpoint& localEndpoint) const$/;"	f	class:nfd::TcpFactory
+findChannel	udp-factory.cpp	/^UdpFactory::findChannel(const udp::Endpoint& localEndpoint) const$/;"	f	class:nfd::UdpFactory
+findChannel	unix-stream-factory.cpp	/^UnixStreamFactory::findChannel(const unix_stream::Endpoint& endpoint) const$/;"	f	class:nfd::UnixStreamFactory
+findChannel	websocket-factory.cpp	/^WebSocketFactory::findChannel(const websocket::Endpoint& endpoint) const$/;"	f	class:nfd::WebSocketFactory
+findMulticastFace	ethernet-factory.cpp	/^EthernetFactory::findMulticastFace(const std::string& interfaceName,$/;"	f	class:nfd::EthernetFactory
+findMulticastFace	udp-factory.cpp	/^UdpFactory::findMulticastFace(const udp::Endpoint& localEndpoint) const$/;"	f	class:nfd::UdpFactory
+fragCount	ndnlp-data.hpp	/^  uint16_t fragCount;$/;"	m	class:nfd::ndnlp::NdnlpData
+fragIndex	ndnlp-data.hpp	/^  uint16_t fragIndex;$/;"	m	class:nfd::ndnlp::NdnlpData
+fromBlock	ndnlp-data.cpp	/^NdnlpData::fromBlock(const Block& wire)$/;"	f	class:nfd::ndnlp::NdnlpData
+getChannels	ethernet-factory.cpp	/^EthernetFactory::getChannels() const$/;"	f	class:nfd::EthernetFactory
+getChannels	tcp-factory.cpp	/^TcpFactory::getChannels() const$/;"	f	class:nfd::TcpFactory
+getChannels	udp-factory.cpp	/^UdpFactory::getChannels() const$/;"	f	class:nfd::UdpFactory
+getChannels	unix-stream-factory.cpp	/^UnixStreamFactory::getChannels() const$/;"	f	class:nfd::UnixStreamFactory
+getChannels	websocket-factory.cpp	/^WebSocketFactory::getChannels() const$/;"	f	class:nfd::WebSocketFactory
+getCounters	face.hpp	/^Face::getCounters() const$/;"	f	class:nfd::Face
+getCounters	lp-face-wrapper.hpp	/^LpFaceWrapper::getCounters() const$/;"	f	class:nfd::face::LpFaceWrapper
+getCounters	lp-face.hpp	/^LpFace::getCounters() const$/;"	f	class:nfd::face::LpFace
+getDescription	face.hpp	/^Face::getDescription() const$/;"	f	class:nfd::Face
+getFace	link-service.hpp	/^LinkService::getFace() const$/;"	f	class:nfd::face::LinkService
+getFace	transport.hpp	/^Transport::getFace() const$/;"	f	class:nfd::face::Transport
+getFaceStatus	face.cpp	/^Face::getFaceStatus() const$/;"	f	class:nfd::Face
+getId	face.hpp	/^Face::getId() const$/;"	f	class:nfd::Face
+getId	lp-face.hpp	/^LpFace::getId() const$/;"	f	class:nfd::face::LpFace
+getInterfaceMtu	ethernet-face.cpp	/^EthernetFace::getInterfaceMtu()$/;"	f	class:nfd::EthernetFace
+getLinkService	lp-face.hpp	/^LpFace::getLinkService()$/;"	f	class:nfd::face::LpFace
+getLinkService	transport.hpp	/^Transport::getLinkService() const$/;"	f	class:nfd::face::Transport
+getLinkService	transport.hpp	/^Transport::getLinkService()$/;"	f	class:nfd::face::Transport
+getLinkType	lp-face.hpp	/^LpFace::getLinkType() const$/;"	f	class:nfd::face::LpFace
+getLinkType	transport.hpp	/^Transport::getLinkType() const$/;"	f	class:nfd::face::Transport
+getLocalUri	face.hpp	/^Face::getLocalUri() const$/;"	f	class:nfd::Face
+getLocalUri	lp-face.hpp	/^LpFace::getLocalUri() const$/;"	f	class:nfd::face::LpFace
+getLocalUri	transport.hpp	/^Transport::getLocalUri() const$/;"	f	class:nfd::face::Transport
+getLpFace	lp-face-wrapper.hpp	/^LpFaceWrapper::getLpFace()$/;"	f	class:nfd::face::LpFaceWrapper
+getMtu	transport.hpp	/^Transport::getMtu() const$/;"	f	class:nfd::face::Transport
+getMulticastFaces	ethernet-factory.hpp	/^EthernetFactory::getMulticastFaces() const$/;"	f	class:nfd::EthernetFactory
+getMulticastFaces	udp-factory.hpp	/^UdpFactory::getMulticastFaces() const$/;"	f	class:nfd::UdpFactory
+getMutableCounters	face.hpp	/^Face::getMutableCounters()$/;"	f	class:nfd::Face
+getMutableCounters	lp-face.hpp	/^LpFace::getMutableCounters()$/;"	f	class:nfd::face::LpFace
+getNInBytes	face-counters.hpp	/^  getNInBytes() const$/;"	f	class:nfd::LinkLayerCounters
+getNInBytes	face-counters.hpp	/^  getNInBytes()$/;"	f	class:nfd::LinkLayerCounters
+getNInDatas	face-counters.hpp	/^  getNInDatas() const$/;"	f	class:nfd::NetworkLayerCounters
+getNInDatas	face-counters.hpp	/^  getNInDatas()$/;"	f	class:nfd::NetworkLayerCounters
+getNInInterests	face-counters.hpp	/^  getNInInterests() const$/;"	f	class:nfd::NetworkLayerCounters
+getNInInterests	face-counters.hpp	/^  getNInInterests()$/;"	f	class:nfd::NetworkLayerCounters
+getNOutBytes	face-counters.hpp	/^  getNOutBytes() const$/;"	f	class:nfd::LinkLayerCounters
+getNOutBytes	face-counters.hpp	/^  getNOutBytes()$/;"	f	class:nfd::LinkLayerCounters
+getNOutDatas	face-counters.hpp	/^  getNOutDatas() const$/;"	f	class:nfd::NetworkLayerCounters
+getNOutDatas	face-counters.hpp	/^  getNOutDatas()$/;"	f	class:nfd::NetworkLayerCounters
+getNOutInterests	face-counters.hpp	/^  getNOutInterests() const$/;"	f	class:nfd::NetworkLayerCounters
+getNOutInterests	face-counters.hpp	/^  getNOutInterests()$/;"	f	class:nfd::NetworkLayerCounters
+getOptions	generic-link-service.hpp	/^GenericLinkService::getOptions() const$/;"	f	class:nfd::face::GenericLinkService
+getPersistency	face.hpp	/^Face::getPersistency() const$/;"	f	class:nfd::Face
+getPersistency	lp-face.hpp	/^LpFace::getPersistency() const$/;"	f	class:nfd::face::LpFace
+getPersistency	transport.hpp	/^Transport::getPersistency() const$/;"	f	class:nfd::face::Transport
+getRemoteUri	face.hpp	/^Face::getRemoteUri() const$/;"	f	class:nfd::Face
+getRemoteUri	lp-face.hpp	/^LpFace::getRemoteUri() const$/;"	f	class:nfd::face::LpFace
+getRemoteUri	transport.hpp	/^Transport::getRemoteUri() const$/;"	f	class:nfd::face::Transport
+getScope	lp-face.hpp	/^LpFace::getScope() const$/;"	f	class:nfd::face::LpFace
+getScope	transport.hpp	/^Transport::getScope() const$/;"	f	class:nfd::face::Transport
+getState	lp-face.hpp	/^LpFace::getState() const$/;"	f	class:nfd::face::LpFace
+getState	transport.hpp	/^Transport::getState() const$/;"	f	class:nfd::face::Transport
+getTransport	link-service.hpp	/^LinkService::getTransport() const$/;"	f	class:nfd::face::LinkService
+getTransport	link-service.hpp	/^LinkService::getTransport()$/;"	f	class:nfd::face::LinkService
+getTransport	lp-face.hpp	/^LpFace::getTransport()$/;"	f	class:nfd::face::LpFace
+getUri	channel.hpp	/^Channel::getUri() const$/;"	f	class:nfd::Channel
+handleAccept	tcp-channel.cpp	/^TcpChannel::handleAccept(const boost::system::error_code& error,$/;"	f	class:nfd::TcpChannel
+handleAccept	unix-stream-channel.cpp	/^UnixStreamChannel::handleAccept(const boost::system::error_code& error,$/;"	f	class:nfd::UnixStreamChannel
+handleClose	websocket-channel.cpp	/^WebSocketChannel::handleClose(websocketpp::connection_hdl hdl)$/;"	f	class:nfd::WebSocketChannel
+handleConnect	tcp-channel.cpp	/^TcpChannel::handleConnect(const boost::system::error_code& error,$/;"	f	class:nfd::TcpChannel
+handleConnectTimeout	tcp-channel.cpp	/^TcpChannel::handleConnectTimeout(const shared_ptr<ip::tcp::socket>& socket,$/;"	f	class:nfd::TcpChannel
+handleMessage	websocket-channel.cpp	/^WebSocketChannel::handleMessage(websocketpp::connection_hdl hdl,$/;"	f	class:nfd::WebSocketChannel
+handleNewPeer	udp-channel.cpp	/^UdpChannel::handleNewPeer(const boost::system::error_code& error,$/;"	f	class:nfd::UdpChannel
+handleOpen	websocket-channel.cpp	/^WebSocketChannel::handleOpen(websocketpp::connection_hdl hdl)$/;"	f	class:nfd::WebSocketChannel
+handlePong	websocket-channel.cpp	/^WebSocketChannel::handlePong(websocketpp::connection_hdl hdl, std::string msg)$/;"	f	class:nfd::WebSocketChannel
+handlePongTimeout	websocket-channel.cpp	/^WebSocketChannel::handlePongTimeout(websocketpp::connection_hdl hdl, std::string msg)$/;"	f	class:nfd::WebSocketChannel
+handleRead	ethernet-face.cpp	/^EthernetFace::handleRead(const boost::system::error_code& error, size_t)$/;"	f	class:nfd::EthernetFace
+handleReceive	datagram-transport.hpp	/^DatagramTransport<T, U>::handleReceive(const boost::system::error_code& error,$/;"	f	class:nfd::face::DatagramTransport
+handleReceive	stream-face.hpp	/^StreamFace<T, U>::handleReceive(const boost::system::error_code& error,$/;"	f	class:nfd::StreamFace
+handleReceive	stream-transport.hpp	/^StreamTransport<T>::handleReceive(const boost::system::error_code& error,$/;"	f	class:nfd::face::StreamTransport
+handleReceive	websocket-face.cpp	/^WebSocketFace::handleReceive(const std::string& msg)$/;"	f	class:nfd::WebSocketFace
+handleSend	datagram-transport.hpp	/^DatagramTransport<T, U>::handleSend(const boost::system::error_code& error,$/;"	f	class:nfd::face::DatagramTransport
+handleSend	stream-face.hpp	/^StreamFace<T, U>::handleSend(const boost::system::error_code& error,$/;"	f	class:nfd::StreamFace
+handleSend	stream-transport.hpp	/^StreamTransport<T>::handleSend(const boost::system::error_code& error,$/;"	f	class:nfd::face::StreamTransport
+handleStateChange	lp-face-wrapper.cpp	/^LpFaceWrapper::handleStateChange(FaceState oldState, FaceState newState)$/;"	f	class:nfd::face::LpFaceWrapper
+hasBeenUsedRecently	datagram-transport.hpp	/^DatagramTransport<T, U>::hasBeenUsedRecently() const$/;"	f	class:nfd::face::DatagramTransport
+isComplete	ndnlp-partial-message-store.cpp	/^PartialMessage::isComplete() const$/;"	f	class:nfd::ndnlp::PartialMessage
+isEmptyFilteredLocalControlHeader	local-face.hpp	/^LocalFace::isEmptyFilteredLocalControlHeader(const ndn::nfd::LocalControlHeader& header) const$/;"	f	class:nfd::LocalFace
+isListening	tcp-channel.hpp	/^TcpChannel::isListening() const$/;"	f	class:nfd::TcpChannel
+isListening	udp-channel.hpp	/^UdpChannel::isListening() const$/;"	f	class:nfd::UdpChannel
+isListening	unix-stream-channel.hpp	/^UnixStreamChannel::isListening() const$/;"	f	class:nfd::UnixStreamChannel
+isListening	websocket-channel.hpp	/^WebSocketChannel::isListening() const$/;"	f	class:nfd::WebSocketChannel
+isLocal	face.hpp	/^Face::isLocal() const$/;"	f	class:nfd::Face
+isLocalControlHeaderEnabled	local-face.hpp	/^LocalFace::isLocalControlHeaderEnabled() const$/;"	f	class:nfd::LocalFace
+isLocalControlHeaderEnabled	local-face.hpp	/^LocalFace::isLocalControlHeaderEnabled(LocalControlFeature feature) const$/;"	f	class:nfd::LocalFace
+isMultiAccess	face.hpp	/^Face::isMultiAccess() const$/;"	f	class:nfd::Face
+isUp	face.cpp	/^Face::isUp() const$/;"	f	class:nfd::Face
+isUp	lp-face-wrapper.hpp	/^LpFaceWrapper::isUp() const$/;"	f	class:nfd::face::LpFaceWrapper
+joinMulticastGroup	ethernet-face.cpp	/^EthernetFace::joinMulticastGroup()$/;"	f	class:nfd::EthernetFace
+listen	tcp-channel.cpp	/^TcpChannel::listen(const FaceCreatedCallback& onFaceCreated,$/;"	f	class:nfd::TcpChannel
+listen	udp-channel.cpp	/^UdpChannel::listen(const FaceCreatedCallback& onFaceCreated,$/;"	f	class:nfd::UdpChannel
+listen	unix-stream-channel.cpp	/^UnixStreamChannel::listen(const FaceCreatedCallback& onFaceCreated,$/;"	f	class:nfd::UnixStreamChannel
+listen	websocket-channel.cpp	/^WebSocketChannel::listen(const FaceCreatedCallback& onFaceCreated)$/;"	f	class:nfd::WebSocketChannel
+m_acceptSocket	tcp-channel.hpp	/^  boost::asio::ip::tcp::socket m_acceptSocket;$/;"	m	class:nfd::TcpChannel
+m_acceptor	tcp-channel.hpp	/^  boost::asio::ip::tcp::acceptor m_acceptor;$/;"	m	class:nfd::TcpChannel
+m_acceptor	unix-stream-channel.hpp	/^  boost::asio::local::stream_protocol::acceptor m_acceptor;$/;"	m	class:nfd::UnixStreamChannel
+m_channelFaces	tcp-channel.hpp	/^  std::map<tcp::Endpoint, shared_ptr<Face>> m_channelFaces;$/;"	m	class:nfd::TcpChannel
+m_channelFaces	udp-channel.hpp	/^  std::map<udp::Endpoint, shared_ptr<face::LpFaceWrapper>> m_channelFaces;$/;"	m	class:nfd::UdpChannel
+m_channelFaces	websocket-channel.hpp	/^           std::owner_less<websocketpp::connection_hdl>> m_channelFaces;$/;"	m	class:nfd::WebSocketChannel
+m_channels	tcp-factory.hpp	/^  std::map<tcp::Endpoint, shared_ptr<TcpChannel>> m_channels;$/;"	m	class:nfd::TcpFactory
+m_channels	udp-factory.hpp	/^  std::map<udp::Endpoint, shared_ptr<UdpChannel>> m_channels;$/;"	m	class:nfd::UdpFactory
+m_channels	unix-stream-factory.hpp	/^  std::map<unix_stream::Endpoint, shared_ptr<UnixStreamChannel>> m_channels;$/;"	m	class:nfd::UnixStreamFactory
+m_channels	websocket-factory.hpp	/^  std::map<websocket::Endpoint, shared_ptr<WebSocketChannel>> m_channels;$/;"	m	class:nfd::WebSocketFactory
+m_clientToFwTransmitConn	internal-transport.hpp	/^  signal::ScopedConnection m_clientToFwTransmitConn;$/;"	m	class:nfd::face::InternalClientTransport
+m_closeIfIdleEvent	unicast-udp-transport.hpp	/^  scheduler::ScopedEventId m_closeIfIdleEvent;$/;"	m	class:nfd::face::UnicastUdpTransport
+m_closed	websocket-face.hpp	/^  bool m_closed;$/;"	m	class:nfd::WebSocketFace
+m_count	ndnlp-sequence-generator.hpp	/^  size_t m_count;$/;"	m	class:nfd::ndnlp::SequenceBlock
+m_counters	face.hpp	/^  FaceCounters m_counters;$/;"	m	class:nfd::Face
+m_counters	link-service.hpp	/^  NetworkLayerCounters* m_counters; \/\/ TODO#3177 change into NetCounters$/;"	m	class:nfd::face::LinkService
+m_counters	lp-face.hpp	/^  FaceCounters m_counters;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+m_counters	transport.hpp	/^  LinkLayerCounters* m_counters; \/\/ TODO#3177 change into LinkCounters$/;"	m	class:nfd::face::Transport
+m_description	face.hpp	/^  std::string m_description;$/;"	m	class:nfd::Face
+m_destAddress	ethernet-face.hpp	/^  ethernet::Address m_destAddress;$/;"	m	class:nfd::EthernetFace
+m_endpoint	unix-stream-channel.hpp	/^  unix_stream::Endpoint m_endpoint;$/;"	m	class:nfd::UnixStreamChannel
+m_face	link-service.hpp	/^  LpFace* m_face;$/;"	m	class:nfd::face::LinkService
+m_face	lp-face-wrapper.hpp	/^  unique_ptr<LpFace> m_face;$/;"	m	class:nfd::face::LpFaceWrapper
+m_face	transport.hpp	/^  LpFace* m_face;$/;"	m	class:nfd::face::Transport
+m_fragCount	ndnlp-partial-message-store.hpp	/^  size_t m_fragCount;$/;"	m	class:nfd::ndnlp::PartialMessage
+m_fwToClientTransmitConn	internal-transport.hpp	/^  signal::ScopedConnection m_fwToClientTransmitConn;$/;"	m	class:nfd::face::InternalClientTransport
+m_fwTransportStateConn	internal-transport.hpp	/^  signal::ScopedConnection m_fwTransportStateConn;$/;"	m	class:nfd::face::InternalClientTransport
+m_handle	websocket-face.hpp	/^  websocketpp::connection_hdl m_handle;$/;"	m	class:nfd::WebSocketFace
+m_hasBeenUsedRecently	datagram-transport.hpp	/^  bool m_hasBeenUsedRecently;$/;"	m	class:nfd::face::DatagramTransport
+m_id	face.hpp	/^  FaceId m_id;$/;"	m	class:nfd::Face
+m_id	lp-face.hpp	/^  FaceId m_id;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+m_idleDuration	ndnlp-partial-message-store.hpp	/^  time::nanoseconds m_idleDuration;$/;"	m	class:nfd::ndnlp::PartialMessageStore
+m_idleFaceTimeout	udp-channel.hpp	/^  time::seconds m_idleFaceTimeout;$/;"	m	class:nfd::UdpChannel
+m_idleTimeout	unicast-udp-transport.hpp	/^  const time::seconds m_idleTimeout;$/;"	m	class:nfd::face::UnicastUdpTransport
+m_inputBuffer	stream-face.hpp	/^  uint8_t m_inputBuffer[ndn::MAX_NDN_PACKET_SIZE];$/;"	m	class:nfd::StreamFace
+m_inputBuffer	stream-transport.hpp	/^  uint8_t m_inputBuffer[ndn::MAX_NDN_PACKET_SIZE];$/;"	m	class:nfd::face::StreamTransport
+m_inputBuffer	udp-channel.hpp	/^  uint8_t m_inputBuffer[ndn::MAX_NDN_PACKET_SIZE];$/;"	m	class:nfd::UdpChannel
+m_inputBufferSize	stream-face.hpp	/^  size_t m_inputBufferSize;$/;"	m	class:nfd::StreamFace
+m_inputBufferSize	stream-transport.hpp	/^  size_t m_inputBufferSize;$/;"	m	class:nfd::face::StreamTransport
+m_interfaceIndex	ethernet-face.hpp	/^  int m_interfaceIndex;$/;"	m	class:nfd::EthernetFace
+m_interfaceMtu	ethernet-face.hpp	/^  size_t m_interfaceMtu;$/;"	m	class:nfd::EthernetFace
+m_interfaceName	ethernet-face.hpp	/^  std::string m_interfaceName;$/;"	m	class:nfd::EthernetFace
+m_isFailed	face.hpp	/^  bool m_isFailed;$/;"	m	class:nfd::Face
+m_isListening	websocket-channel.hpp	/^  bool m_isListening;$/;"	m	class:nfd::WebSocketChannel
+m_isLocal	face.hpp	/^  const bool m_isLocal;$/;"	m	class:nfd::Face
+m_isMultiAccess	face.hpp	/^  const bool m_isMultiAccess;$/;"	m	class:nfd::Face
+m_lastIdleCheck	unicast-udp-transport.hpp	/^  time::steady_clock::TimePoint m_lastIdleCheck;$/;"	m	class:nfd::face::UnicastUdpTransport
+m_linkType	transport.hpp	/^  ndn::nfd::LinkType m_linkType;$/;"	m	class:nfd::face::Transport
+m_localControlHeaderFeatures	local-face.hpp	/^  std::vector<bool> m_localControlHeaderFeatures;$/;"	m	class:nfd::LocalFace
+m_localEndpoint	tcp-channel.hpp	/^  tcp::Endpoint m_localEndpoint;$/;"	m	class:nfd::TcpChannel
+m_localEndpoint	udp-channel.hpp	/^  udp::Endpoint m_localEndpoint;$/;"	m	class:nfd::UdpChannel
+m_localEndpoint	websocket-channel.hpp	/^  websocket::Endpoint m_localEndpoint;$/;"	m	class:nfd::WebSocketChannel
+m_localUri	face.hpp	/^  const FaceUri m_localUri;$/;"	m	class:nfd::Face
+m_localUri	transport.hpp	/^  FaceUri m_localUri;$/;"	m	class:nfd::face::Transport
+m_maxPayload	ndnlp-slicer.hpp	/^  size_t m_maxPayload;$/;"	m	class:nfd::ndnlp::Slicer
+m_mtu	ndnlp-slicer.hpp	/^  size_t m_mtu;$/;"	m	class:nfd::ndnlp::Slicer
+m_mtu	transport.hpp	/^  ssize_t m_mtu;$/;"	m	class:nfd::face::Transport
+m_multicastFaces	ethernet-factory.hpp	/^  MulticastFaceMap m_multicastFaces;$/;"	m	class:nfd::EthernetFactory
+m_multicastFaces	udp-factory.hpp	/^  MulticastFaceMap m_multicastFaces;$/;"	m	class:nfd::UdpFactory
+m_multicastGroup	multicast-udp-transport.hpp	/^  protocol::endpoint m_multicastGroup;$/;"	m	class:nfd::face::MulticastUdpTransport
+m_nDropped	ethernet-face.hpp	/^  unsigned int m_nDropped;$/;"	m	class:nfd::EthernetFace
+m_nInBytes	face-counters.hpp	/^  ByteCounter m_nInBytes;$/;"	m	class:nfd::LinkLayerCounters
+m_nInDatas	face-counters.hpp	/^  PacketCounter m_nInDatas;$/;"	m	class:nfd::NetworkLayerCounters
+m_nInInterests	face-counters.hpp	/^  PacketCounter m_nInInterests;$/;"	m	class:nfd::NetworkLayerCounters
+m_nOutBytes	face-counters.hpp	/^  ByteCounter m_nOutBytes;$/;"	m	class:nfd::LinkLayerCounters
+m_nOutDatas	face-counters.hpp	/^  PacketCounter m_nOutDatas;$/;"	m	class:nfd::NetworkLayerCounters
+m_nOutInterests	face-counters.hpp	/^  PacketCounter m_nOutInterests;$/;"	m	class:nfd::NetworkLayerCounters
+m_next	ndnlp-sequence-generator.hpp	/^  uint64_t m_next;$/;"	m	class:nfd::ndnlp::SequenceGenerator
+m_onFaceCreatedCallback	websocket-channel.hpp	/^  FaceCreatedCallback m_onFaceCreatedCallback;$/;"	m	class:nfd::WebSocketChannel
+m_options	generic-link-service.hpp	/^  Options m_options;$/;"	m	class:nfd::face::GenericLinkService
+m_partialMessages	ndnlp-partial-message-store.hpp	/^  std::unordered_map<uint64_t, PartialMessage> m_partialMessages;$/;"	m	class:nfd::ndnlp::PartialMessageStore
+m_payloads	ndnlp-partial-message-store.hpp	/^  std::vector<Block> m_payloads;$/;"	m	class:nfd::ndnlp::PartialMessage
+m_pcap	ethernet-face.hpp	/^  unique_ptr<pcap_t, void(*)(pcap_t*)> m_pcap;$/;"	m	class:nfd::EthernetFace
+m_persistency	face.hpp	/^  ndn::nfd::FacePersistency m_persistency;$/;"	m	class:nfd::Face
+m_persistency	transport.hpp	/^  ndn::nfd::FacePersistency m_persistency;$/;"	m	class:nfd::face::Transport
+m_pingEventId	websocket-face.hpp	/^  scheduler::EventId m_pingEventId;$/;"	m	class:nfd::WebSocketFace
+m_pingInterval	websocket-channel.hpp	/^  time::milliseconds m_pingInterval;$/;"	m	class:nfd::WebSocketChannel
+m_prohibitedEndpoints	tcp-factory.hpp	/^  std::set<tcp::Endpoint> m_prohibitedEndpoints;$/;"	m	class:nfd::TcpFactory
+m_prohibitedEndpoints	udp-factory.hpp	/^  std::set<udp::Endpoint> m_prohibitedEndpoints;$/;"	m	class:nfd::UdpFactory
+m_reassemblers	ethernet-face.hpp	/^  std::unordered_map<ethernet::Address, Reassembler> m_reassemblers;$/;"	m	class:nfd::EthernetFace
+m_receiveBuffer	datagram-transport.hpp	/^  std::array<uint8_t, ndn::MAX_NDN_PACKET_SIZE> m_receiveBuffer;$/;"	m	class:nfd::face::DatagramTransport
+m_received	ndnlp-partial-message-store.hpp	/^  size_t m_received;$/;"	m	class:nfd::ndnlp::PartialMessage
+m_remoteEndpoint	udp-channel.hpp	/^  udp::Endpoint m_remoteEndpoint;$/;"	m	class:nfd::UdpChannel
+m_remoteUri	face.hpp	/^  const FaceUri m_remoteUri;$/;"	m	class:nfd::Face
+m_remoteUri	transport.hpp	/^  FaceUri m_remoteUri;$/;"	m	class:nfd::face::Transport
+m_scope	transport.hpp	/^  ndn::nfd::FaceScope m_scope;$/;"	m	class:nfd::face::Transport
+m_sendQueue	stream-face.hpp	/^  std::queue<Block> m_sendQueue;$/;"	m	class:nfd::StreamFace
+m_sendQueue	stream-transport.hpp	/^  std::queue<Block> m_sendQueue;$/;"	m	class:nfd::face::StreamTransport
+m_sendSocket	multicast-udp-transport.hpp	/^  protocol::socket m_sendSocket;$/;"	m	class:nfd::face::MulticastUdpTransport
+m_seqgen	ndnlp-slicer.hpp	/^  SequenceGenerator m_seqgen;$/;"	m	class:nfd::ndnlp::Slicer
+m_server	websocket-channel.hpp	/^  websocket::Server m_server;$/;"	m	class:nfd::WebSocketChannel
+m_server	websocket-face.hpp	/^  websocket::Server& m_server;$/;"	m	class:nfd::WebSocketFace
+m_service	lp-face.hpp	/^  unique_ptr<LinkService> m_service;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+m_service	transport.hpp	/^  LinkService* m_service;$/;"	m	class:nfd::face::Transport
+m_slicer	ethernet-face.hpp	/^  unique_ptr<ndnlp::Slicer> m_slicer;$/;"	m	class:nfd::EthernetFace
+m_socket	datagram-transport.hpp	/^  typename protocol::socket m_socket;$/;"	m	class:nfd::face::DatagramTransport
+m_socket	ethernet-face.hpp	/^  boost::asio::posix::stream_descriptor m_socket;$/;"	m	class:nfd::EthernetFace
+m_socket	stream-face.hpp	/^  typename protocol::socket m_socket;$/;"	m	class:nfd::StreamFace
+m_socket	stream-transport.hpp	/^  typename protocol::socket m_socket;$/;"	m	class:nfd::face::StreamTransport
+m_socket	udp-channel.hpp	/^  boost::asio::ip::udp::socket m_socket;$/;"	m	class:nfd::UdpChannel
+m_socket	unix-stream-channel.hpp	/^  boost::asio::local::stream_protocol::socket m_socket;$/;"	m	class:nfd::UnixStreamChannel
+m_srcAddress	ethernet-face.hpp	/^  ethernet::Address m_srcAddress;$/;"	m	class:nfd::EthernetFace
+m_start	ndnlp-sequence-generator.hpp	/^  uint64_t m_start;$/;"	m	class:nfd::ndnlp::SequenceBlock
+m_state	transport.hpp	/^  TransportState m_state;$/;"	m	class:nfd::face::Transport
+m_totalLength	ndnlp-partial-message-store.hpp	/^  size_t m_totalLength;$/;"	m	class:nfd::ndnlp::PartialMessage
+m_transport	link-service.hpp	/^  Transport* m_transport;$/;"	m	class:nfd::face::LinkService
+m_transport	lp-face.hpp	/^  unique_ptr<Transport> m_transport;$/;"	m	class:nfd::face::DECL_CLASS_FINAL
+m_uri	channel.hpp	/^  FaceUri m_uri;$/;"	m	class:nfd::Channel
+m_value	face-counters.hpp	/^  rep m_value;$/;"	m	class:nfd::ByteCounter
+m_value	face-counters.hpp	/^  rep m_value;$/;"	m	class:nfd::PacketCounter
+makeInternalFace	internal-face.cpp	/^makeInternalFace(ndn::KeyChain& clientKeyChain)$/;"	f	namespace:nfd::face
+ndnlp	ndnlp-data.cpp	/^namespace ndnlp {$/;"	n	namespace:nfd	file:
+ndnlp	ndnlp-data.hpp	/^namespace ndnlp {$/;"	n	namespace:nfd
+ndnlp	ndnlp-partial-message-store.cpp	/^namespace ndnlp {$/;"	n	namespace:nfd	file:
+ndnlp	ndnlp-partial-message-store.hpp	/^namespace ndnlp {$/;"	n	namespace:nfd
+ndnlp	ndnlp-sequence-generator.cpp	/^namespace ndnlp {$/;"	n	namespace:nfd	file:
+ndnlp	ndnlp-sequence-generator.hpp	/^namespace ndnlp {$/;"	n	namespace:nfd
+ndnlp	ndnlp-slicer.cpp	/^namespace ndnlp {$/;"	n	namespace:nfd	file:
+ndnlp	ndnlp-slicer.hpp	/^namespace ndnlp {$/;"	n	namespace:nfd
+nextBlock	ndnlp-sequence-generator.cpp	/^SequenceGenerator::nextBlock(size_t count)$/;"	f	class:nfd::ndnlp::SequenceGenerator
+nfd	channel.cpp	/^namespace nfd {$/;"	n	file:
+nfd	channel.hpp	/^namespace nfd {$/;"	n
+nfd	datagram-transport.hpp	/^namespace nfd {$/;"	n
+nfd	ethernet-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ethernet-face.hpp	/^namespace nfd {$/;"	n
+nfd	ethernet-factory.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ethernet-factory.hpp	/^namespace nfd {$/;"	n
+nfd	face-counters.hpp	/^namespace nfd {$/;"	n
+nfd	face-log.hpp	/^namespace nfd {$/;"	n
+nfd	face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	face.hpp	/^namespace nfd {$/;"	n
+nfd	generic-link-service.cpp	/^namespace nfd {$/;"	n	file:
+nfd	generic-link-service.hpp	/^namespace nfd {$/;"	n
+nfd	internal-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	internal-face.hpp	/^namespace nfd {$/;"	n
+nfd	internal-transport.cpp	/^namespace nfd {$/;"	n	file:
+nfd	internal-transport.hpp	/^namespace nfd {$/;"	n
+nfd	link-service.cpp	/^namespace nfd {$/;"	n	file:
+nfd	link-service.hpp	/^namespace nfd {$/;"	n
+nfd	local-face.hpp	/^namespace nfd {$/;"	n
+nfd	lp-face-wrapper.cpp	/^namespace nfd {$/;"	n	file:
+nfd	lp-face-wrapper.hpp	/^namespace nfd {$/;"	n
+nfd	lp-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	lp-face.hpp	/^namespace nfd {$/;"	n
+nfd	multicast-udp-transport.cpp	/^namespace nfd {$/;"	n	file:
+nfd	multicast-udp-transport.hpp	/^namespace nfd {$/;"	n
+nfd	ndnlp-data.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ndnlp-data.hpp	/^namespace nfd {$/;"	n
+nfd	ndnlp-partial-message-store.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ndnlp-partial-message-store.hpp	/^namespace nfd {$/;"	n
+nfd	ndnlp-sequence-generator.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ndnlp-sequence-generator.hpp	/^namespace nfd {$/;"	n
+nfd	ndnlp-slicer.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ndnlp-slicer.hpp	/^namespace nfd {$/;"	n
+nfd	ndnlp-tlv.hpp	/^namespace nfd {$/;"	n
+nfd	null-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	null-face.hpp	/^namespace nfd {$/;"	n
+nfd	protocol-factory.hpp	/^namespace nfd {$/;"	n
+nfd	stream-face.hpp	/^namespace nfd {$/;"	n
+nfd	stream-transport.hpp	/^namespace nfd {$/;"	n
+nfd	tcp-channel.cpp	/^namespace nfd {$/;"	n	file:
+nfd	tcp-channel.hpp	/^namespace nfd {$/;"	n
+nfd	tcp-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	tcp-face.hpp	/^namespace nfd {$/;"	n
+nfd	tcp-factory.cpp	/^namespace nfd {$/;"	n	file:
+nfd	tcp-factory.hpp	/^namespace nfd {$/;"	n
+nfd	transport.cpp	/^namespace nfd {$/;"	n	file:
+nfd	transport.hpp	/^namespace nfd {$/;"	n
+nfd	udp-channel.cpp	/^namespace nfd {$/;"	n	file:
+nfd	udp-channel.hpp	/^namespace nfd {$/;"	n
+nfd	udp-factory.cpp	/^namespace nfd {$/;"	n	file:
+nfd	udp-factory.hpp	/^namespace nfd {$/;"	n
+nfd	udp-protocol.cpp	/^namespace nfd {$/;"	n	file:
+nfd	udp-protocol.hpp	/^namespace nfd {$/;"	n
+nfd	unicast-udp-transport.cpp	/^namespace nfd {$/;"	n	file:
+nfd	unicast-udp-transport.hpp	/^namespace nfd {$/;"	n
+nfd	unix-stream-channel.cpp	/^namespace nfd {$/;"	n	file:
+nfd	unix-stream-channel.hpp	/^namespace nfd {$/;"	n
+nfd	unix-stream-factory.cpp	/^namespace nfd {$/;"	n	file:
+nfd	unix-stream-factory.hpp	/^namespace nfd {$/;"	n
+nfd	unix-stream-transport.cpp	/^namespace nfd {$/;"	n	file:
+nfd	unix-stream-transport.hpp	/^namespace nfd {$/;"	n
+nfd	websocket-channel.cpp	/^namespace nfd {$/;"	n	file:
+nfd	websocket-channel.hpp	/^namespace nfd {$/;"	n
+nfd	websocket-face.cpp	/^namespace nfd {$/;"	n	file:
+nfd	websocket-face.hpp	/^namespace nfd {$/;"	n
+nfd	websocket-factory.cpp	/^namespace nfd {$/;"	n	file:
+nfd	websocket-factory.hpp	/^namespace nfd {$/;"	n
+obj	face-log.hpp	/^  const T& obj;$/;"	m	class:nfd::face::FaceLogHelper
+onFail	face.hpp	/^  signal::Signal<Face, std::string\/*reason*\/> onFail;$/;"	m	class:nfd::Face
+onReceive	ndnlp-partial-message-store.hpp	/^  signal::Signal<PartialMessageStore, Block> onReceive;$/;"	m	class:nfd::ndnlp::PartialMessageStore
+onReceiveData	face.hpp	/^  signal::Signal<Face, Data> onReceiveData;$/;"	m	class:nfd::Face
+onReceiveInterest	face.hpp	/^  signal::Signal<Face, Interest> onReceiveInterest;$/;"	m	class:nfd::Face
+onReceiveNack	face.hpp	/^  signal::Signal<Face, lp::Nack> onReceiveNack;$/;"	m	class:nfd::Face
+onSendData	face.hpp	/^  signal::Signal<Face, Data> onSendData;$/;"	m	class:nfd::Face
+onSendInterest	face.hpp	/^  signal::Signal<Face, Interest> onSendInterest;$/;"	m	class:nfd::Face
+onSendNack	face.hpp	/^  signal::Signal<Face, lp::Nack> onSendNack;$/;"	m	class:nfd::Face
+operator ++	face-counters.hpp	/^  operator++()$/;"	f	class:nfd::PacketCounter
+operator +=	face-counters.hpp	/^  operator+=(rep n)$/;"	f	class:nfd::ByteCounter
+operator <<	face.hpp	/^operator<<(std::ostream& os, const face::FaceLogHelper<T>& flh)$/;"	f	namespace:nfd
+operator <<	link-service.cpp	/^operator<<(std::ostream& os, const FaceLogHelper<LinkService>& flh)$/;"	f	namespace:nfd::face
+operator <<	link-service.hpp	/^operator<<(std::ostream& os, const FaceLogHelper<T>& flh)$/;"	f	namespace:nfd::face
+operator <<	lp-face.hpp	/^operator<<(std::ostream& os, const FaceLogHelper<T>& flh)$/;"	f	namespace:nfd::face
+operator <<	transport.cpp	/^operator<<(std::ostream& os, TransportState state)$/;"	f	namespace:nfd::face
+operator <<	transport.cpp	/^operator<<(std::ostream& os, const FaceLogHelper<Transport>& flh)$/;"	f	namespace:nfd::face
+operator <<	transport.hpp	/^operator<<(std::ostream& os, const FaceLogHelper<T>& flh)$/;"	f	namespace:nfd::face
+operator []	ndnlp-sequence-generator.hpp	/^SequenceBlock::operator[](size_t pos) const$/;"	f	class:nfd::ndnlp::SequenceBlock
+operator rep	face-counters.hpp	/^  operator rep() const$/;"	f	class:nfd::ByteCounter
+operator rep	face-counters.hpp	/^  operator rep() const$/;"	f	class:nfd::PacketCounter
+packet	transport.hpp	/^    Block packet;$/;"	m	class:nfd::face::Transport::Packet
+payload	ndnlp-data.hpp	/^  Block payload;$/;"	m	class:nfd::ndnlp::NdnlpData
+pcapInit	ethernet-face.cpp	/^EthernetFace::pcapInit()$/;"	f	class:nfd::EthernetFace
+pcap_t	ethernet-face.hpp	/^typedef pcap pcap_t;$/;"	t
+pms	ethernet-face.hpp	/^    unique_ptr<ndnlp::PartialMessageStore> pms;$/;"	m	struct:nfd::EthernetFace::Reassembler
+processErrorCode	datagram-transport.hpp	/^DatagramTransport<T, U>::processErrorCode(const boost::system::error_code& error)$/;"	f	class:nfd::face::DatagramTransport
+processErrorCode	ethernet-face.cpp	/^EthernetFace::processErrorCode(const boost::system::error_code& error)$/;"	f	class:nfd::EthernetFace
+processErrorCode	stream-face.hpp	/^StreamFace<T, U>::processErrorCode(const boost::system::error_code& error)$/;"	f	class:nfd::StreamFace
+processErrorCode	stream-transport.hpp	/^StreamTransport<T>::processErrorCode(const boost::system::error_code& error)$/;"	f	class:nfd::face::StreamTransport
+processIncomingPacket	ethernet-face.cpp	/^EthernetFace::processIncomingPacket(const pcap_pkthdr* header, const uint8_t* packet)$/;"	f	class:nfd::EthernetFace
+prohibitAllIpv4Endpoints	tcp-factory.cpp	/^TcpFactory::prohibitAllIpv4Endpoints(uint16_t port)$/;"	f	class:nfd::TcpFactory
+prohibitAllIpv4Endpoints	udp-factory.cpp	/^UdpFactory::prohibitAllIpv4Endpoints(uint16_t port)$/;"	f	class:nfd::UdpFactory
+prohibitAllIpv6Endpoints	tcp-factory.cpp	/^TcpFactory::prohibitAllIpv6Endpoints(uint16_t port)$/;"	f	class:nfd::TcpFactory
+prohibitAllIpv6Endpoints	udp-factory.cpp	/^UdpFactory::prohibitAllIpv6Endpoints(uint16_t port)$/;"	f	class:nfd::UdpFactory
+prohibitEndpoint	tcp-factory.cpp	/^TcpFactory::prohibitEndpoint(const tcp::Endpoint& endpoint)$/;"	f	class:nfd::TcpFactory
+prohibitEndpoint	udp-factory.cpp	/^UdpFactory::prohibitEndpoint(const udp::Endpoint& endpoint)$/;"	f	class:nfd::UdpFactory
+protocol	datagram-transport.hpp	/^  typedef Protocol protocol;$/;"	t	class:nfd::face::DatagramTransport
+protocol	stream-face.hpp	/^  typedef Protocol protocol;$/;"	t	class:nfd::StreamFace
+protocol	stream-transport.hpp	/^  typedef Protocol protocol;$/;"	t	class:nfd::face::StreamTransport
+reassemble	ndnlp-partial-message-store.cpp	/^PartialMessage::reassemble()$/;"	f	class:nfd::ndnlp::PartialMessage
+reassembleSingle	ndnlp-partial-message-store.cpp	/^PartialMessage::reassembleSingle(const NdnlpData& fragment)$/;"	f	class:nfd::ndnlp::PartialMessage
+receive	ndnlp-partial-message-store.cpp	/^PartialMessageStore::receive(const NdnlpData& pkt)$/;"	f	class:nfd::ndnlp::PartialMessageStore
+receive	transport.cpp	/^Transport::receive(Packet&& packet)$/;"	f	class:nfd::face::Transport
+receiveData	link-service.cpp	/^LinkService::receiveData(const Data& data)$/;"	f	class:nfd::face::LinkService
+receiveDatagram	datagram-transport.hpp	/^DatagramTransport<T, U>::receiveDatagram(const uint8_t* buffer, size_t nBytesReceived,$/;"	f	class:nfd::face::DatagramTransport
+receiveFromLink	internal-transport.cpp	/^InternalClientTransport::receiveFromLink(const Block& packet)$/;"	f	class:nfd::face::InternalClientTransport
+receiveFromLink	internal-transport.cpp	/^InternalForwarderTransport::receiveFromLink(const Block& packet)$/;"	f	class:nfd::face::InternalForwarderTransport
+receiveInterest	link-service.cpp	/^LinkService::receiveInterest(const Interest& interest)$/;"	f	class:nfd::face::LinkService
+receiveNack	link-service.cpp	/^LinkService::receiveNack(const ndn::lp::Nack& nack)$/;"	f	class:nfd::face::LinkService
+receivePacket	link-service.hpp	/^LinkService::receivePacket(Transport::Packet&& packet)$/;"	f	class:nfd::face::LinkService
+remoteEndpoint	transport.hpp	/^    EndpointId remoteEndpoint;$/;"	m	class:nfd::face::Transport::Packet
+rep	face-counters.hpp	/^  typedef uint64_t rep;$/;"	t	class:nfd::ByteCounter
+rep	face-counters.hpp	/^  typedef uint64_t rep;$/;"	t	class:nfd::PacketCounter
+resetRecentUsage	datagram-transport.hpp	/^DatagramTransport<T, U>::resetRecentUsage()$/;"	f	class:nfd::face::DatagramTransport
+scheduleCleanup	ndnlp-partial-message-store.cpp	/^PartialMessageStore::scheduleCleanup(uint64_t messageIdentifier,$/;"	f	class:nfd::ndnlp::PartialMessageStore
+send	internal-transport.cpp	/^InternalClientTransport::send(const Block& header, const Block& payload)$/;"	f	class:nfd::face::InternalClientTransport
+send	internal-transport.cpp	/^InternalClientTransport::send(const Block& wire)$/;"	f	class:nfd::face::InternalClientTransport
+send	stream-face.hpp	/^  send(StreamFace<Protocol, FaceBase>& face, const Packet& packet)$/;"	f	struct:nfd::StreamFaceSenderImpl
+send	stream-face.hpp	/^  send(StreamFace<Protocol, LocalFace>& face, const Packet& packet)$/;"	f	struct:nfd::StreamFaceSenderImpl
+send	transport.cpp	/^Transport::send(Packet&& packet)$/;"	f	class:nfd::face::Transport
+sendData	ethernet-face.cpp	/^EthernetFace::sendData(const Data& data)$/;"	f	class:nfd::EthernetFace
+sendData	link-service.cpp	/^LinkService::sendData(const Data& data)$/;"	f	class:nfd::face::LinkService
+sendData	lp-face-wrapper.hpp	/^LpFaceWrapper::sendData(const Data& data)$/;"	f	class:nfd::face::LpFaceWrapper
+sendData	lp-face.hpp	/^LpFace::sendData(const Data& data)$/;"	f	class:nfd::face::LpFace
+sendData	null-face.cpp	/^NullFace::sendData(const Data& data)$/;"	f	class:nfd::NullFace
+sendData	stream-face.hpp	/^StreamFace<T, U>::sendData(const Data& data)$/;"	f	class:nfd::StreamFace
+sendData	websocket-face.cpp	/^WebSocketFace::sendData(const Data& data)$/;"	f	class:nfd::WebSocketFace
+sendFromQueue	stream-face.hpp	/^StreamFace<T, U>::sendFromQueue()$/;"	f	class:nfd::StreamFace
+sendFromQueue	stream-transport.hpp	/^StreamTransport<T>::sendFromQueue()$/;"	f	class:nfd::face::StreamTransport
+sendInterest	ethernet-face.cpp	/^EthernetFace::sendInterest(const Interest& interest)$/;"	f	class:nfd::EthernetFace
+sendInterest	link-service.cpp	/^LinkService::sendInterest(const Interest& interest)$/;"	f	class:nfd::face::LinkService
+sendInterest	lp-face-wrapper.hpp	/^LpFaceWrapper::sendInterest(const Interest& interest)$/;"	f	class:nfd::face::LpFaceWrapper
+sendInterest	lp-face.hpp	/^LpFace::sendInterest(const Interest& interest)$/;"	f	class:nfd::face::LpFace
+sendInterest	null-face.cpp	/^NullFace::sendInterest(const Interest& interest)$/;"	f	class:nfd::NullFace
+sendInterest	stream-face.hpp	/^StreamFace<T, U>::sendInterest(const Interest& interest)$/;"	f	class:nfd::StreamFace
+sendInterest	websocket-face.cpp	/^WebSocketFace::sendInterest(const Interest& interest)$/;"	f	class:nfd::WebSocketFace
+sendNack	face.hpp	/^  sendNack(const ndn::lp::Nack& nack)$/;"	f	class:nfd::Face
+sendNack	link-service.cpp	/^LinkService::sendNack(const ndn::lp::Nack& nack)$/;"	f	class:nfd::face::LinkService
+sendNack	lp-face-wrapper.hpp	/^LpFaceWrapper::sendNack(const lp::Nack& nack)$/;"	f	class:nfd::face::LpFaceWrapper
+sendNack	lp-face.hpp	/^LpFace::sendNack(const lp::Nack& nack)$/;"	f	class:nfd::face::LpFace
+sendPacket	ethernet-face.cpp	/^EthernetFace::sendPacket(const ndn::Block& block)$/;"	f	class:nfd::EthernetFace
+sendPacket	link-service.hpp	/^LinkService::sendPacket(Transport::Packet&& packet)$/;"	f	class:nfd::face::LinkService
+sendPing	websocket-channel.cpp	/^WebSocketChannel::sendPing(websocketpp::connection_hdl hdl)$/;"	f	class:nfd::WebSocketChannel
+seq	ndnlp-data.hpp	/^  uint64_t seq;$/;"	m	class:nfd::ndnlp::NdnlpData
+set	face-counters.hpp	/^  set(rep value)$/;"	f	class:nfd::ByteCounter
+set	face-counters.hpp	/^  set(rep value)$/;"	f	class:nfd::PacketCounter
+setDescription	face.hpp	/^Face::setDescription(const std::string& description)$/;"	f	class:nfd::Face
+setFaceAndLinkService	transport.cpp	/^Transport::setFaceAndLinkService(LpFace& face, LinkService& service)$/;"	f	class:nfd::face::Transport
+setFaceAndTransport	link-service.cpp	/^LinkService::setFaceAndTransport(LpFace& face, Transport& transport)$/;"	f	class:nfd::face::LinkService
+setId	face.hpp	/^Face::setId(FaceId faceId)$/;"	f	class:nfd::Face
+setId	lp-face-wrapper.cpp	/^LpFaceWrapper::setId(nfd::FaceId faceId)$/;"	f	class:nfd::face::LpFaceWrapper
+setId	lp-face.hpp	/^LpFace::setId(FaceId id)$/;"	f	class:nfd::face::LpFace
+setLinkType	transport.hpp	/^Transport::setLinkType(ndn::nfd::LinkType linkType)$/;"	f	class:nfd::face::Transport
+setLocalControlHeaderFeature	local-face.hpp	/^LocalFace::setLocalControlHeaderFeature(LocalControlFeature feature, bool enabled\/* = true*\/)$/;"	f	class:nfd::LocalFace
+setLocalUri	transport.hpp	/^Transport::setLocalUri(const FaceUri& uri)$/;"	f	class:nfd::face::Transport
+setMtu	transport.hpp	/^Transport::setMtu(ssize_t mtu)$/;"	f	class:nfd::face::Transport
+setOptions	generic-link-service.hpp	/^GenericLinkService::setOptions(const GenericLinkService::Options& options)$/;"	f	class:nfd::face::GenericLinkService
+setPacketFilter	ethernet-face.cpp	/^EthernetFace::setPacketFilter(const char* filterString)$/;"	f	class:nfd::EthernetFace
+setPersistency	face.hpp	/^Face::setPersistency(ndn::nfd::FacePersistency persistency)$/;"	f	class:nfd::Face
+setPersistency	lp-face-wrapper.cpp	/^LpFaceWrapper::setPersistency(ndn::nfd::FacePersistency persistency)$/;"	f	class:nfd::face::LpFaceWrapper
+setPersistency	lp-face.hpp	/^LpFace::setPersistency(ndn::nfd::FacePersistency persistency)$/;"	f	class:nfd::face::LpFace
+setPersistency	transport.hpp	/^Transport::setPersistency(ndn::nfd::FacePersistency persistency)$/;"	f	class:nfd::face::Transport
+setPingEventId	websocket-face.hpp	/^  setPingEventId(scheduler::EventId& id)$/;"	f	class:nfd::WebSocketFace
+setPingInterval	websocket-channel.cpp	/^WebSocketChannel::setPingInterval(time::milliseconds interval)$/;"	f	class:nfd::WebSocketChannel
+setPongTimeout	websocket-channel.cpp	/^WebSocketChannel::setPongTimeout(time::milliseconds timeout)$/;"	f	class:nfd::WebSocketChannel
+setRemoteUri	transport.hpp	/^Transport::setRemoteUri(const FaceUri& uri)$/;"	f	class:nfd::face::Transport
+setScope	transport.hpp	/^Transport::setScope(ndn::nfd::FaceScope scope)$/;"	f	class:nfd::face::Transport
+setState	transport.cpp	/^Transport::setState(TransportState newState)$/;"	f	class:nfd::face::Transport
+setUri	channel.cpp	/^Channel::setUri(const FaceUri& uri)$/;"	f	class:nfd::Channel
+shutdownSocket	stream-face.hpp	/^StreamFace<T, U>::shutdownSocket()$/;"	f	class:nfd::StreamFace
+size	tcp-channel.cpp	/^TcpChannel::size() const$/;"	f	class:nfd::TcpChannel
+size	udp-channel.cpp	/^UdpChannel::size() const$/;"	f	class:nfd::UdpChannel
+size	websocket-channel.cpp	/^WebSocketChannel::size() const$/;"	f	class:nfd::WebSocketChannel
+slice	ndnlp-slicer.cpp	/^Slicer::slice(const Block& block)$/;"	f	class:nfd::ndnlp::Slicer
+tcp	tcp-channel.hpp	/^namespace tcp {$/;"	n	namespace:nfd
+tlv	ndnlp-tlv.hpp	/^namespace tlv {$/;"	n	namespace:nfd
+udp	udp-channel.hpp	/^namespace udp {$/;"	n	namespace:nfd
+udp	udp-protocol.cpp	/^namespace udp {$/;"	n	namespace:nfd	file:
+udp	udp-protocol.hpp	/^namespace udp {$/;"	n	namespace:nfd
+unix_stream	unix-stream-channel.hpp	/^namespace unix_stream {$/;"	n	namespace:nfd
+validateSocket	stream-face.hpp	/^  validateSocket(const typename Protocol::socket& socket)$/;"	f	struct:nfd::StreamFaceValidator
+validateSocket	tcp-face.hpp	/^  validateSocket(const TcpLocalFace::protocol::socket& socket)$/;"	f	struct:nfd::StreamFaceValidator
+websocket	websocket-channel.hpp	/^namespace websocket {$/;"	n	namespace:nfd
+websocket	websocket-face.hpp	/^namespace websocket {$/;"	n	namespace:nfd
+~Channel	channel.cpp	/^Channel::~Channel()$/;"	f	class:nfd::Channel
+~Face	face.cpp	/^Face::~Face()$/;"	f	class:nfd::Face
+~LinkService	link-service.cpp	/^LinkService::~LinkService()$/;"	f	class:nfd::face::LinkService
+~Slicer	ndnlp-slicer.cpp	/^Slicer::~Slicer()$/;"	f	class:nfd::ndnlp::Slicer
+~Transport	transport.cpp	/^Transport::~Transport()$/;"	f	class:nfd::face::Transport
+~UnixStreamChannel	unix-stream-channel.cpp	/^UnixStreamChannel::~UnixStreamChannel()$/;"	f	class:nfd::UnixStreamChannel
