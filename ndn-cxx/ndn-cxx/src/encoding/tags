@@ -1,0 +1,404 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdditionalDescription	tlv.hpp	/^  AdditionalDescription = 258,$/;"	e	enum:ndn::tlv::__anon2
+Any	tlv.hpp	/^  Any           = 19,$/;"	e	enum:ndn::tlv::__anon1
+AppPrivateBlock1	tlv.hpp	/^  AppPrivateBlock1 = 128,$/;"	e	enum:ndn::tlv::__anon1
+AppPrivateBlock2	tlv.hpp	/^  AppPrivateBlock2 = 32767$/;"	e	enum:ndn::tlv::__anon1
+BERDecodeTime	cryptopp/asn_ext.cpp	/^BERDecodeTime(CryptoPP::BufferedTransformation& bt,$/;"	f	namespace:ndn
+Block	block.cpp	/^Block::Block()$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const Block& block,$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const ConstBufferPtr& buffer)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const ConstBufferPtr& buffer,$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const ConstBufferPtr& wire,$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const EncodingBuffer& buffer)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const uint8_t* buffer, size_t maxlength)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(const void* bufferX, size_t maxlength)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(uint32_t type)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(uint32_t type, const Block& value)$/;"	f	class:ndn::Block
+Block	block.cpp	/^Block::Block(uint32_t type, const ConstBufferPtr& value)$/;"	f	class:ndn::Block
+Block	block.hpp	/^class Block$/;"	c	namespace:ndn
+Buffer	buffer.cpp	/^Buffer::Buffer()$/;"	f	class:ndn::Buffer
+Buffer	buffer.cpp	/^Buffer::Buffer(const void* buf, size_t length)$/;"	f	class:ndn::Buffer
+Buffer	buffer.cpp	/^Buffer::Buffer(size_t size)$/;"	f	class:ndn::Buffer
+Buffer	buffer.hpp	/^  Buffer(InputIterator first, InputIterator last)$/;"	f	class:ndn::Buffer
+Buffer	buffer.hpp	/^class Buffer : public std::vector<uint8_t>$/;"	c	namespace:ndn
+BufferPtr	buffer.hpp	/^typedef shared_ptr<Buffer> BufferPtr;$/;"	t	namespace:ndn
+CachingPolicy	tlv-nfd.hpp	/^  CachingPolicy      = 83,$/;"	e	enum:ndn::tlv::nfd::__anon4
+CertificatePackage	tlv-security.hpp	/^  CertificatePackage = 130$/;"	e	enum:ndn::tlv::security::__anon5
+ChannelStatus	tlv-nfd.hpp	/^  ChannelStatus         = 130,$/;"	e	enum:ndn::tlv::nfd::__anon3
+ChildSelector	tlv.hpp	/^  ChildSelector = 17,$/;"	e	enum:ndn::tlv::__anon1
+ConstBufferPtr	buffer.hpp	/^typedef shared_ptr<const Buffer> ConstBufferPtr;$/;"	t	namespace:ndn
+Content	tlv.hpp	/^  Content       = 21,$/;"	e	enum:ndn::tlv::__anon1
+ContentType	tlv.hpp	/^  ContentType     = 24,$/;"	e	enum:ndn::tlv::__anon1
+ContentTypeValue	tlv.hpp	/^enum ContentTypeValue {$/;"	g	namespace:ndn::tlv
+ContentType_Blob	tlv.hpp	/^  ContentType_Blob = 0,$/;"	e	enum:ndn::tlv::ContentTypeValue
+ContentType_Key	tlv.hpp	/^  ContentType_Key = 2,$/;"	e	enum:ndn::tlv::ContentTypeValue
+ContentType_Link	tlv.hpp	/^  ContentType_Link = 1,$/;"	e	enum:ndn::tlv::ContentTypeValue
+ContentType_Nack	tlv.hpp	/^  ContentType_Nack = 3$/;"	e	enum:ndn::tlv::ContentTypeValue
+ControlParameters	tlv-nfd.hpp	/^  ControlParameters   = 104,$/;"	e	enum:ndn::tlv::nfd::__anon3
+ControlResponse	tlv-nfd.hpp	/^  ControlResponse = 101,$/;"	e	enum:ndn::tlv::nfd::__anon3
+Cost	tlv-nfd.hpp	/^  Cost                = 106,$/;"	e	enum:ndn::tlv::nfd::__anon3
+CryptoPP	oid.hpp	/^namespace CryptoPP {$/;"	n
+CurrentTimestamp	tlv-nfd.hpp	/^  CurrentTimestamp     = 130,$/;"	e	enum:ndn::tlv::nfd::__anon3
+DEPRECATED	block.hpp	/^  DEPRECATED($/;"	f	class:ndn::Block
+DEREncodeGeneralTime	cryptopp/asn_ext.cpp	/^DEREncodeGeneralTime(CryptoPP::BufferedTransformation& bt,$/;"	f	namespace:ndn
+Data	tlv.hpp	/^  Data          = 6,$/;"	e	enum:ndn::tlv::__anon1
+DataBlockFast	block-helpers.hpp	/^class DataBlockFast$/;"	c	namespace:ndn::encoding
+DataBlockSlow	block-helpers.hpp	/^class DataBlockSlow$/;"	c	namespace:ndn::encoding
+DescriptionEntry	tlv.hpp	/^  DescriptionEntry = 512,$/;"	e	enum:ndn::tlv::__anon2
+DescriptionKey	tlv.hpp	/^  DescriptionKey = 513,$/;"	e	enum:ndn::tlv::__anon2
+DescriptionValue	tlv.hpp	/^  DescriptionValue = 514$/;"	e	enum:ndn::tlv::__anon2
+DigestSha256	tlv.hpp	/^  DigestSha256 = 0,$/;"	e	enum:ndn::tlv::SignatureTypeValue
+Encoder	encoder.cpp	/^Encoder::Encoder(const Block& block)$/;"	f	class:ndn::encoding::Encoder
+Encoder	encoder.cpp	/^Encoder::Encoder(size_t totalReserve\/* = 8800*\/, size_t reserveFromBack\/* = 400*\/)$/;"	f	class:ndn::encoding::Encoder
+Encoder	encoder.hpp	/^class Encoder$/;"	c	namespace:ndn::encoding
+EncoderTag	encoding-buffer-fwd.hpp	/^static const Tag EncoderTag = true;$/;"	m	namespace:ndn::encoding
+EncodingBuffer	encoding-buffer-fwd.hpp	/^typedef EncodingImpl<EncoderTag> EncodingBuffer;$/;"	t	namespace:ndn::encoding
+EncodingEstimator	encoding-buffer-fwd.hpp	/^typedef EncodingImpl<EstimatorTag> EncodingEstimator;$/;"	t	namespace:ndn::encoding
+EncodingImpl	encoding-buffer.hpp	/^  EncodingImpl(const Block& block)$/;"	f	class:ndn::encoding::EncodingImpl
+EncodingImpl	encoding-buffer.hpp	/^  EncodingImpl(size_t totalReserve = 0, size_t totalFromBack = 0)$/;"	f	class:ndn::encoding::EncodingImpl
+EncodingImpl	encoding-buffer.hpp	/^  EncodingImpl(size_t totalReserve = 8800, size_t reserveFromBack = 400)$/;"	f	class:ndn::encoding::EncodingImpl
+EncodingImpl	encoding-buffer.hpp	/^class EncodingImpl<EncoderTag> : public encoding::Encoder$/;"	c	namespace:ndn::encoding
+EncodingImpl	encoding-buffer.hpp	/^class EncodingImpl<EstimatorTag> : public encoding::Estimator$/;"	c	namespace:ndn::encoding
+Error	block.hpp	/^    Error(const std::string& what)$/;"	f	class:ndn::Block::Error
+Error	block.hpp	/^  class Error : public tlv::Error$/;"	c	class:ndn::Block
+Error	tlv.hpp	/^  Error(const std::string& what)$/;"	f	class:ndn::tlv::Error
+Error	tlv.hpp	/^class Error : public std::runtime_error$/;"	c	namespace:ndn::tlv
+Estimator	estimator.cpp	/^Estimator::Estimator(size_t totalReserve, size_t reserveFromBack)$/;"	f	class:ndn::encoding::Estimator
+Estimator	estimator.hpp	/^class Estimator$/;"	c	namespace:ndn::encoding
+EstimatorTag	encoding-buffer-fwd.hpp	/^static const Tag EstimatorTag = false;$/;"	m	namespace:ndn::encoding
+Exclude	tlv.hpp	/^  Exclude       = 16,$/;"	e	enum:ndn::tlv::__anon1
+ExpirationPeriod	tlv-nfd.hpp	/^  ExpirationPeriod    = 109,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FACE_PERSISTENCY_ON_DEMAND	nfd-constants.hpp	/^  FACE_PERSISTENCY_ON_DEMAND = 1,$/;"	e	enum:ndn::nfd::FacePersistency
+FACE_PERSISTENCY_PERMANENT	nfd-constants.hpp	/^  FACE_PERSISTENCY_PERMANENT = 2$/;"	e	enum:ndn::nfd::FacePersistency
+FACE_PERSISTENCY_PERSISTENT	nfd-constants.hpp	/^  FACE_PERSISTENCY_PERSISTENT = 0,$/;"	e	enum:ndn::nfd::FacePersistency
+FACE_SCOPE_LOCAL	nfd-constants.hpp	/^  FACE_SCOPE_LOCAL = 1$/;"	e	enum:ndn::nfd::FaceScope
+FACE_SCOPE_NON_LOCAL	nfd-constants.hpp	/^  FACE_SCOPE_NON_LOCAL = 0,$/;"	e	enum:ndn::nfd::FaceScope
+FaceEventKind	tlv-nfd.hpp	/^  FaceEventKind         = 193,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FaceEventNotification	tlv-nfd.hpp	/^  FaceEventNotification = 192,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FaceId	tlv-nfd.hpp	/^  FaceId              = 105,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FacePersistency	nfd-constants.hpp	/^enum FacePersistency {$/;"	g	namespace:ndn::nfd
+FacePersistency	tlv-nfd.hpp	/^  FacePersistency       = 133,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FaceQueryFilter	tlv-nfd.hpp	/^  FaceQueryFilter       = 150,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FaceScope	nfd-constants.hpp	/^enum FaceScope {$/;"	g	namespace:ndn::nfd
+FaceScope	tlv-nfd.hpp	/^  FaceScope             = 132,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FaceStatus	tlv-nfd.hpp	/^  FaceStatus            = 128,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FibEntry	tlv-nfd.hpp	/^  FibEntry      = 128,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FinalBlockId	tlv.hpp	/^  FinalBlockId  = 26,$/;"	e	enum:ndn::tlv::__anon1
+Flags	tlv-nfd.hpp	/^  Flags               = 108,$/;"	e	enum:ndn::tlv::nfd::__anon3
+FreshnessPeriod	tlv.hpp	/^  FreshnessPeriod = 25,$/;"	e	enum:ndn::tlv::__anon1
+INVALID_FACE_ID	nfd-constants.hpp	/^static const uint64_t INVALID_FACE_ID = std::numeric_limits<uint64_t>::max();$/;"	m	namespace:ndn::nfd
+IdentityPackage	tlv-security.hpp	/^  IdentityPackage    = 128,$/;"	e	enum:ndn::tlv::security::__anon5
+ImplicitSha256DigestComponent	tlv.hpp	/^  ImplicitSha256DigestComponent = 1,$/;"	e	enum:ndn::tlv::__anon1
+IncomingFaceId	tlv-nfd.hpp	/^  IncomingFaceId     = 81,$/;"	e	enum:ndn::tlv::nfd::__anon4
+Interest	tlv.hpp	/^  Interest      = 5,$/;"	e	enum:ndn::tlv::__anon1
+InterestLifetime	tlv.hpp	/^  InterestLifetime          = 12,$/;"	e	enum:ndn::tlv::__anon1
+KeyDigest	tlv.hpp	/^  KeyDigest     = 29,$/;"	e	enum:ndn::tlv::__anon1
+KeyLocator	tlv.hpp	/^  KeyLocator    = 28,$/;"	e	enum:ndn::tlv::__anon1
+KeyPackage	tlv-security.hpp	/^  KeyPackage         = 129,$/;"	e	enum:ndn::tlv::security::__anon5
+LINK_TYPE_MULTI_ACCESS	nfd-constants.hpp	/^  LINK_TYPE_MULTI_ACCESS = 1$/;"	e	enum:ndn::nfd::LinkType
+LINK_TYPE_POINT_TO_POINT	nfd-constants.hpp	/^  LINK_TYPE_POINT_TO_POINT = 0,$/;"	e	enum:ndn::nfd::LinkType
+LinkDelegation	tlv.hpp	/^  LinkDelegation = 31,$/;"	e	enum:ndn::tlv::__anon1
+LinkPreference	tlv.hpp	/^  LinkPreference = 30,$/;"	e	enum:ndn::tlv::__anon1
+LinkType	nfd-constants.hpp	/^enum LinkType {$/;"	g	namespace:ndn::nfd
+LinkType	tlv-nfd.hpp	/^  LinkType              = 134,$/;"	e	enum:ndn::tlv::nfd::__anon3
+LocalControlFeature	tlv-nfd.hpp	/^  LocalControlFeature = 110,$/;"	e	enum:ndn::tlv::nfd::__anon3
+LocalControlHeader	tlv-nfd.hpp	/^  LocalControlHeader = 80,$/;"	e	enum:ndn::tlv::nfd::__anon4
+LocalUri	tlv-nfd.hpp	/^  LocalUri              = 129,$/;"	e	enum:ndn::tlv::nfd::__anon3
+MAX_NDN_PACKET_SIZE	tlv.hpp	/^const size_t MAX_NDN_PACKET_SIZE = 8800;$/;"	m	namespace:ndn
+MAX_SIZE_OF_BLOCK_FROM_STREAM	block.cpp	/^const size_t MAX_SIZE_OF_BLOCK_FROM_STREAM = 8800;$/;"	m	namespace:ndn	file:
+MaxSuffixComponents	tlv.hpp	/^  MaxSuffixComponents       = 14,$/;"	e	enum:ndn::tlv::__anon1
+MetaInfo	tlv.hpp	/^  MetaInfo      = 20,$/;"	e	enum:ndn::tlv::__anon1
+MinSuffixComponents	tlv.hpp	/^  MinSuffixComponents       = 13,$/;"	e	enum:ndn::tlv::__anon1
+MustBeFresh	tlv.hpp	/^  MustBeFresh   = 18,$/;"	e	enum:ndn::tlv::__anon1
+NCsEntries	tlv-nfd.hpp	/^  NCsEntries           = 135,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NDN_ASN_EXT_HPP	cryptopp/asn_ext.hpp	26;"	d
+NDN_CXX_ENABLE_DEPRECATED_BLOCK_HELPERS	block-helpers.hpp	223;"	d
+NDN_ENCODING_BLOCK_HELPERS_HPP	block-helpers.hpp	23;"	d
+NDN_ENCODING_BLOCK_HPP	block.hpp	25;"	d
+NDN_ENCODING_BUFFER_HPP	buffer.hpp	25;"	d
+NDN_ENCODING_BUFFER_STREAM_HPP	buffer-stream.hpp	25;"	d
+NDN_ENCODING_ENCODER_HPP	encoder.hpp	23;"	d
+NDN_ENCODING_ENCODING_BUFFER_FWD_HPP	encoding-buffer-fwd.hpp	23;"	d
+NDN_ENCODING_ENCODING_BUFFER_HPP	encoding-buffer.hpp	23;"	d
+NDN_ENCODING_ENDIAN_HPP	endian.hpp	25;"	d
+NDN_ENCODING_ESTIMATOR_HPP	estimator.hpp	23;"	d
+NDN_ENCODING_NFD_CONSTANTS_HPP	nfd-constants.hpp	23;"	d
+NDN_ENCODING_OID_HPP	oid.hpp	23;"	d
+NDN_ENCODING_TLV_HPP	tlv.hpp	23;"	d
+NDN_ENCODING_TLV_NFD_HPP	tlv-nfd.hpp	23;"	d
+NDN_ENCODING_TLV_SECURITY_HPP	tlv-security.hpp	23;"	d
+NFibEntries	tlv-nfd.hpp	/^  NFibEntries          = 132,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NInBytes	tlv-nfd.hpp	/^  NInBytes      = 148,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NInDatas	tlv-nfd.hpp	/^  NInDatas      = 145,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NInInterests	tlv-nfd.hpp	/^  NInInterests  = 144,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NInNacks	tlv-nfd.hpp	/^  NInNacks      = 151,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NMeasurementsEntries	tlv-nfd.hpp	/^  NMeasurementsEntries = 134,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NNameTreeEntries	tlv-nfd.hpp	/^  NNameTreeEntries     = 131,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NOutBytes	tlv-nfd.hpp	/^  NOutBytes     = 149,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NOutDatas	tlv-nfd.hpp	/^  NOutDatas     = 147,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NOutInterests	tlv-nfd.hpp	/^  NOutInterests = 146,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NOutNacks	tlv-nfd.hpp	/^  NOutNacks     = 152,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NPitEntries	tlv-nfd.hpp	/^  NPitEntries          = 133,$/;"	e	enum:ndn::tlv::nfd::__anon3
+Name	tlv.hpp	/^  Name          = 7,$/;"	e	enum:ndn::tlv::__anon1
+NameComponent	tlv.hpp	/^  NameComponent = 8,$/;"	e	enum:ndn::tlv::__anon1
+NextHopFaceId	tlv-nfd.hpp	/^  NextHopFaceId      = 82,$/;"	e	enum:ndn::tlv::nfd::__anon4
+NextHopRecord	tlv-nfd.hpp	/^  NextHopRecord = 129,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NfdVersion	tlv-nfd.hpp	/^  NfdVersion           = 128,$/;"	e	enum:ndn::tlv::nfd::__anon3
+NoCache	tlv-nfd.hpp	/^  NoCache            = 96$/;"	e	enum:ndn::tlv::nfd::__anon4
+Nonce	tlv.hpp	/^  Nonce         = 10,$/;"	e	enum:ndn::tlv::__anon1
+NotAfter	tlv.hpp	/^  NotAfter = 255,$/;"	e	enum:ndn::tlv::__anon2
+NotBefore	tlv.hpp	/^  NotBefore = 254,$/;"	e	enum:ndn::tlv::__anon2
+OBufferStream	buffer-stream.hpp	/^  OBufferStream()$/;"	f	class:ndn::OBufferStream
+OBufferStream	buffer-stream.hpp	/^class OBufferStream : public boost::iostreams::stream<iostreams::buffer_append_device>$/;"	c	namespace:ndn
+OID	oid.cpp	/^OID::OID(const char* oid)$/;"	f	class:ndn::OID
+OID	oid.cpp	/^OID::OID(const string& oid)$/;"	f	class:ndn::OID
+OID	oid.hpp	/^  OID()$/;"	f	class:ndn::OID
+OID	oid.hpp	/^  OID(const std::vector<int>& oid)$/;"	f	class:ndn::OID
+OID	oid.hpp	/^class OID$/;"	c	namespace:ndn
+OID_MAGIC_NUMBER	oid.cpp	/^static const int OID_MAGIC_NUMBER = 40;$/;"	m	namespace:ndn	file:
+Origin	tlv-nfd.hpp	/^  Origin              = 111,$/;"	e	enum:ndn::tlv::nfd::__anon3
+PublisherPublicKeyLocator	tlv.hpp	/^  PublisherPublicKeyLocator = 15,$/;"	e	enum:ndn::tlv::__anon1
+ROUTE_FLAG_CAPTURE	nfd-constants.hpp	/^  ROUTE_FLAG_CAPTURE       = 2$/;"	e	enum:ndn::nfd::RouteFlags
+ROUTE_FLAG_CHILD_INHERIT	nfd-constants.hpp	/^  ROUTE_FLAG_CHILD_INHERIT = 1,$/;"	e	enum:ndn::nfd::RouteFlags
+ROUTE_ORIGIN_APP	nfd-constants.hpp	/^  ROUTE_ORIGIN_APP      = 0,$/;"	e	enum:ndn::nfd::RouteOrigin
+ROUTE_ORIGIN_AUTOCONF	nfd-constants.hpp	/^  ROUTE_ORIGIN_AUTOCONF = 66,$/;"	e	enum:ndn::nfd::RouteOrigin
+ROUTE_ORIGIN_AUTOREG	nfd-constants.hpp	/^  ROUTE_ORIGIN_AUTOREG  = 64,$/;"	e	enum:ndn::nfd::RouteOrigin
+ROUTE_ORIGIN_CLIENT	nfd-constants.hpp	/^  ROUTE_ORIGIN_CLIENT   = 65,$/;"	e	enum:ndn::nfd::RouteOrigin
+ROUTE_ORIGIN_NLSR	nfd-constants.hpp	/^  ROUTE_ORIGIN_NLSR     = 128,$/;"	e	enum:ndn::nfd::RouteOrigin
+ROUTE_ORIGIN_STATIC	nfd-constants.hpp	/^  ROUTE_ORIGIN_STATIC   = 255$/;"	e	enum:ndn::nfd::RouteOrigin
+RibEntry	tlv-nfd.hpp	/^  RibEntry = 128,$/;"	e	enum:ndn::tlv::nfd::__anon3
+Route	tlv-nfd.hpp	/^  Route    = 129$/;"	e	enum:ndn::tlv::nfd::__anon3
+RouteFlags	nfd-constants.hpp	/^enum RouteFlags {$/;"	g	namespace:ndn::nfd
+RouteOrigin	nfd-constants.hpp	/^enum RouteOrigin {$/;"	g	namespace:ndn::nfd
+SelectedDelegation	tlv.hpp	/^  SelectedDelegation = 32,$/;"	e	enum:ndn::tlv::__anon1
+Selectors	tlv.hpp	/^  Selectors     = 9,$/;"	e	enum:ndn::tlv::__anon1
+SignatureInfo	tlv.hpp	/^  SignatureInfo = 22,$/;"	e	enum:ndn::tlv::__anon1
+SignatureSha256WithEcdsa	tlv.hpp	/^  SignatureSha256WithEcdsa = 3$/;"	e	enum:ndn::tlv::SignatureTypeValue
+SignatureSha256WithRsa	tlv.hpp	/^  SignatureSha256WithRsa = 1,$/;"	e	enum:ndn::tlv::SignatureTypeValue
+SignatureType	tlv.hpp	/^  SignatureType = 27,$/;"	e	enum:ndn::tlv::__anon1
+SignatureTypeValue	tlv.hpp	/^enum SignatureTypeValue {$/;"	g	namespace:ndn::tlv
+SignatureValue	tlv.hpp	/^  SignatureValue  = 23,$/;"	e	enum:ndn::tlv::__anon1
+StartTimestamp	tlv-nfd.hpp	/^  StartTimestamp       = 129,$/;"	e	enum:ndn::tlv::nfd::__anon3
+StatusCode	tlv-nfd.hpp	/^  StatusCode      = 102,$/;"	e	enum:ndn::tlv::nfd::__anon3
+StatusText	tlv-nfd.hpp	/^  StatusText      = 103,$/;"	e	enum:ndn::tlv::nfd::__anon3
+Strategy	tlv-nfd.hpp	/^  Strategy            = 107,$/;"	e	enum:ndn::tlv::nfd::__anon3
+StrategyChoice	tlv-nfd.hpp	/^  StrategyChoice = 128,$/;"	e	enum:ndn::tlv::nfd::__anon3
+Tag	encoding-buffer-fwd.hpp	/^typedef bool Tag;$/;"	t	namespace:ndn::encoding
+Uri	tlv-nfd.hpp	/^  Uri                 = 114,$/;"	e	enum:ndn::tlv::nfd::__anon3
+UriScheme	tlv-nfd.hpp	/^  UriScheme             = 131,$/;"	e	enum:ndn::tlv::nfd::__anon3
+ValidityPeriod	tlv.hpp	/^  ValidityPeriod = 253,$/;"	e	enum:ndn::tlv::__anon2
+appendBlock	encoder.cpp	/^Encoder::appendBlock(const Block& block)$/;"	f	class:ndn::encoding::Encoder
+appendBlock	estimator.cpp	/^Estimator::appendBlock(const Block& block)$/;"	f	class:ndn::encoding::Estimator
+appendByte	encoder.cpp	/^Encoder::appendByte(uint8_t value)$/;"	f	class:ndn::encoding::Encoder
+appendByte	estimator.cpp	/^Estimator::appendByte(uint8_t value)$/;"	f	class:ndn::encoding::Estimator
+appendByteArray	encoder.cpp	/^Encoder::appendByteArray(const uint8_t* array, size_t length)$/;"	f	class:ndn::encoding::Encoder
+appendByteArray	estimator.cpp	/^Estimator::appendByteArray(const uint8_t* array, size_t length)$/;"	f	class:ndn::encoding::Estimator
+appendByteArrayBlock	encoder.cpp	/^Encoder::appendByteArrayBlock(uint32_t type, const uint8_t* array, size_t arraySize)$/;"	f	class:ndn::encoding::Encoder
+appendByteArrayBlock	estimator.cpp	/^Estimator::appendByteArrayBlock(uint32_t type, const uint8_t* array, size_t arraySize)$/;"	f	class:ndn::encoding::Estimator
+appendNonNegativeInteger	encoder.cpp	/^Encoder::appendNonNegativeInteger(uint64_t varNumber)$/;"	f	class:ndn::encoding::Encoder
+appendNonNegativeInteger	estimator.cpp	/^Estimator::appendNonNegativeInteger(uint64_t varNumber)$/;"	f	class:ndn::encoding::Estimator
+appendRange	encoder.hpp	/^Encoder::appendRange(Iterator first, Iterator last)$/;"	f	class:ndn::encoding::Encoder
+appendRange	estimator.hpp	/^Estimator::appendRange(Iterator first, Iterator last)$/;"	f	class:ndn::encoding::Estimator
+appendVarNumber	encoder.cpp	/^Encoder::appendVarNumber(uint64_t varNumber)$/;"	f	class:ndn::encoding::Encoder
+appendVarNumber	estimator.cpp	/^Estimator::appendVarNumber(uint64_t varNumber)$/;"	f	class:ndn::encoding::Estimator
+asio	block.hpp	/^namespace asio {$/;"	n	namespace:boost
+be16toh	endian.hpp	44;"	d
+be32toh	endian.hpp	48;"	d
+be64toh	endian.hpp	52;"	d
+begin	block.cpp	/^Block::begin() const$/;"	f	class:ndn::Block
+begin	encoder.hpp	/^Encoder::begin() const$/;"	f	class:ndn::encoding::Encoder
+begin	encoder.hpp	/^Encoder::begin()$/;"	f	class:ndn::encoding::Encoder
+block	encoder.cpp	/^Encoder::block(bool verifyLength\/* = true*\/) const$/;"	f	class:ndn::encoding::Encoder
+blockFromValue	block.cpp	/^Block::blockFromValue() const$/;"	f	class:ndn::Block
+booleanBlock	block-helpers.hpp	/^booleanBlock(uint32_t type)$/;"	f	namespace:ndn::encoding
+boost	block.hpp	/^namespace boost {$/;"	n
+buf	buffer-stream.hpp	/^  buf()$/;"	f	class:ndn::OBufferStream
+buf	buffer.hpp	/^  buf() const$/;"	f	class:ndn::Buffer
+buf	buffer.hpp	/^  buf()$/;"	f	class:ndn::Buffer
+buf	encoder.hpp	/^Encoder::buf() const$/;"	f	class:ndn::encoding::Encoder
+buf	encoder.hpp	/^Encoder::buf()$/;"	f	class:ndn::encoding::Encoder
+buffer_append_device	buffer-stream.hpp	/^  buffer_append_device(Buffer& container)$/;"	f	class:ndn::iostreams::buffer_append_device
+buffer_append_device	buffer-stream.hpp	/^class buffer_append_device$/;"	c	namespace:ndn::iostreams
+capacity	encoder.hpp	/^Encoder::capacity() const$/;"	f	class:ndn::encoding::Encoder
+category	buffer-stream.hpp	/^  typedef boost::iostreams::sink_tag category;$/;"	t	class:ndn::iostreams::buffer_append_device
+char_type	buffer-stream.hpp	/^  typedef char char_type;$/;"	t	class:ndn::iostreams::buffer_append_device
+const_iterator	encoder.hpp	/^  typedef Buffer::const_iterator const_iterator;$/;"	t	class:ndn::encoding::Encoder
+construct	oid.cpp	/^OID::construct(const std::string& oid)$/;"	f	class:ndn::OID
+dataBlock	block-helpers.hpp	/^dataBlock(uint32_t type, Iterator first, Iterator last)$/;"	f	namespace:ndn::encoding
+dataBlock	block-helpers.hpp	/^dataBlock(uint32_t type, const char* data, size_t dataSize)$/;"	f	namespace:ndn::encoding
+dataBlock	block-helpers.hpp	/^dataBlock(uint32_t type, const uint8_t* data, size_t dataSize)$/;"	f	namespace:ndn::encoding
+decode	oid.cpp	/^OID::decode(CryptoPP::BufferedTransformation& in)$/;"	f	class:ndn::OID
+decodeValue	oid.cpp	/^decodeValue(CryptoPP::BufferedTransformation& bt, CryptoPP::word32& v)$/;"	f	namespace:ndn
+element_const_iterator	block.hpp	/^  typedef element_container::const_iterator  element_const_iterator;$/;"	t	class:ndn::Block
+element_container	block.hpp	/^  typedef std::vector<Block>                 element_container;$/;"	t	class:ndn::Block
+element_iterator	block.hpp	/^  typedef element_container::iterator        element_iterator;$/;"	t	class:ndn::Block
+elements	block.hpp	/^Block::elements() const$/;"	f	class:ndn::Block
+elements_begin	block.cpp	/^Block::elements_begin() const$/;"	f	class:ndn::Block
+elements_end	block.cpp	/^Block::elements_end() const$/;"	f	class:ndn::Block
+elements_size	block.cpp	/^Block::elements_size() const$/;"	f	class:ndn::Block
+empty	block.cpp	/^Block::empty() const$/;"	f	class:ndn::Block
+encode	block.cpp	/^Block::encode()$/;"	f	class:ndn::Block
+encode	oid.cpp	/^OID::encode(CryptoPP::BufferedTransformation& out) const$/;"	f	class:ndn::OID
+encodeValue	oid.cpp	/^encodeValue(CryptoPP::BufferedTransformation& bt, CryptoPP::word32 v)$/;"	f	namespace:ndn
+encoding	block-helpers.cpp	/^namespace encoding {$/;"	n	namespace:ndn	file:
+encoding	block-helpers.hpp	/^namespace encoding {$/;"	n	namespace:ndn
+encoding	encoder.cpp	/^namespace encoding {$/;"	n	namespace:ndn	file:
+encoding	encoder.hpp	/^namespace encoding {$/;"	n	namespace:ndn
+encoding	encoding-buffer-fwd.hpp	/^namespace encoding {$/;"	n	namespace:ndn
+encoding	encoding-buffer.hpp	/^namespace encoding {$/;"	n	namespace:ndn
+encoding	estimator.cpp	/^namespace encoding {$/;"	n	namespace:ndn	file:
+encoding	estimator.hpp	/^namespace encoding {$/;"	n	namespace:ndn
+end	block.cpp	/^Block::end() const$/;"	f	class:ndn::Block
+end	encoder.hpp	/^Encoder::end() const$/;"	f	class:ndn::encoding::Encoder
+end	encoder.hpp	/^Encoder::end()$/;"	f	class:ndn::encoding::Encoder
+equal	oid.cpp	/^OID::equal(const OID& oid) const$/;"	f	class:ndn::OID
+erase	block.cpp	/^Block::erase(Block::element_const_iterator first, Block::element_const_iterator last)$/;"	f	class:ndn::Block
+erase	block.cpp	/^Block::erase(Block::element_const_iterator position)$/;"	f	class:ndn::Block
+find	block.cpp	/^Block::find(uint32_t type) const$/;"	f	class:ndn::Block
+fromBuffer	block.cpp	/^Block::fromBuffer(ConstBufferPtr buffer, size_t offset)$/;"	f	class:ndn::Block
+fromBuffer	block.cpp	/^Block::fromBuffer(const uint8_t* buffer, size_t maxSize)$/;"	f	class:ndn::Block
+fromStream	block.cpp	/^Block::fromStream(std::istream& is)$/;"	f	class:ndn::Block
+get	block.cpp	/^Block::get(uint32_t type) const$/;"	f	class:ndn::Block
+get	buffer.hpp	/^  get() const$/;"	f	class:ndn::Buffer
+get	buffer.hpp	/^  get()$/;"	f	class:ndn::Buffer
+getBuffer	block.hpp	/^Block::getBuffer() const$/;"	f	class:ndn::Block
+getBuffer	encoder.hpp	/^Encoder::getBuffer()$/;"	f	class:ndn::encoding::Encoder
+getIntegerList	oid.hpp	/^  getIntegerList() const$/;"	f	class:ndn::OID
+hasValue	block.cpp	/^Block::hasValue() const$/;"	f	class:ndn::Block
+hasWire	block.cpp	/^Block::hasWire() const$/;"	f	class:ndn::Block
+htobe16	endian.hpp	42;"	d
+htobe32	endian.hpp	46;"	d
+htobe64	endian.hpp	50;"	d
+htole16	endian.hpp	43;"	d
+htole32	endian.hpp	47;"	d
+htole64	endian.hpp	51;"	d
+insert	block.cpp	/^Block::insert(Block::element_const_iterator pos, const Block& element)$/;"	f	class:ndn::Block
+iostreams	buffer-stream.hpp	/^namespace iostreams$/;"	n	namespace:ndn
+iterator	encoder.hpp	/^  typedef Buffer::iterator iterator;$/;"	t	class:ndn::encoding::Encoder
+le16toh	endian.hpp	45;"	d
+le32toh	endian.hpp	49;"	d
+le64toh	endian.hpp	53;"	d
+m_begin	block.hpp	/^  Buffer::const_iterator m_begin;$/;"	m	class:ndn::Block
+m_begin	encoder.hpp	/^  iterator m_begin;$/;"	m	class:ndn::encoding::Encoder
+m_buffer	block.hpp	/^  shared_ptr<const Buffer> m_buffer;$/;"	m	class:ndn::Block
+m_buffer	buffer-stream.hpp	/^  BufferPtr m_buffer;$/;"	m	class:ndn::OBufferStream
+m_buffer	encoder.hpp	/^  shared_ptr<Buffer> m_buffer;$/;"	m	class:ndn::encoding::Encoder
+m_container	buffer-stream.hpp	/^  Buffer& m_container;$/;"	m	class:ndn::iostreams::buffer_append_device
+m_device	buffer-stream.hpp	/^  iostreams::buffer_append_device m_device;$/;"	m	class:ndn::OBufferStream
+m_end	block.hpp	/^  Buffer::const_iterator m_end;$/;"	m	class:ndn::Block
+m_end	encoder.hpp	/^  iterator m_end;$/;"	m	class:ndn::encoding::Encoder
+m_oid	oid.hpp	/^  std::vector<int> m_oid;$/;"	m	class:ndn::OID
+m_size	block.hpp	/^  uint32_t m_size;$/;"	m	class:ndn::Block
+m_subBlocks	block.hpp	/^  mutable element_container m_subBlocks;$/;"	m	class:ndn::Block
+m_type	block.hpp	/^  uint32_t m_type;$/;"	m	class:ndn::Block
+m_value_begin	block.hpp	/^  Buffer::const_iterator m_value_begin;$/;"	m	class:ndn::Block
+m_value_end	block.hpp	/^  Buffer::const_iterator m_value_end;$/;"	m	class:ndn::Block
+makeBinaryBlock	block-helpers.cpp	/^makeBinaryBlock(uint32_t type, const char* value, size_t length)$/;"	f	namespace:ndn::encoding
+makeBinaryBlock	block-helpers.cpp	/^makeBinaryBlock(uint32_t type, const uint8_t* value, size_t length)$/;"	f	namespace:ndn::encoding
+makeBinaryBlock	block-helpers.hpp	/^makeBinaryBlock(uint32_t type, Iterator first, Iterator last)$/;"	f	namespace:ndn::encoding
+makeBlock	block-helpers.hpp	/^  makeBlock(uint32_t type, Iterator first, Iterator last)$/;"	f	class:ndn::encoding::DataBlockFast
+makeBlock	block-helpers.hpp	/^  makeBlock(uint32_t type, Iterator first, Iterator last)$/;"	f	class:ndn::encoding::DataBlockSlow
+makeEmptyBlock	block-helpers.cpp	/^makeEmptyBlock(uint32_t type)$/;"	f	namespace:ndn::encoding
+makeNestedBlock	block-helpers.hpp	/^makeNestedBlock(uint32_t type, const U& value)$/;"	f	namespace:ndn::encoding
+makeNonNegativeIntegerBlock	block-helpers.cpp	/^makeNonNegativeIntegerBlock(uint32_t type, uint64_t value)$/;"	f	namespace:ndn::encoding
+makeStringBlock	block-helpers.cpp	/^makeStringBlock(uint32_t type, const std::string& value)$/;"	f	namespace:ndn::encoding
+ndn	block-helpers.cpp	/^namespace ndn {$/;"	n	file:
+ndn	block-helpers.hpp	/^namespace ndn {$/;"	n
+ndn	block.cpp	/^namespace ndn {$/;"	n	file:
+ndn	block.hpp	/^namespace ndn {$/;"	n
+ndn	buffer-stream.hpp	/^namespace ndn {$/;"	n
+ndn	buffer.cpp	/^namespace ndn {$/;"	n	file:
+ndn	buffer.hpp	/^namespace ndn {$/;"	n
+ndn	cryptopp/asn_ext.cpp	/^namespace ndn {$/;"	n	file:
+ndn	cryptopp/asn_ext.hpp	/^namespace ndn {$/;"	n
+ndn	encoder.cpp	/^namespace ndn {$/;"	n	file:
+ndn	encoder.hpp	/^namespace ndn {$/;"	n
+ndn	encoding-buffer-fwd.hpp	/^namespace ndn {$/;"	n
+ndn	encoding-buffer.hpp	/^namespace ndn {$/;"	n
+ndn	estimator.cpp	/^namespace ndn {$/;"	n	file:
+ndn	estimator.hpp	/^namespace ndn {$/;"	n
+ndn	nfd-constants.cpp	/^namespace ndn {$/;"	n	file:
+ndn	nfd-constants.hpp	/^namespace ndn {$/;"	n
+ndn	oid.cpp	/^namespace ndn {$/;"	n	file:
+ndn	oid.hpp	/^namespace ndn {$/;"	n
+ndn	tlv-nfd.hpp	/^namespace ndn {$/;"	n
+ndn	tlv-security.hpp	/^namespace ndn {$/;"	n
+ndn	tlv.hpp	/^namespace ndn {$/;"	n
+nestedBlock	block-helpers.hpp	/^nestedBlock(uint32_t type, const U& value)$/;"	f	namespace:ndn::encoding
+nfd	nfd-constants.cpp	/^namespace nfd {$/;"	n	namespace:ndn	file:
+nfd	nfd-constants.hpp	/^namespace nfd {$/;"	n	namespace:ndn
+nfd	tlv-nfd.hpp	/^namespace nfd {$/;"	n	namespace:ndn::tlv
+nonNegativeIntegerBlock	block-helpers.hpp	/^nonNegativeIntegerBlock(uint32_t type, uint64_t value)$/;"	f	namespace:ndn::encoding
+oid	oid.cpp	/^namespace oid {$/;"	n	namespace:ndn	file:
+oid	oid.hpp	/^namespace oid {$/;"	n	namespace:ndn
+operator !=	block.cpp	/^Block::operator!=(const Block& other) const$/;"	f	class:ndn::Block
+operator !=	oid.hpp	/^  operator!=(const OID& oid) const$/;"	f	class:ndn::OID
+operator <<	nfd-constants.cpp	/^operator<<(std::ostream& os, FacePersistency facePersistency)$/;"	f	namespace:ndn::nfd
+operator <<	nfd-constants.cpp	/^operator<<(std::ostream& os, FaceScope faceScope)$/;"	f	namespace:ndn::nfd
+operator <<	nfd-constants.cpp	/^operator<<(std::ostream& os, LinkType linkType)$/;"	f	namespace:ndn::nfd
+operator ==	block.cpp	/^Block::operator==(const Block& other) const$/;"	f	class:ndn::Block
+operator ==	oid.hpp	/^  operator==(const OID& oid) const$/;"	f	class:ndn::OID
+operator boost::asio::const_buffer	block.cpp	/^Block::operator boost::asio::const_buffer() const$/;"	f	class:ndn::Block
+parse	block.cpp	/^Block::parse() const$/;"	f	class:ndn::Block
+prependBlock	block-helpers.hpp	/^prependBlock(EncodingImpl<TAG>& encoder, const Block& block)$/;"	f	namespace:ndn::encoding
+prependBlock	encoder.cpp	/^Encoder::prependBlock(const Block& block)$/;"	f	class:ndn::encoding::Encoder
+prependBlock	estimator.cpp	/^Estimator::prependBlock(const Block& block)$/;"	f	class:ndn::encoding::Estimator
+prependBooleanBlock	block-helpers.hpp	/^prependBooleanBlock(EncodingImpl<TAG>& encoder, uint32_t type)$/;"	f	namespace:ndn::encoding
+prependByte	encoder.cpp	/^Encoder::prependByte(uint8_t value)$/;"	f	class:ndn::encoding::Encoder
+prependByte	estimator.cpp	/^Estimator::prependByte(uint8_t value)$/;"	f	class:ndn::encoding::Estimator
+prependByteArray	encoder.cpp	/^Encoder::prependByteArray(const uint8_t* array, size_t length)$/;"	f	class:ndn::encoding::Encoder
+prependByteArray	estimator.cpp	/^Estimator::prependByteArray(const uint8_t* array, size_t length)$/;"	f	class:ndn::encoding::Estimator
+prependByteArrayBlock	block-helpers.hpp	/^prependByteArrayBlock(EncodingImpl<TAG>& encoder,$/;"	f	namespace:ndn::encoding
+prependByteArrayBlock	encoder.cpp	/^Encoder::prependByteArrayBlock(uint32_t type, const uint8_t* array, size_t arraySize)$/;"	f	class:ndn::encoding::Encoder
+prependByteArrayBlock	estimator.cpp	/^Estimator::prependByteArrayBlock(uint32_t type, const uint8_t* array, size_t arraySize)$/;"	f	class:ndn::encoding::Estimator
+prependEmptyBlock	block-helpers.cpp	/^prependEmptyBlock(EncodingImpl<TAG>& encoder, uint32_t type)$/;"	f	namespace:ndn::encoding
+prependNestedBlock	block-helpers.hpp	/^prependNestedBlock(EncodingImpl<TAG>& encoder, uint32_t type, const U& value)$/;"	f	namespace:ndn::encoding
+prependNonNegativeInteger	encoder.cpp	/^Encoder::prependNonNegativeInteger(uint64_t varNumber)$/;"	f	class:ndn::encoding::Encoder
+prependNonNegativeInteger	estimator.cpp	/^Estimator::prependNonNegativeInteger(uint64_t varNumber)$/;"	f	class:ndn::encoding::Estimator
+prependNonNegativeIntegerBlock	block-helpers.cpp	/^prependNonNegativeIntegerBlock(EncodingImpl<TAG>& encoder, uint32_t type, uint64_t value)$/;"	f	namespace:ndn::encoding
+prependRange	encoder.hpp	/^Encoder::prependRange(Iterator first, Iterator last)$/;"	f	class:ndn::encoding::Encoder
+prependRange	estimator.hpp	/^Estimator::prependRange(Iterator first, Iterator last)$/;"	f	class:ndn::encoding::Estimator
+prependStringBlock	block-helpers.cpp	/^prependStringBlock(EncodingImpl<TAG>& encoder, uint32_t type, const std::string& value)$/;"	f	namespace:ndn::encoding
+prependVarNumber	encoder.cpp	/^Encoder::prependVarNumber(uint64_t varNumber)$/;"	f	class:ndn::encoding::Encoder
+prependVarNumber	estimator.cpp	/^Estimator::prependVarNumber(uint64_t varNumber)$/;"	f	class:ndn::encoding::Estimator
+push_back	block.cpp	/^Block::push_back(const Block& element)$/;"	f	class:ndn::Block
+readNonNegativeInteger	block-helpers.cpp	/^readNonNegativeInteger(const Block& block)$/;"	f	namespace:ndn::encoding
+readNonNegativeInteger	tlv.hpp	/^readNonNegativeInteger(size_t size, InputIterator& begin, const InputIterator& end)$/;"	f	namespace:ndn::tlv
+readNonNegativeInteger	tlv.hpp	/^readNonNegativeInteger<std::istream_iterator<uint8_t> >(size_t size,$/;"	f	namespace:ndn::tlv
+readString	block-helpers.cpp	/^readString(const Block& block)$/;"	f	namespace:ndn::encoding
+readType	tlv.hpp	/^readType(InputIterator& begin, const InputIterator& end)$/;"	f	namespace:ndn::tlv
+readType	tlv.hpp	/^readType(InputIterator& begin, const InputIterator& end, uint32_t& type)$/;"	f	namespace:ndn::tlv
+readVarNumber	tlv.hpp	/^readVarNumber(InputIterator& begin, const InputIterator& end)$/;"	f	namespace:ndn::tlv
+readVarNumber	tlv.hpp	/^readVarNumber(InputIterator& begin, const InputIterator& end, uint64_t& number)$/;"	f	namespace:ndn::tlv
+readVarNumber	tlv.hpp	/^readVarNumber<std::istream_iterator<uint8_t>>(std::istream_iterator<uint8_t>& begin,$/;"	f	namespace:ndn::tlv
+remove	block.cpp	/^Block::remove(uint32_t type)$/;"	f	class:ndn::Block
+reserve	encoder.cpp	/^Encoder::reserve(size_t size, bool addInFront)$/;"	f	class:ndn::encoding::Encoder
+reserveBack	encoder.cpp	/^Encoder::reserveBack(size_t size)$/;"	f	class:ndn::encoding::Encoder
+reserveFront	encoder.cpp	/^Encoder::reserveFront(size_t size)$/;"	f	class:ndn::encoding::Encoder
+reset	block.cpp	/^Block::reset()$/;"	f	class:ndn::Block
+resetWire	block.cpp	/^Block::resetWire()$/;"	f	class:ndn::Block
+security	tlv-security.hpp	/^namespace security {$/;"	n	namespace:ndn::tlv
+setIntegerList	oid.hpp	/^  setIntegerList(const std::vector<int>& value)$/;"	f	class:ndn::OID
+size	block.cpp	/^Block::size() const$/;"	f	class:ndn::Block
+size	encoder.hpp	/^Encoder::size() const$/;"	f	class:ndn::encoding::Encoder
+sizeOfNonNegativeInteger	tlv.hpp	/^sizeOfNonNegativeInteger(uint64_t varNumber)$/;"	f	namespace:ndn::tlv
+sizeOfVarNumber	tlv.hpp	/^sizeOfVarNumber(uint64_t varNumber)$/;"	f	namespace:ndn::tlv
+tlv	tlv-nfd.hpp	/^namespace tlv {$/;"	n	namespace:ndn
+tlv	tlv-security.hpp	/^namespace tlv {$/;"	n	namespace:ndn
+tlv	tlv.hpp	/^namespace tlv {$/;"	n	namespace:ndn
+toString	oid.cpp	/^OID::toString() const$/;"	f	class:ndn::OID
+type	block.hpp	/^Block::type() const$/;"	f	class:ndn::Block
+value	block.cpp	/^Block::value() const$/;"	f	class:ndn::Block
+value_begin	block.hpp	/^Block::value_begin() const$/;"	f	class:ndn::Block
+value_end	block.hpp	/^Block::value_end() const$/;"	f	class:ndn::Block
+value_size	block.cpp	/^Block::value_size() const$/;"	f	class:ndn::Block
+value_type	encoder.hpp	/^  typedef Buffer::value_type value_type;$/;"	t	class:ndn::encoding::Encoder
+wire	block.cpp	/^Block::wire() const$/;"	f	class:ndn::Block
+write	buffer-stream.hpp	/^  write(const char_type* s, std::streamsize n)$/;"	f	class:ndn::iostreams::buffer_append_device
+writeNonNegativeInteger	tlv.hpp	/^writeNonNegativeInteger(std::ostream& os, uint64_t varNumber)$/;"	f	namespace:ndn::tlv
+writeVarNumber	tlv.hpp	/^writeVarNumber(std::ostream& os, uint64_t varNumber)$/;"	f	namespace:ndn::tlv
