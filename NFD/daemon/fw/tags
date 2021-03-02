@@ -1,0 +1,340 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADJUST_PREDICT_DOWN_SHIFT	ncc-strategy.hpp	/^    static const int ADJUST_PREDICT_DOWN_SHIFT = 7;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+ADJUST_PREDICT_UP_SHIFT	ncc-strategy.hpp	/^    static const int ADJUST_PREDICT_UP_SHIFT = 3;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+AccessStrategy	access-strategy.cpp	/^AccessStrategy::AccessStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::AccessStrategy
+AccessStrategy	access-strategy.hpp	/^class AccessStrategy : public Strategy$/;"	c	namespace:nfd::fw
+BestRouteStrategy	best-route-strategy.cpp	/^BestRouteStrategy::BestRouteStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::BestRouteStrategy
+BestRouteStrategy	best-route-strategy.hpp	/^class BestRouteStrategy : public Strategy$/;"	c	namespace:nfd::fw
+BestRouteStrategy2	best-route-strategy2.cpp	/^BestRouteStrategy2::BestRouteStrategy2(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::BestRouteStrategy2
+BestRouteStrategy2	best-route-strategy2.hpp	/^class BestRouteStrategy2 : public Strategy$/;"	c	namespace:nfd::fw
+BroadcastStrategy	broadcast-strategy.cpp	/^BroadcastStrategy::BroadcastStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::BroadcastStrategy
+BroadcastStrategy	broadcast-strategy.hpp	/^class BroadcastStrategy : public MulticastStrategy$/;"	c	namespace:nfd::fw
+ClientControlStrategy	client-control-strategy.cpp	/^ClientControlStrategy::ClientControlStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::ClientControlStrategy
+ClientControlStrategy	client-control-strategy.hpp	/^class ClientControlStrategy : public BestRouteStrategy$/;"	c	namespace:nfd::fw
+DECL_OVERRIDE	access-strategy.hpp	/^                        const Face& inFace, const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::fw::AccessStrategy
+DECL_OVERRIDE	access-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::AccessStrategy
+DECL_OVERRIDE	best-route-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::BestRouteStrategy
+DECL_OVERRIDE	best-route-strategy2.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::BestRouteStrategy2
+DECL_OVERRIDE	best-route-strategy2.hpp	/^                   shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::BestRouteStrategy2
+DECL_OVERRIDE	broadcast-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::BroadcastStrategy
+DECL_OVERRIDE	client-control-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::ClientControlStrategy
+DECL_OVERRIDE	multicast-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::MulticastStrategy
+DECL_OVERRIDE	ncc-strategy.hpp	/^                        const Face& inFace, const Data& data) DECL_OVERRIDE;$/;"	m	class:nfd::fw::NccStrategy
+DECL_OVERRIDE	ncc-strategy.hpp	/^                       shared_ptr<pit::Entry> pitEntry) DECL_OVERRIDE;$/;"	m	class:nfd::fw::NccStrategy
+DECL_OVERRIDE	retx-suppression-exponential.hpp	/^         pit::Entry& pitEntry) const DECL_OVERRIDE;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+DECL_OVERRIDE	retx-suppression-fixed.hpp	/^         pit::Entry& pitEntry) const DECL_OVERRIDE;$/;"	m	class:nfd::fw::RetxSuppressionFixed
+DEFAULT_INITIAL_INTERVAL	retx-suppression-exponential.cpp	/^const RetxSuppressionExponential::Duration RetxSuppressionExponential::DEFAULT_INITIAL_INTERVAL =$/;"	m	class:nfd::fw::RetxSuppressionExponential	file:
+DEFAULT_INITIAL_INTERVAL	retx-suppression-exponential.hpp	/^  static const Duration DEFAULT_INITIAL_INTERVAL;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+DEFAULT_MAX_INTERVAL	retx-suppression-exponential.cpp	/^const RetxSuppressionExponential::Duration RetxSuppressionExponential::DEFAULT_MAX_INTERVAL =$/;"	m	class:nfd::fw::RetxSuppressionExponential	file:
+DEFAULT_MAX_INTERVAL	retx-suppression-exponential.hpp	/^  static const Duration DEFAULT_MAX_INTERVAL;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+DEFAULT_MIN_RETX_INTERVAL	retx-suppression-fixed.hpp	/^  static const time::milliseconds DEFAULT_MIN_RETX_INTERVAL;$/;"	m	class:nfd::fw::RetxSuppressionFixed
+DEFAULT_MULTIPLIER	retx-suppression-exponential.cpp	/^const float RetxSuppressionExponential::DEFAULT_MULTIPLIER = 2.0;$/;"	m	class:nfd::fw::RetxSuppressionExponential	file:
+DEFAULT_MULTIPLIER	retx-suppression-exponential.hpp	/^  static const float DEFAULT_MULTIPLIER;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+DEFER_FIRST_WITHOUT_BEST_FACE	ncc-strategy.cpp	/^const time::microseconds NccStrategy::DEFER_FIRST_WITHOUT_BEST_FACE = time::microseconds(4000);$/;"	m	class:nfd::fw::NccStrategy	file:
+DEFER_FIRST_WITHOUT_BEST_FACE	ncc-strategy.hpp	/^  static const time::microseconds DEFER_FIRST_WITHOUT_BEST_FACE;$/;"	m	class:nfd::fw::NccStrategy
+DEFER_RANGE_WITHOUT_BEST_FACE	ncc-strategy.cpp	/^const time::microseconds NccStrategy::DEFER_RANGE_WITHOUT_BEST_FACE = time::microseconds(75000);$/;"	m	class:nfd::fw::NccStrategy	file:
+DEFER_RANGE_WITHOUT_BEST_FACE	ncc-strategy.hpp	/^  static const time::microseconds DEFER_RANGE_WITHOUT_BEST_FACE;$/;"	m	class:nfd::fw::NccStrategy
+Duration	retx-suppression-exponential.hpp	/^  typedef time::microseconds Duration;$/;"	t	class:nfd::fw::RetxSuppressionExponential
+Duration	rtt-estimator.hpp	/^  typedef time::microseconds Duration;$/;"	t	class:nfd::RttEstimator
+FORWARD	retx-suppression.hpp	/^    FORWARD,$/;"	e	enum:nfd::fw::RetxSuppression::Result
+FaceInfo	access-strategy.cpp	/^AccessStrategy::FaceInfo::FaceInfo()$/;"	f	class:nfd::fw::AccessStrategy::FaceInfo
+FaceInfo	access-strategy.hpp	/^  class FaceInfo$/;"	c	class:nfd::fw::AccessStrategy
+FaceInfoTable	access-strategy.hpp	/^  typedef std::unordered_map<FaceId, FaceInfo> FaceInfoTable;$/;"	t	class:nfd::fw::AccessStrategy
+FaceMap	face-table.hpp	/^  typedef std::map<FaceId, shared_ptr<Face>> FaceMap;$/;"	t	class:nfd::FaceTable
+FaceTable	face-table.cpp	/^FaceTable::FaceTable(Forwarder& forwarder)$/;"	f	class:nfd::FaceTable
+FaceTable	face-table.hpp	/^class FaceTable : noncopyable$/;"	c	namespace:nfd
+ForwardRange	face-table.hpp	/^  typedef boost::select_second_const_range<FaceMap> ForwardRange;$/;"	t	class:nfd::FaceTable
+Forwarder	forwarder.cpp	/^Forwarder::Forwarder()$/;"	f	class:nfd::Forwarder
+Forwarder	forwarder.hpp	/^class Forwarder$/;"	c	namespace:nfd
+ForwarderCounters	forwarder-counters.hpp	/^class ForwarderCounters : public NetworkLayerCounters$/;"	c	namespace:nfd
+INITIAL_PREDICTION	ncc-strategy.cpp	/^const time::microseconds NccStrategy::MeasurementsEntryInfo::INITIAL_PREDICTION =$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo	file:
+INITIAL_PREDICTION	ncc-strategy.hpp	/^    static const time::microseconds INITIAL_PREDICTION;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+InsertAgain	forwarder.cpp	/^Forwarder::InsertAgain(Face& inFace, const Interest& interest)$/;"	f	class:nfd::Forwarder
+LOCALHOST_NAME	forwarder.hpp	/^  static const Name LOCALHOST_NAME;$/;"	m	class:nfd::Forwarder
+MAX_PREDICTION	ncc-strategy.cpp	/^const time::microseconds NccStrategy::MeasurementsEntryInfo::MAX_PREDICTION =$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo	file:
+MAX_PREDICTION	ncc-strategy.hpp	/^    static const time::microseconds MAX_PREDICTION;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+MEASUREMENTS_LIFETIME	ncc-strategy.cpp	/^const time::nanoseconds NccStrategy::MEASUREMENTS_LIFETIME = time::seconds(16);$/;"	m	class:nfd::fw::NccStrategy	file:
+MEASUREMENTS_LIFETIME	ncc-strategy.hpp	/^  static const time::nanoseconds MEASUREMENTS_LIFETIME;$/;"	m	class:nfd::fw::NccStrategy
+MIN_PREDICTION	ncc-strategy.cpp	/^const time::microseconds NccStrategy::MeasurementsEntryInfo::MIN_PREDICTION =$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo	file:
+MIN_PREDICTION	ncc-strategy.hpp	/^    static const time::microseconds MIN_PREDICTION;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+MeasurementsEntryInfo	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::MeasurementsEntryInfo()$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+MeasurementsEntryInfo	ncc-strategy.hpp	/^  class MeasurementsEntryInfo : public StrategyInfo$/;"	c	class:nfd::fw::NccStrategy
+MtInfo	access-strategy.cpp	/^AccessStrategy::MtInfo::MtInfo()$/;"	f	class:nfd::fw::AccessStrategy::MtInfo
+MtInfo	access-strategy.hpp	/^  class MtInfo : public StrategyInfo$/;"	c	class:nfd::fw::AccessStrategy
+MulticastStrategy	multicast-strategy.cpp	/^MulticastStrategy::MulticastStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::MulticastStrategy
+MulticastStrategy	multicast-strategy.hpp	/^class MulticastStrategy : public Strategy$/;"	c	namespace:nfd::fw
+NEW	retx-suppression.hpp	/^    NEW,$/;"	e	enum:nfd::fw::RetxSuppression::Result
+NFD_DAEMON_FW_ACCESS_STRATEGY_HPP	access-strategy.hpp	27;"	d
+NFD_DAEMON_FW_BEST_ROUTE_STRATEGY2_HPP	best-route-strategy2.hpp	27;"	d
+NFD_DAEMON_FW_BEST_ROUTE_STRATEGY_HPP	best-route-strategy.hpp	27;"	d
+NFD_DAEMON_FW_BROADCAST_STRATEGY_HPP	broadcast-strategy.hpp	27;"	d
+NFD_DAEMON_FW_CLIENT_CONTROL_STRATEGY_HPP	client-control-strategy.hpp	27;"	d
+NFD_DAEMON_FW_FACE_TABLE_HPP	face-table.hpp	27;"	d
+NFD_DAEMON_FW_FORWARDER_COUNTERS_HPP	forwarder-counters.hpp	27;"	d
+NFD_DAEMON_FW_FORWARDER_HPP	forwarder.hpp	27;"	d
+NFD_DAEMON_FW_MULTICAST_STRATEGY_HPP	multicast-strategy.hpp	27;"	d
+NFD_DAEMON_FW_NCC_STRATEGY_HPP	ncc-strategy.hpp	27;"	d
+NFD_DAEMON_FW_RETX_SUPPRESSION_EXPONENTIAL_HPP	retx-suppression-exponential.hpp	27;"	d
+NFD_DAEMON_FW_RETX_SUPPRESSION_FIXED_HPP	retx-suppression-fixed.hpp	27;"	d
+NFD_DAEMON_FW_RETX_SUPPRESSION_HPP	retx-suppression.hpp	27;"	d
+NFD_DAEMON_FW_RTT_ESTIMATOR_HPP	rtt-estimator.hpp	27;"	d
+NFD_DAEMON_FW_STRATEGY_HPP	strategy.hpp	27;"	d
+NFD_DAEMON_FW_STRATEGY_INFO_HPP	strategy-info.hpp	27;"	d
+NFD_DAEMON_FW_STRATEGY_REGISTRY_HPP	strategy-registry.hpp	27;"	d
+NFD_REGISTER_STRATEGY	strategy-registry.hpp	65;"	d
+NccStrategy	ncc-strategy.cpp	/^NccStrategy::NccStrategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::NccStrategy
+NccStrategy	ncc-strategy.hpp	/^class NccStrategy : public Strategy$/;"	c	namespace:nfd::fw
+PitEntryInfo	ncc-strategy.hpp	/^  class PitEntryInfo : public StrategyInfo$/;"	c	class:nfd::fw::NccStrategy
+PitInfo	access-strategy.hpp	/^  class PitInfo : public StrategyInfo$/;"	c	class:nfd::fw::AccessStrategy
+PitInfo	retx-suppression-exponential.cpp	/^  PitInfo(const Duration& initialInterval)$/;"	f	class:nfd::fw::RetxSuppressionExponential::PitInfo
+PitInfo	retx-suppression-exponential.cpp	/^class RetxSuppressionExponential::PitInfo : public StrategyInfo$/;"	c	class:nfd::fw::RetxSuppressionExponential	file:
+Result	retx-suppression.hpp	/^  enum Result {$/;"	g	class:nfd::fw::RetxSuppression
+RetxSuppression	retx-suppression.hpp	/^class RetxSuppression : noncopyable$/;"	c	namespace:nfd::fw
+RetxSuppressionExponential	retx-suppression-exponential.cpp	/^RetxSuppressionExponential::RetxSuppressionExponential(const Duration& initialInterval,$/;"	f	class:nfd::fw::RetxSuppressionExponential
+RetxSuppressionExponential	retx-suppression-exponential.hpp	/^class RetxSuppressionExponential : public RetxSuppression$/;"	c	namespace:nfd::fw
+RetxSuppressionFixed	retx-suppression-fixed.cpp	/^RetxSuppressionFixed::RetxSuppressionFixed(const time::milliseconds& minRetxInterval)$/;"	f	class:nfd::fw::RetxSuppressionFixed
+RetxSuppressionFixed	retx-suppression-fixed.hpp	/^class RetxSuppressionFixed : public RetxSuppression$/;"	c	namespace:nfd::fw
+RttEstimator	rtt-estimator.cpp	/^RttEstimator::RttEstimator(uint16_t maxMultiplier, Duration minRto, double gain)$/;"	f	class:nfd::RttEstimator
+RttEstimator	rtt-estimator.hpp	/^class RttEstimator$/;"	c	namespace:nfd
+STRATEGY_NAME	access-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::AccessStrategy
+STRATEGY_NAME	best-route-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::BestRouteStrategy
+STRATEGY_NAME	best-route-strategy2.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::BestRouteStrategy2
+STRATEGY_NAME	broadcast-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::BroadcastStrategy
+STRATEGY_NAME	client-control-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::ClientControlStrategy
+STRATEGY_NAME	multicast-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::MulticastStrategy
+STRATEGY_NAME	ncc-strategy.hpp	/^  static const Name STRATEGY_NAME;$/;"	m	class:nfd::fw::NccStrategy
+SUPPRESS	retx-suppression.hpp	/^    SUPPRESS$/;"	e	enum:nfd::fw::RetxSuppression::Result
+Strategy	strategy.cpp	/^Strategy::Strategy(Forwarder& forwarder, const Name& name)$/;"	f	class:nfd::fw::Strategy
+Strategy	strategy.hpp	/^class Strategy : public enable_shared_from_this<Strategy>, noncopyable$/;"	c	namespace:nfd::fw
+StrategyCreateFunc	strategy-registry.hpp	/^typedef std::function<shared_ptr<Strategy>(Forwarder&)> StrategyCreateFunc;$/;"	t	namespace:nfd::fw
+StrategyInfo	strategy-info.hpp	/^class StrategyInfo$/;"	c	namespace:nfd::fw
+UPDATE_MEASUREMENTS_N_LEVELS	ncc-strategy.hpp	/^  static const int UPDATE_MEASUREMENTS_N_LEVELS = 2;$/;"	m	class:nfd::fw::NccStrategy
+add	face-table.cpp	/^FaceTable::add(shared_ptr<Face> face)$/;"	f	class:nfd::FaceTable
+addFace	forwarder.hpp	/^Forwarder::addFace(shared_ptr<Face> face)$/;"	f	class:nfd::Forwarder
+addImpl	face-table.cpp	/^FaceTable::addImpl(shared_ptr<Face> face, FaceId faceId)$/;"	f	class:nfd::FaceTable
+addMeasurement	rtt-estimator.cpp	/^RttEstimator::addMeasurement(Duration measure)$/;"	f	class:nfd::RttEstimator
+addPrefixMeasurements	access-strategy.cpp	/^AccessStrategy::addPrefixMeasurements(const Data& data)$/;"	f	class:nfd::fw::AccessStrategy
+addReserved	face-table.cpp	/^FaceTable::addReserved(shared_ptr<Face> face, FaceId faceId)$/;"	f	class:nfd::FaceTable
+adjustPredictDown	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::adjustPredictDown() {$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+adjustPredictUp	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::adjustPredictUp() {$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+afterAddFace	strategy.hpp	/^  signal::Signal<FaceTable, shared_ptr<Face>>& afterAddFace;$/;"	m	class:nfd::fw::Strategy
+afterReceiveInterest	access-strategy.cpp	/^AccessStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::AccessStrategy
+afterReceiveInterest	best-route-strategy.cpp	/^BestRouteStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::BestRouteStrategy
+afterReceiveInterest	best-route-strategy2.cpp	/^BestRouteStrategy2::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::BestRouteStrategy2
+afterReceiveInterest	broadcast-strategy.cpp	/^BroadcastStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::BroadcastStrategy
+afterReceiveInterest	client-control-strategy.cpp	/^ClientControlStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::ClientControlStrategy
+afterReceiveInterest	multicast-strategy.cpp	/^MulticastStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::MulticastStrategy
+afterReceiveInterest	ncc-strategy.cpp	/^NccStrategy::afterReceiveInterest(const Face& inFace,$/;"	f	class:nfd::fw::NccStrategy
+afterReceiveNack	best-route-strategy2.cpp	/^BestRouteStrategy2::afterReceiveNack(const Face& inFace, const lp::Nack& nack,$/;"	f	class:nfd::fw::BestRouteStrategy2
+afterReceiveNack	strategy.cpp	/^Strategy::afterReceiveNack(const Face& inFace, const lp::Nack& nack,$/;"	f	class:nfd::fw::Strategy
+afterReceiveNewInterest	access-strategy.cpp	/^AccessStrategy::afterReceiveNewInterest(const Face& inFace,$/;"	f	class:nfd::fw::AccessStrategy
+afterReceiveRetxInterest	access-strategy.cpp	/^AccessStrategy::afterReceiveRetxInterest(const Face& inFace,$/;"	f	class:nfd::fw::AccessStrategy
+afterRtoTimeout	access-strategy.cpp	/^AccessStrategy::afterRtoTimeout(weak_ptr<pit::Entry> pitWeak, weak_ptr<fib::Entry> fibWeak,$/;"	f	class:nfd::fw::AccessStrategy
+ageBestFace	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::ageBestFace() {$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+beforeExpirePendingInterest	strategy.cpp	/^Strategy::beforeExpirePendingInterest(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::fw::Strategy
+beforeRemoveFace	strategy.hpp	/^  signal::Signal<FaceTable, shared_ptr<Face>>& beforeRemoveFace;$/;"	m	class:nfd::fw::Strategy
+beforeSatisfyInterest	access-strategy.cpp	/^AccessStrategy::beforeSatisfyInterest(shared_ptr<pit::Entry> pitEntry,$/;"	f	class:nfd::fw::AccessStrategy
+beforeSatisfyInterest	ncc-strategy.cpp	/^NccStrategy::beforeSatisfyInterest(shared_ptr<pit::Entry> pitEntry,$/;"	f	class:nfd::fw::NccStrategy
+beforeSatisfyInterest	strategy.cpp	/^Strategy::beforeSatisfyInterest(shared_ptr<pit::Entry> pitEntry,$/;"	f	class:nfd::fw::Strategy
+begin	face-table.cpp	/^FaceTable::begin() const$/;"	f	class:nfd::FaceTable
+bestFace	ncc-strategy.hpp	/^    weak_ptr<Face> bestFace;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+bestFaceTimeout	ncc-strategy.hpp	/^    scheduler::EventId bestFaceTimeout;$/;"	m	class:nfd::fw::NccStrategy::PitEntryInfo
+cancelUnsatisfyAndStragglerTimer	forwarder.cpp	/^Forwarder::cancelUnsatisfyAndStragglerTimer(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::Forwarder
+compareLessSevere	best-route-strategy2.cpp	/^compareLessSevere(lp::NackReason x, lp::NackReason y)$/;"	f	namespace:nfd::fw
+compare_InRecord_expiry	forwarder.cpp	/^compare_InRecord_expiry(const pit::InRecord& a, const pit::InRecord& b)$/;"	f	namespace:nfd
+compare_pickInterest	forwarder.cpp	/^compare_pickInterest(const pit::InRecord& a, const pit::InRecord& b, const Face* outFace)$/;"	f	namespace:nfd
+computeRto	rtt-estimator.cpp	/^RttEstimator::computeRto() const$/;"	f	class:nfd::RttEstimator
+const_iterator	face-table.hpp	/^  typedef boost::range_iterator<ForwardRange>::type const_iterator;$/;"	t	class:nfd::FaceTable
+copyTo	forwarder-counters.hpp	/^  copyTo(R& recipient) const$/;"	f	class:nfd::ForwarderCounters
+decide	retx-suppression-exponential.cpp	/^RetxSuppressionExponential::decide(const Face& inFace, const Interest& interest,$/;"	f	class:nfd::fw::RetxSuppressionExponential
+decide	retx-suppression-fixed.cpp	/^RetxSuppressionFixed::decide(const Face& inFace, const Interest& interest,$/;"	f	class:nfd::fw::RetxSuppressionFixed
+dispatchToStrategy	forwarder.hpp	/^Forwarder::dispatchToStrategy(shared_ptr<pit::Entry> pitEntry, function<void(fw::Strategy*)> trigger)$/;"	f	class:nfd::Forwarder
+doPropagate	ncc-strategy.cpp	/^NccStrategy::doPropagate(weak_ptr<pit::Entry> pitEntryWeak, weak_ptr<fib::Entry> fibEntryWeak)$/;"	f	class:nfd::fw::NccStrategy
+doubleMultiplier	rtt-estimator.cpp	/^RttEstimator::doubleMultiplier()$/;"	f	class:nfd::RttEstimator
+end	face-table.cpp	/^FaceTable::end() const$/;"	f	class:nfd::FaceTable
+findEligibleNextHopWithEarliestOutRecord	best-route-strategy2.cpp	/^findEligibleNextHopWithEarliestOutRecord(const shared_ptr<pit::Entry>& pitEntry,$/;"	f	namespace:nfd::fw
+findPrefixMeasurements	access-strategy.cpp	/^AccessStrategy::findPrefixMeasurements(const pit::Entry& pitEntry)$/;"	f	class:nfd::fw::AccessStrategy
+fw	access-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	access-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	best-route-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	best-route-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	best-route-strategy2.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	best-route-strategy2.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	broadcast-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	broadcast-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	client-control-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	client-control-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	forwarder.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	multicast-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	multicast-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	ncc-strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	ncc-strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	retx-suppression-exponential.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	retx-suppression-exponential.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	retx-suppression-fixed.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	retx-suppression-fixed.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	retx-suppression.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	retx-suppression.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	strategy-info.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	strategy-registry.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	strategy-registry.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	strategy.cpp	/^namespace fw {$/;"	n	namespace:nfd	file:
+fw	strategy.hpp	/^namespace fw {$/;"	n	namespace:nfd
+get	face-table.cpp	/^FaceTable::get(FaceId id) const$/;"	f	class:nfd::FaceTable
+getBestFace	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::getBestFace(void) {$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+getCounters	forwarder.hpp	/^Forwarder::getCounters() const$/;"	f	class:nfd::Forwarder
+getCs	forwarder.hpp	/^Forwarder::getCs()$/;"	f	class:nfd::Forwarder
+getDeadNonceList	forwarder.hpp	/^Forwarder::getDeadNonceList()$/;"	f	class:nfd::Forwarder
+getFace	forwarder.hpp	/^Forwarder::getFace(FaceId id) const$/;"	f	class:nfd::Forwarder
+getFace	strategy.hpp	/^Strategy::getFace(FaceId id)$/;"	f	class:nfd::fw::Strategy
+getFaceTable	forwarder.hpp	/^Forwarder::getFaceTable()$/;"	f	class:nfd::Forwarder
+getFaceTable	strategy.hpp	/^Strategy::getFaceTable()$/;"	f	class:nfd::fw::Strategy
+getFib	forwarder.hpp	/^Forwarder::getFib()$/;"	f	class:nfd::Forwarder
+getForwardRange	face-table.cpp	/^FaceTable::getForwardRange() const$/;"	f	class:nfd::FaceTable
+getInitialRtt	rtt-estimator.hpp	/^  getInitialRtt(void)$/;"	f	class:nfd::RttEstimator
+getLastOutgoing	retx-suppression.cpp	/^RetxSuppression::getLastOutgoing(const pit::Entry& pitEntry) const$/;"	f	class:nfd::fw::RetxSuppression
+getMeasurements	forwarder.hpp	/^Forwarder::getMeasurements()$/;"	f	class:nfd::Forwarder
+getMeasurements	strategy.hpp	/^Strategy::getMeasurements()$/;"	f	class:nfd::fw::Strategy
+getMeasurementsEntryInfo	ncc-strategy.cpp	/^NccStrategy::getMeasurementsEntryInfo(shared_ptr<measurements::Entry> entry)$/;"	f	class:nfd::fw::NccStrategy
+getMeasurementsEntryInfo	ncc-strategy.cpp	/^NccStrategy::getMeasurementsEntryInfo(shared_ptr<pit::Entry> entry)$/;"	f	class:nfd::fw::NccStrategy
+getName	strategy.hpp	/^Strategy::getName() const$/;"	f	class:nfd::fw::Strategy
+getNameTree	forwarder.hpp	/^Forwarder::getNameTree()$/;"	f	class:nfd::Forwarder
+getNetworkRegionTable	forwarder.hpp	/^Forwarder::getNetworkRegionTable()$/;"	f	class:nfd::Forwarder
+getPit	forwarder.hpp	/^Forwarder::getPit()$/;"	f	class:nfd::Forwarder
+getStrategyChoice	forwarder.hpp	/^Forwarder::getStrategyChoice()$/;"	f	class:nfd::Forwarder
+getStrategyFactories	strategy-registry.cpp	/^getStrategyFactories()$/;"	f	namespace:nfd::fw
+getTypeId	access-strategy.hpp	/^    getTypeId()$/;"	f	class:nfd::fw::AccessStrategy::MtInfo
+getTypeId	access-strategy.hpp	/^    getTypeId()$/;"	f	class:nfd::fw::AccessStrategy::PitInfo
+getTypeId	ncc-strategy.hpp	/^    getTypeId()$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+getTypeId	ncc-strategy.hpp	/^    getTypeId()$/;"	f	class:nfd::fw::NccStrategy::PitEntryInfo
+getTypeId	retx-suppression-exponential.cpp	/^  getTypeId()$/;"	f	class:nfd::fw::RetxSuppressionExponential::PitInfo
+getTypeId	strategy-info.hpp	/^  getTypeId()$/;"	f	class:nfd::fw::StrategyInfo
+incrementMultiplier	rtt-estimator.cpp	/^RttEstimator::incrementMultiplier()$/;"	f	class:nfd::RttEstimator
+inheritFrom	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::inheritFrom(const MeasurementsEntryInfo& other)$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+insertDeadNonceList	forwarder.cpp	/^Forwarder::insertDeadNonceList(pit::Entry& pitEntry, bool isSatisfied,$/;"	f	class:nfd::Forwarder
+insertNonceToDnl	forwarder.cpp	/^insertNonceToDnl(DeadNonceList& dnl, const pit::Entry& pitEntry,$/;"	f	namespace:nfd
+installStrategies	strategy-registry.cpp	/^installStrategies(Forwarder& forwarder)$/;"	f	namespace:nfd::fw
+lastNexthop	access-strategy.hpp	/^    FaceId lastNexthop;$/;"	m	class:nfd::fw::AccessStrategy::MtInfo
+m_counters	forwarder.hpp	/^  ForwarderCounters m_counters;$/;"	m	class:nfd::Forwarder
+m_cs	forwarder.hpp	/^  Cs                 m_cs;$/;"	m	class:nfd::Forwarder
+m_deadNonceList	forwarder.hpp	/^  DeadNonceList      m_deadNonceList;$/;"	m	class:nfd::Forwarder
+m_faceTable	forwarder.hpp	/^  FaceTable m_faceTable;$/;"	m	class:nfd::Forwarder
+m_faces	face-table.hpp	/^  FaceMap m_faces;$/;"	m	class:nfd::FaceTable
+m_fib	forwarder.hpp	/^  Fib                m_fib;$/;"	m	class:nfd::Forwarder
+m_fit	access-strategy.hpp	/^  FaceInfoTable m_fit;$/;"	m	class:nfd::fw::AccessStrategy
+m_forwarder	face-table.hpp	/^  Forwarder& m_forwarder;$/;"	m	class:nfd::FaceTable
+m_forwarder	strategy.hpp	/^  Forwarder& m_forwarder;$/;"	m	class:nfd::fw::Strategy
+m_gain	rtt-estimator.hpp	/^  double m_gain;$/;"	m	class:nfd::RttEstimator
+m_initialInterval	retx-suppression-exponential.hpp	/^  const Duration m_initialInterval;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+m_isFirstUse	broadcast-strategy.hpp	/^  bool m_isFirstUse;$/;"	m	class:nfd::fw::BroadcastStrategy
+m_lastFaceId	face-table.hpp	/^  FaceId m_lastFaceId;$/;"	m	class:nfd::FaceTable
+m_maxInterval	retx-suppression-exponential.hpp	/^  const Duration m_maxInterval;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+m_maxMultiplier	rtt-estimator.hpp	/^  uint16_t m_maxMultiplier;$/;"	m	class:nfd::RttEstimator
+m_measurements	forwarder.hpp	/^  Measurements       m_measurements;$/;"	m	class:nfd::Forwarder
+m_measurements	strategy.hpp	/^  MeasurementsAccessor m_measurements;$/;"	m	class:nfd::fw::Strategy
+m_minRetxInterval	retx-suppression-fixed.hpp	/^  const time::milliseconds m_minRetxInterval;$/;"	m	class:nfd::fw::RetxSuppressionFixed
+m_minRto	rtt-estimator.hpp	/^  double m_minRto;$/;"	m	class:nfd::RttEstimator
+m_multiplier	retx-suppression-exponential.hpp	/^  const float m_multiplier;$/;"	m	class:nfd::fw::RetxSuppressionExponential
+m_multiplier	rtt-estimator.hpp	/^  uint16_t m_multiplier;$/;"	m	class:nfd::RttEstimator
+m_nSamples	rtt-estimator.hpp	/^  uint32_t m_nSamples;$/;"	m	class:nfd::RttEstimator
+m_name	strategy.hpp	/^  Name m_name;$/;"	m	class:nfd::fw::Strategy
+m_nameTree	forwarder.hpp	/^  NameTree           m_nameTree;$/;"	m	class:nfd::Forwarder
+m_networkRegionTable	forwarder.hpp	/^  NetworkRegionTable m_networkRegionTable;$/;"	m	class:nfd::Forwarder
+m_pit	forwarder.hpp	/^  Pit                m_pit;$/;"	m	class:nfd::Forwarder
+m_removeFaceInfoConn	access-strategy.hpp	/^  signal::ScopedConnection m_removeFaceInfoConn;$/;"	m	class:nfd::fw::AccessStrategy
+m_retxSuppression	access-strategy.hpp	/^  RetxSuppressionFixed m_retxSuppression;$/;"	m	class:nfd::fw::AccessStrategy
+m_retxSuppression	best-route-strategy2.hpp	/^  RetxSuppressionExponential m_retxSuppression;$/;"	m	class:nfd::fw::BestRouteStrategy2
+m_rtt	rtt-estimator.hpp	/^  double m_rtt;$/;"	m	class:nfd::RttEstimator
+m_strategyChoice	forwarder.hpp	/^  StrategyChoice     m_strategyChoice;$/;"	m	class:nfd::Forwarder
+m_variance	rtt-estimator.hpp	/^  double m_variance;$/;"	m	class:nfd::RttEstimator
+makeDefaultStrategy	strategy-registry.cpp	/^makeDefaultStrategy(Forwarder& forwarder)$/;"	f	namespace:nfd::fw
+maxInterval	ncc-strategy.hpp	/^    time::microseconds maxInterval;$/;"	m	class:nfd::fw::NccStrategy::PitEntryInfo
+multicast	access-strategy.cpp	/^AccessStrategy::multicast(shared_ptr<pit::Entry> pitEntry, shared_ptr<fib::Entry> fibEntry,$/;"	f	class:nfd::fw::AccessStrategy
+nfd	access-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	access-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	best-route-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	best-route-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	best-route-strategy2.cpp	/^namespace nfd {$/;"	n	file:
+nfd	best-route-strategy2.hpp	/^namespace nfd {$/;"	n
+nfd	broadcast-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	broadcast-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	client-control-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	client-control-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	face-table.cpp	/^namespace nfd {$/;"	n	file:
+nfd	face-table.hpp	/^namespace nfd {$/;"	n
+nfd	forwarder-counters.hpp	/^namespace nfd {$/;"	n
+nfd	forwarder.cpp	/^namespace nfd {$/;"	n	file:
+nfd	forwarder.hpp	/^namespace nfd {$/;"	n
+nfd	multicast-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	multicast-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	ncc-strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	ncc-strategy.hpp	/^namespace nfd {$/;"	n
+nfd	retx-suppression-exponential.cpp	/^namespace nfd {$/;"	n	file:
+nfd	retx-suppression-exponential.hpp	/^namespace nfd {$/;"	n
+nfd	retx-suppression-fixed.cpp	/^namespace nfd {$/;"	n	file:
+nfd	retx-suppression-fixed.hpp	/^namespace nfd {$/;"	n
+nfd	retx-suppression.cpp	/^namespace nfd {$/;"	n	file:
+nfd	retx-suppression.hpp	/^namespace nfd {$/;"	n
+nfd	rtt-estimator.cpp	/^namespace nfd {$/;"	n	file:
+nfd	rtt-estimator.hpp	/^namespace nfd {$/;"	n
+nfd	strategy-info.hpp	/^namespace nfd {$/;"	n
+nfd	strategy-registry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	strategy-registry.hpp	/^namespace nfd {$/;"	n
+nfd	strategy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	strategy.hpp	/^namespace nfd {$/;"	n
+onAdd	face-table.hpp	/^  signal::Signal<FaceTable, shared_ptr<Face>> onAdd;$/;"	m	class:nfd::FaceTable
+onContentStoreHit	forwarder.cpp	/^Forwarder::onContentStoreHit(const Face& inFace,$/;"	f	class:nfd::Forwarder
+onContentStoreMiss	forwarder.cpp	/^Forwarder::onContentStoreMiss(const Face& inFace,$/;"	f	class:nfd::Forwarder
+onDataUnsolicited	forwarder.cpp	/^Forwarder::onDataUnsolicited(Face& inFace, const Data& data)$/;"	f	class:nfd::Forwarder
+onIncomingData	forwarder.cpp	/^Forwarder::onIncomingData(Face& inFace, const Data& data)$/;"	f	class:nfd::Forwarder
+onIncomingInterest	forwarder.cpp	/^Forwarder::onIncomingInterest(Face& inFace, const Interest& interest)$/;"	f	class:nfd::Forwarder
+onIncomingNack	forwarder.cpp	/^Forwarder::onIncomingNack(Face& inFace, const lp::Nack& nack)$/;"	f	class:nfd::Forwarder
+onInterestFinalize	forwarder.cpp	/^Forwarder::onInterestFinalize(shared_ptr<pit::Entry> pitEntry, bool isSatisfied,$/;"	f	class:nfd::Forwarder
+onInterestLoop	forwarder.cpp	/^Forwarder::onInterestLoop(Face& inFace, const Interest& interest,$/;"	f	class:nfd::Forwarder
+onInterestReject	forwarder.cpp	/^Forwarder::onInterestReject(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::Forwarder
+onInterestUnsatisfied	forwarder.cpp	/^Forwarder::onInterestUnsatisfied(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::Forwarder
+onOutgoingData	forwarder.cpp	/^Forwarder::onOutgoingData(const Data& data, Face& outFace)$/;"	f	class:nfd::Forwarder
+onOutgoingInterest	forwarder.cpp	/^Forwarder::onOutgoingInterest(shared_ptr<pit::Entry> pitEntry, Face& outFace,$/;"	f	class:nfd::Forwarder
+onOutgoingNack	forwarder.cpp	/^Forwarder::onOutgoingNack(shared_ptr<pit::Entry> pitEntry, const Face& outFace,$/;"	f	class:nfd::Forwarder
+onRemove	face-table.hpp	/^  signal::Signal<FaceTable, shared_ptr<Face>> onRemove;$/;"	m	class:nfd::FaceTable
+predicate_NextHop_eligible	best-route-strategy2.cpp	/^predicate_NextHop_eligible(const shared_ptr<pit::Entry>& pitEntry,$/;"	f	namespace:nfd::fw
+predicate_PitEntry_canForwardTo_NextHop	best-route-strategy.cpp	/^predicate_PitEntry_canForwardTo_NextHop(shared_ptr<pit::Entry> pitEntry,$/;"	f	namespace:nfd::fw
+prediction	ncc-strategy.hpp	/^    time::microseconds prediction;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+previousFace	ncc-strategy.hpp	/^    weak_ptr<Face> previousFace;$/;"	m	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+propagateTimer	ncc-strategy.hpp	/^    scheduler::EventId propagateTimer;$/;"	m	class:nfd::fw::NccStrategy::PitEntryInfo
+registerStrategy	strategy-registry.hpp	/^registerStrategy()$/;"	f	namespace:nfd::fw
+registerStrategyImpl	strategy-registry.cpp	/^registerStrategyImpl(const Name& strategyName, const StrategyCreateFunc& createFunc)$/;"	f	namespace:nfd::fw
+rejectPendingInterest	strategy.hpp	/^Strategy::rejectPendingInterest(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::fw::Strategy
+remove	face-table.cpp	/^FaceTable::remove(shared_ptr<Face> face, const std::string& reason)$/;"	f	class:nfd::FaceTable
+removeFaceInfo	access-strategy.cpp	/^AccessStrategy::removeFaceInfo(shared_ptr<Face> face)$/;"	f	class:nfd::fw::AccessStrategy
+rtoTimer	access-strategy.hpp	/^    scheduler::ScopedEventId rtoTimer;$/;"	m	class:nfd::fw::AccessStrategy::PitInfo
+rtt	access-strategy.hpp	/^    RttEstimator rtt;$/;"	m	class:nfd::fw::AccessStrategy::FaceInfo
+rtt	access-strategy.hpp	/^    RttEstimator rtt;$/;"	m	class:nfd::fw::AccessStrategy::MtInfo
+sendInterest	strategy.hpp	/^Strategy::sendInterest(shared_ptr<pit::Entry> pitEntry,$/;"	f	class:nfd::fw::Strategy
+sendNack	strategy.hpp	/^Strategy::sendNack(shared_ptr<pit::Entry> pitEntry, const Face& outFace,$/;"	f	class:nfd::fw::Strategy
+sendNacks	strategy.cpp	/^Strategy::sendNacks(shared_ptr<pit::Entry> pitEntry, const lp::NackHeader& header,$/;"	f	class:nfd::fw::Strategy
+sendToLastNexthop	access-strategy.cpp	/^AccessStrategy::sendToLastNexthop(const Face& inFace, shared_ptr<pit::Entry> pitEntry, MtInfo& mi,$/;"	f	class:nfd::fw::AccessStrategy
+setStragglerTimer	forwarder.cpp	/^Forwarder::setStragglerTimer(shared_ptr<pit::Entry> pitEntry, bool isSatisfied,$/;"	f	class:nfd::Forwarder
+setUnsatisfyTimer	forwarder.cpp	/^Forwarder::setUnsatisfyTimer(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::Forwarder
+size	face-table.cpp	/^FaceTable::size() const$/;"	f	class:nfd::FaceTable
+startProcessData	forwarder.cpp	/^Forwarder::startProcessData(Face& face, const Data& data)$/;"	f	class:nfd::Forwarder
+startProcessInterest	forwarder.cpp	/^Forwarder::startProcessInterest(Face& face, const Interest& interest)$/;"	f	class:nfd::Forwarder
+startProcessNack	forwarder.cpp	/^Forwarder::startProcessNack(Face& face, const lp::Nack& nack)$/;"	f	class:nfd::Forwarder
+suppressionInterval	retx-suppression-exponential.cpp	/^  Duration suppressionInterval;$/;"	m	class:nfd::fw::RetxSuppressionExponential::PitInfo	file:
+timeoutOnBestFace	ncc-strategy.cpp	/^NccStrategy::timeoutOnBestFace(weak_ptr<pit::Entry> pitEntryWeak)$/;"	f	class:nfd::fw::NccStrategy
+updateBestFace	ncc-strategy.cpp	/^NccStrategy::MeasurementsEntryInfo::updateBestFace(const Face& face) {$/;"	f	class:nfd::fw::NccStrategy::MeasurementsEntryInfo
+updateMeasurements	access-strategy.cpp	/^AccessStrategy::updateMeasurements(const Face& inFace, const Data& data,$/;"	f	class:nfd::fw::AccessStrategy
+~AccessStrategy	access-strategy.cpp	/^AccessStrategy::~AccessStrategy()$/;"	f	class:nfd::fw::AccessStrategy
+~BestRouteStrategy	best-route-strategy.cpp	/^BestRouteStrategy::~BestRouteStrategy()$/;"	f	class:nfd::fw::BestRouteStrategy
+~ClientControlStrategy	client-control-strategy.cpp	/^ClientControlStrategy::~ClientControlStrategy()$/;"	f	class:nfd::fw::ClientControlStrategy
+~FaceTable	face-table.cpp	/^FaceTable::~FaceTable()$/;"	f	class:nfd::FaceTable
+~Forwarder	forwarder.cpp	/^Forwarder::~Forwarder()$/;"	f	class:nfd::Forwarder
+~NccStrategy	ncc-strategy.cpp	/^NccStrategy::~NccStrategy()$/;"	f	class:nfd::fw::NccStrategy
+~PitEntryInfo	ncc-strategy.cpp	/^NccStrategy::PitEntryInfo::~PitEntryInfo()$/;"	f	class:nfd::fw::NccStrategy::PitEntryInfo
+~Strategy	strategy.cpp	/^Strategy::~Strategy()$/;"	f	class:nfd::fw::Strategy
+~StrategyInfo	strategy-info.hpp	/^StrategyInfo::~StrategyInfo()$/;"	f	class:nfd::fw::StrategyInfo
