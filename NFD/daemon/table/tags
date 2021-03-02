@@ -1,0 +1,634 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AnyEntry	measurements.hpp	/^class AnyEntry$/;"	c	namespace:nfd::measurements
+AnyEntry	name-tree.hpp	/^struct AnyEntry {$/;"	s	namespace:nfd::name_tree
+AnyEntrySubTree	name-tree.hpp	/^struct AnyEntrySubTree {$/;"	s	namespace:nfd::name_tree
+CAPACITY_DOWN	dead-nonce-list.cpp	/^const double DeadNonceList::CAPACITY_DOWN = 0.9;$/;"	m	class:nfd::DeadNonceList	file:
+CAPACITY_DOWN	dead-nonce-list.hpp	/^  static const double CAPACITY_DOWN;$/;"	m	class:nfd::DeadNonceList
+CAPACITY_UP	dead-nonce-list.cpp	/^const double DeadNonceList::CAPACITY_UP = 1.2;$/;"	m	class:nfd::DeadNonceList	file:
+CAPACITY_UP	dead-nonce-list.hpp	/^  static const double CAPACITY_UP;$/;"	m	class:nfd::DeadNonceList
+CityHash	name-tree.cpp	/^typedef boost::mpl::if_c<sizeof(size_t) >= 8, Hash64, Hash32>::type CityHash;$/;"	t	namespace:nfd::name_tree	file:
+Cs	cs.cpp	/^Cs::Cs(size_t nMaxPackets, unique_ptr<Policy> policy)$/;"	f	class:nfd::cs::Cs
+Cs	cs.hpp	/^class Cs : noncopyable$/;"	c	namespace:nfd::cs
+DECL_OVERRIDE	cs-policy-lru.hpp	/^  doAfterInsert(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::lru::LruPolicy
+DECL_OVERRIDE	cs-policy-lru.hpp	/^  doAfterRefresh(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::lru::LruPolicy
+DECL_OVERRIDE	cs-policy-lru.hpp	/^  doBeforeErase(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::lru::LruPolicy
+DECL_OVERRIDE	cs-policy-lru.hpp	/^  doBeforeUse(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::lru::LruPolicy
+DECL_OVERRIDE	cs-policy-lru.hpp	/^  evictEntries() DECL_OVERRIDE;$/;"	m	class:nfd::cs::lru::LruPolicy
+DECL_OVERRIDE	cs-policy-priority-fifo.hpp	/^  doAfterInsert(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+DECL_OVERRIDE	cs-policy-priority-fifo.hpp	/^  doAfterRefresh(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+DECL_OVERRIDE	cs-policy-priority-fifo.hpp	/^  doBeforeErase(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+DECL_OVERRIDE	cs-policy-priority-fifo.hpp	/^  doBeforeUse(iterator i) DECL_OVERRIDE;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+DECL_OVERRIDE	cs-policy-priority-fifo.hpp	/^  evictEntries() DECL_OVERRIDE;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+DEFAULT_LIFETIME	dead-nonce-list.cpp	/^const time::nanoseconds DeadNonceList::DEFAULT_LIFETIME = time::seconds(6);$/;"	m	class:nfd::DeadNonceList	file:
+DEFAULT_LIFETIME	dead-nonce-list.hpp	/^  static const time::nanoseconds DEFAULT_LIFETIME;$/;"	m	class:nfd::DeadNonceList
+DUPLICATE_NONCE_IN_OTHER	pit-entry.hpp	/^  DUPLICATE_NONCE_IN_OTHER  = (1 << 1),$/;"	e	enum:nfd::pit::DuplicateNonceWhere
+DUPLICATE_NONCE_IN_SAME	pit-entry.hpp	/^  DUPLICATE_NONCE_IN_SAME   = (1 << 0),$/;"	e	enum:nfd::pit::DuplicateNonceWhere
+DUPLICATE_NONCE_NONE	pit-entry.hpp	/^  DUPLICATE_NONCE_NONE      = 0,$/;"	e	enum:nfd::pit::DuplicateNonceWhere
+DUPLICATE_NONCE_OUT_OTHER	pit-entry.hpp	/^  DUPLICATE_NONCE_OUT_OTHER = (1 << 3)$/;"	e	enum:nfd::pit::DuplicateNonceWhere
+DUPLICATE_NONCE_OUT_SAME	pit-entry.hpp	/^  DUPLICATE_NONCE_OUT_SAME  = (1 << 2),$/;"	e	enum:nfd::pit::DuplicateNonceWhere
+DataMatchResult	pit.hpp	/^typedef std::vector<shared_ptr<pit::Entry>> DataMatchResult;$/;"	t	namespace:nfd::pit
+DeadNonceList	dead-nonce-list.cpp	/^DeadNonceList::DeadNonceList(const time::nanoseconds& lifetime)$/;"	f	class:nfd::DeadNonceList
+DeadNonceList	dead-nonce-list.hpp	/^class DeadNonceList : noncopyable$/;"	c	namespace:nfd
+DuplicateNonceWhere	pit-entry.hpp	/^enum DuplicateNonceWhere {$/;"	g	namespace:nfd::pit
+EVICT_LIMIT	dead-nonce-list.cpp	/^const size_t DeadNonceList::EVICT_LIMIT = (1 << 6);$/;"	m	class:nfd::DeadNonceList	file:
+EVICT_LIMIT	dead-nonce-list.hpp	/^  static const size_t EVICT_LIMIT;$/;"	m	class:nfd::DeadNonceList
+EXPECTED_MARK_COUNT	dead-nonce-list.cpp	/^const size_t DeadNonceList::EXPECTED_MARK_COUNT = 5;$/;"	m	class:nfd::DeadNonceList	file:
+EXPECTED_MARK_COUNT	dead-nonce-list.hpp	/^  static const size_t EXPECTED_MARK_COUNT;$/;"	m	class:nfd::DeadNonceList
+Entry	cs-entry.hpp	/^class Entry$/;"	c	namespace:nfd::cs
+Entry	dead-nonce-list.hpp	/^  typedef uint64_t Entry;$/;"	t	class:nfd::DeadNonceList
+Entry	fib-entry.cpp	/^Entry::Entry(const Name& prefix)$/;"	f	class:nfd::fib::Entry
+Entry	fib-entry.hpp	/^class Entry : noncopyable$/;"	c	namespace:nfd::fib
+Entry	measurements-entry.cpp	/^Entry::Entry(const Name& name)$/;"	f	class:nfd::measurements::Entry
+Entry	measurements-entry.hpp	/^class Entry : public StrategyInfoHost, noncopyable$/;"	c	namespace:nfd::measurements
+Entry	name-tree-entry.cpp	/^Entry::Entry(const Name& name)$/;"	f	class:nfd::name_tree::Entry
+Entry	name-tree-entry.hpp	/^class Entry : public enable_shared_from_this<Entry>, noncopyable$/;"	c	namespace:nfd::name_tree
+Entry	pit-entry.cpp	/^Entry::Entry(const Interest& interest)$/;"	f	class:nfd::pit::Entry
+Entry	pit-entry.hpp	/^class Entry : public StrategyInfoHost, noncopyable$/;"	c	namespace:nfd::pit
+Entry	strategy-choice-entry.cpp	/^Entry::Entry(const Name& prefix)$/;"	f	class:nfd::strategy_choice::Entry
+Entry	strategy-choice-entry.hpp	/^class Entry : noncopyable$/;"	c	namespace:nfd::strategy_choice
+EntryFromEntryImpl	cs.hpp	/^  struct EntryFromEntryImpl$/;"	s	class:nfd::cs::Cs
+EntryImpl	cs-entry-impl.cpp	/^EntryImpl::EntryImpl(const Name& name)$/;"	f	class:nfd::cs::EntryImpl
+EntryImpl	cs-entry-impl.cpp	/^EntryImpl::EntryImpl(shared_ptr<const Data> data, bool isUnsolicited)$/;"	f	class:nfd::cs::EntryImpl
+EntryImpl	cs-entry-impl.hpp	/^class EntryImpl : public Entry$/;"	c	namespace:nfd::cs
+EntryInfo	cs-policy-priority-fifo.hpp	/^struct EntryInfo$/;"	s	namespace:nfd::cs::priority_fifo
+EntryInfoMapFifo	cs-policy-priority-fifo.hpp	/^typedef std::map<iterator, EntryInfo*, EntryItComparator> EntryInfoMapFifo;$/;"	t	namespace:nfd::cs::priority_fifo
+EntryItComparator	cs-policy-lru.hpp	/^struct EntryItComparator$/;"	s	namespace:nfd::cs::lru
+EntryItComparator	cs-policy-priority-fifo.hpp	/^struct EntryItComparator$/;"	s	namespace:nfd::cs::priority_fifo
+EntryPredicate	measurements.hpp	/^typedef std::function<bool(const Entry&)> EntryPredicate;$/;"	t	namespace:nfd::measurements
+EntrySelector	name-tree.hpp	/^typedef function<bool (const Entry& entry)> EntrySelector;$/;"	t	namespace:nfd::name_tree
+EntrySubTreeSelector	name-tree.hpp	/^typedef function<std::pair<bool,bool> (const Entry& entry)> EntrySubTreeSelector;$/;"	t	namespace:nfd::name_tree
+EntryWithStrategyInfo	measurements.hpp	/^class EntryWithStrategyInfo$/;"	c	namespace:nfd::measurements
+FIND_ALL_MATCHES_TYPE	name-tree.hpp	/^    FIND_ALL_MATCHES_TYPE$/;"	e	enum:nfd::NameTree::IteratorType
+FULL_ENUMERATE_TYPE	name-tree.hpp	/^    FULL_ENUMERATE_TYPE,$/;"	e	enum:nfd::NameTree::IteratorType
+FaceRecord	pit-face-record.cpp	/^FaceRecord::FaceRecord(shared_ptr<Face> face)$/;"	f	class:nfd::pit::FaceRecord
+FaceRecord	pit-face-record.hpp	/^class FaceRecord : public StrategyInfoHost$/;"	c	namespace:nfd::pit
+Fib	fib.cpp	/^Fib::Fib(NameTree& nameTree)$/;"	f	class:nfd::Fib
+Fib	fib.hpp	/^class Fib : noncopyable$/;"	c	namespace:nfd
+Hash32	name-tree.cpp	/^class Hash32$/;"	c	namespace:nfd::name_tree	file:
+Hash64	name-tree.cpp	/^class Hash64$/;"	c	namespace:nfd::name_tree	file:
+Hash64	name-tree.cpp	/^typedef boost::mpl::if_c<sizeof(size_t) >= 8, Hash64, Hash32>::type CityHash;$/;"	t	namespace:nfd::name_tree	file:
+Hashtable	dead-nonce-list.hpp	/^  typedef Index::nth_index<1>::type Hashtable;$/;"	t	class:nfd::DeadNonceList
+HitCallback	cs.hpp	/^  typedef std::function<void(const Interest&, const Data& data)> HitCallback;$/;"	t	class:nfd::cs::Cs
+INITIAL_CAPACITY	dead-nonce-list.cpp	/^const size_t DeadNonceList::INITIAL_CAPACITY = (1 << 7);$/;"	m	class:nfd::DeadNonceList	file:
+INITIAL_CAPACITY	dead-nonce-list.hpp	/^  static const size_t INITIAL_CAPACITY;$/;"	m	class:nfd::DeadNonceList
+InRecord	pit-in-record.cpp	/^InRecord::InRecord(shared_ptr<Face> face)$/;"	f	class:nfd::pit::InRecord
+InRecord	pit-in-record.hpp	/^class InRecord : public FaceRecord$/;"	c	namespace:nfd::pit
+InRecordCollection	pit-entry.hpp	/^typedef std::list< InRecord>  InRecordCollection;$/;"	t	namespace:nfd::pit
+Index	dead-nonce-list.hpp	/^  > Index;$/;"	t	class:nfd::DeadNonceList
+IteratorType	name-tree.hpp	/^  enum IteratorType {$/;"	g	class:nfd::NameTree
+LOCALHOP_NAME	pit-entry.hpp	/^  static const Name LOCALHOP_NAME;$/;"	m	class:nfd::pit::Entry
+LOCALHOST_NAME	pit-entry.hpp	/^  static const Name LOCALHOST_NAME;$/;"	m	class:nfd::pit::Entry
+LruPolicy	cs-policy-lru.cpp	/^LruPolicy::LruPolicy()$/;"	f	class:nfd::cs::lru::LruPolicy
+LruPolicy	cs-policy-lru.hpp	/^class LruPolicy : public Policy$/;"	c	namespace:nfd::cs::lru
+MARK	dead-nonce-list.cpp	/^const DeadNonceList::Entry DeadNonceList::MARK = 0;$/;"	m	class:nfd::DeadNonceList	file:
+MARK	dead-nonce-list.hpp	/^  static const Entry MARK;$/;"	m	class:nfd::DeadNonceList
+MAX_CAPACITY	dead-nonce-list.cpp	/^const size_t DeadNonceList::MAX_CAPACITY = (1 << 24);$/;"	m	class:nfd::DeadNonceList	file:
+MAX_CAPACITY	dead-nonce-list.hpp	/^  static const size_t MAX_CAPACITY;$/;"	m	class:nfd::DeadNonceList
+MIN_CAPACITY	dead-nonce-list.cpp	/^const size_t DeadNonceList::MIN_CAPACITY = (1 << 3);$/;"	m	class:nfd::DeadNonceList	file:
+MIN_CAPACITY	dead-nonce-list.hpp	/^  static const size_t MIN_CAPACITY;$/;"	m	class:nfd::DeadNonceList
+MIN_LIFETIME	dead-nonce-list.cpp	/^const time::nanoseconds DeadNonceList::MIN_LIFETIME = time::milliseconds(1);$/;"	m	class:nfd::DeadNonceList	file:
+MIN_LIFETIME	dead-nonce-list.hpp	/^  static const time::nanoseconds MIN_LIFETIME;$/;"	m	class:nfd::DeadNonceList
+Measurements	measurements.cpp	/^Measurements::Measurements(NameTree& nameTree)$/;"	f	class:nfd::Measurements
+Measurements	measurements.hpp	/^class Measurements : noncopyable$/;"	c	namespace:nfd
+MeasurementsAccessor	measurements-accessor.cpp	/^MeasurementsAccessor::MeasurementsAccessor(Measurements& measurements,$/;"	f	class:nfd::MeasurementsAccessor
+MeasurementsAccessor	measurements-accessor.hpp	/^class MeasurementsAccessor : noncopyable$/;"	c	namespace:nfd
+MissCallback	cs.hpp	/^  typedef std::function<void(const Interest&)> MissCallback;$/;"	t	class:nfd::cs::Cs
+NFD_DAEMON_TABLE_CS_ENTRY_HPP	cs-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_CS_ENTRY_IMPL_HPP	cs-entry-impl.hpp	27;"	d
+NFD_DAEMON_TABLE_CS_HPP	cs.hpp	49;"	d
+NFD_DAEMON_TABLE_CS_INTERNAL_HPP	cs-internal.hpp	31;"	d
+NFD_DAEMON_TABLE_CS_POLICY_FIFO_HPP	cs-policy-priority-fifo.hpp	27;"	d
+NFD_DAEMON_TABLE_CS_POLICY_HPP	cs-policy.hpp	27;"	d
+NFD_DAEMON_TABLE_CS_POLICY_LRU_HPP	cs-policy-lru.hpp	27;"	d
+NFD_DAEMON_TABLE_DEAD_NONCE_LIST_HPP	dead-nonce-list.hpp	27;"	d
+NFD_DAEMON_TABLE_FIB_ENTRY_HPP	fib-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_FIB_HPP	fib.hpp	27;"	d
+NFD_DAEMON_TABLE_FIB_NEXTHOP_HPP	fib-nexthop.hpp	27;"	d
+NFD_DAEMON_TABLE_MEASUREMENTS_ACCESSOR_HPP	measurements-accessor.hpp	27;"	d
+NFD_DAEMON_TABLE_MEASUREMENTS_ENTRY_HPP	measurements-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_MEASUREMENTS_HPP	measurements.hpp	27;"	d
+NFD_DAEMON_TABLE_NAME_TREE_ENTRY_HPP	name-tree-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_NAME_TREE_HPP	name-tree.hpp	27;"	d
+NFD_DAEMON_TABLE_NETWORK_REGION_TABLE_HPP	network-region-table.hpp	27;"	d
+NFD_DAEMON_TABLE_PIT_ENTRY_HPP	pit-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_PIT_FACE_RECORD_HPP	pit-face-record.hpp	27;"	d
+NFD_DAEMON_TABLE_PIT_HPP	pit.hpp	27;"	d
+NFD_DAEMON_TABLE_PIT_IN_RECORD_HPP	pit-in-record.hpp	27;"	d
+NFD_DAEMON_TABLE_PIT_OUT_RECORD_HPP	pit-out-record.hpp	27;"	d
+NFD_DAEMON_TABLE_STRATEGY_CHOICE_ENTRY_HPP	strategy-choice-entry.hpp	27;"	d
+NFD_DAEMON_TABLE_STRATEGY_CHOICE_HPP	strategy-choice.hpp	27;"	d
+NFD_DAEMON_TABLE_STRATEGY_INFO_HOST_HPP	strategy-info-host.hpp	27;"	d
+NameTree	name-tree.cpp	/^NameTree::NameTree(size_t nBuckets)$/;"	f	class:nfd::NameTree
+NameTree	name-tree.hpp	/^class NameTree : noncopyable$/;"	c	namespace:nfd
+NetworkRegionTable	network-region-table.hpp	/^class NetworkRegionTable : public std::set<Name>$/;"	c	namespace:nfd
+NextHop	fib-nexthop.cpp	/^NextHop::NextHop(shared_ptr<Face> face)$/;"	f	class:nfd::fib::NextHop
+NextHop	fib-nexthop.hpp	/^class NextHop$/;"	c	namespace:nfd::fib
+NextHopList	fib-entry.hpp	/^typedef std::vector<fib::NextHop> NextHopList;$/;"	t	namespace:nfd::fib
+Node	name-tree-entry.cpp	/^Node::Node()$/;"	f	class:nfd::name_tree::Node
+Node	name-tree-entry.hpp	/^class Node$/;"	c	namespace:nfd::name_tree
+OutRecord	pit-out-record.cpp	/^OutRecord::OutRecord(shared_ptr<Face> face)$/;"	f	class:nfd::pit::OutRecord
+OutRecord	pit-out-record.hpp	/^class OutRecord : public FaceRecord$/;"	c	namespace:nfd::pit
+OutRecordCollection	pit-entry.hpp	/^typedef std::list<OutRecord> OutRecordCollection;$/;"	t	namespace:nfd::pit
+PARTIAL_ENUMERATE_TYPE	name-tree.hpp	/^    PARTIAL_ENUMERATE_TYPE,$/;"	e	enum:nfd::NameTree::IteratorType
+POLICY_NAME	cs-policy-lru.cpp	/^const std::string LruPolicy::POLICY_NAME = "lru";$/;"	m	class:nfd::cs::lru::LruPolicy	file:
+POLICY_NAME	cs-policy-lru.hpp	/^  static const std::string POLICY_NAME;$/;"	m	class:nfd::cs::lru::LruPolicy
+POLICY_NAME	cs-policy-priority-fifo.cpp	/^const std::string PriorityFifoPolicy::POLICY_NAME = "fifo";$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy	file:
+POLICY_NAME	cs-policy-priority-fifo.hpp	/^  static const std::string POLICY_NAME;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+Pit	pit.cpp	/^Pit::Pit(NameTree& nameTree)$/;"	f	class:nfd::Pit
+Pit	pit.hpp	/^class Pit : noncopyable$/;"	c	namespace:nfd
+Policy	cs-policy.cpp	/^Policy::Policy(const std::string& policyName)$/;"	f	class:nfd::cs::Policy
+Policy	cs-policy.hpp	/^class Policy : noncopyable$/;"	c	namespace:nfd::cs
+PriorityFifoPolicy	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::PriorityFifoPolicy()$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+PriorityFifoPolicy	cs-policy-priority-fifo.hpp	/^class PriorityFifoPolicy : public Policy$/;"	c	namespace:nfd::cs::priority_fifo
+QUEUE_FIFO	cs-policy-priority-fifo.hpp	/^  QUEUE_FIFO,$/;"	e	enum:nfd::cs::priority_fifo::QueueType
+QUEUE_MAX	cs-policy-priority-fifo.hpp	/^  QUEUE_MAX$/;"	e	enum:nfd::cs::priority_fifo::QueueType
+QUEUE_STALE	cs-policy-priority-fifo.hpp	/^  QUEUE_STALE,$/;"	e	enum:nfd::cs::priority_fifo::QueueType
+QUEUE_UNSOLICITED	cs-policy-priority-fifo.hpp	/^  QUEUE_UNSOLICITED,$/;"	e	enum:nfd::cs::priority_fifo::QueueType
+Queue	cs-policy-lru.hpp	/^  > Queue;$/;"	t	namespace:nfd::cs::lru
+Queue	cs-policy-priority-fifo.hpp	/^typedef std::list<iterator> Queue;$/;"	t	namespace:nfd::cs::priority_fifo
+Queue	dead-nonce-list.hpp	/^  typedef Index::nth_index<0>::type Queue;$/;"	t	class:nfd::DeadNonceList
+QueueIt	cs-policy-priority-fifo.hpp	/^typedef Queue::iterator QueueIt;$/;"	t	namespace:nfd::cs::priority_fifo
+QueueType	cs-policy-priority-fifo.hpp	/^enum QueueType {$/;"	g	namespace:nfd::cs::priority_fifo
+StrategyChoice	strategy-choice.cpp	/^StrategyChoice::StrategyChoice(NameTree& nameTree, shared_ptr<Strategy> defaultStrategy)$/;"	f	class:nfd::StrategyChoice
+StrategyChoice	strategy-choice.hpp	/^class StrategyChoice : noncopyable$/;"	c	namespace:nfd
+StrategyInfoHost	strategy-info-host.hpp	/^class StrategyInfoHost$/;"	c	namespace:nfd
+StrategyInstanceTable	strategy-choice.hpp	/^  typedef std::map<Name, shared_ptr<fw::Strategy> > StrategyInstanceTable;$/;"	t	class:nfd::StrategyChoice
+Table	cs-internal.hpp	/^typedef std::set<EntryImpl> Table;$/;"	t	namespace:nfd::cs
+add	dead-nonce-list.cpp	/^DeadNonceList::add(const Name& name, uint32_t nonce)$/;"	f	class:nfd::DeadNonceList
+addNextHop	fib-entry.cpp	/^Entry::addNextHop(shared_ptr<Face> face, uint64_t cost)$/;"	f	class:nfd::fib::Entry
+adjustCapacity	dead-nonce-list.cpp	/^DeadNonceList::adjustCapacity()$/;"	f	class:nfd::DeadNonceList
+afterInsert	cs-policy.cpp	/^Policy::afterInsert(iterator i)$/;"	f	class:nfd::cs::Policy
+afterRefresh	cs-policy.cpp	/^Policy::afterRefresh(iterator i)$/;"	f	class:nfd::cs::Policy
+attachQueue	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::attachQueue(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+beforeErase	cs-policy.cpp	/^Policy::beforeErase(iterator i)$/;"	f	class:nfd::cs::Policy
+beforeEvict	cs-policy.hpp	/^  signal::Signal<Policy, iterator> beforeEvict;$/;"	m	class:nfd::cs::Policy
+beforeUse	cs-policy.cpp	/^Policy::beforeUse(iterator i)$/;"	f	class:nfd::cs::Policy
+begin	cs.hpp	/^  begin() const$/;"	f	class:nfd::cs::Cs
+begin	fib.cpp	/^Fib::begin() const$/;"	f	class:nfd::Fib
+begin	name-tree.hpp	/^NameTree::begin() const$/;"	f	class:nfd::NameTree
+begin	pit.cpp	/^Pit::begin() const$/;"	f	class:nfd::Pit
+begin	strategy-choice.cpp	/^StrategyChoice::begin() const$/;"	f	class:nfd::StrategyChoice
+canForwardTo	pit-entry.cpp	/^Entry::canForwardTo(const Face& face) const$/;"	f	class:nfd::pit::Entry
+canSatisfy	cs-entry.cpp	/^Entry::canSatisfy(const Interest& interest) const$/;"	f	class:nfd::cs::Entry
+canStale	cs-entry-impl.cpp	/^EntryImpl::canStale() const$/;"	f	class:nfd::cs::EntryImpl
+changeStrategy	strategy-choice.cpp	/^StrategyChoice::changeStrategy(strategy_choice::Entry& entry,$/;"	f	class:nfd::StrategyChoice
+cleanup	measurements.cpp	/^Measurements::cleanup(Entry& entry)$/;"	f	class:nfd::Measurements
+clearIncomingNack	pit-out-record.hpp	/^  clearIncomingNack()$/;"	f	class:nfd::pit::OutRecord
+clearStrategyInfo	strategy-choice.cpp	/^clearStrategyInfo(const name_tree::Entry& nte)$/;"	f	namespace:nfd
+clearStrategyInfo	strategy-info-host.cpp	/^StrategyInfoHost::clearStrategyInfo()$/;"	f	class:nfd::StrategyInfoHost
+compareDataWithData	cs-entry-impl.cpp	/^compareDataWithData(const Data& lhs, const Data& rhs)$/;"	f	namespace:nfd::cs
+compareQueryWithData	cs-entry-impl.cpp	/^compareQueryWithData(const Name& queryName, const Data& data)$/;"	f	namespace:nfd::cs
+compute	name-tree.cpp	/^  compute(const char* buffer, size_t length)$/;"	f	class:nfd::name_tree::Hash32
+compute	name-tree.cpp	/^  compute(const char* buffer, size_t length)$/;"	f	class:nfd::name_tree::Hash64
+computeHash	name-tree.cpp	/^computeHash(const Name& prefix)$/;"	f	namespace:nfd::name_tree
+computeHashSet	name-tree.cpp	/^computeHashSet(const Name& prefix)$/;"	f	namespace:nfd::name_tree
+const_iterator	cs.hpp	/^  typedef boost::transform_iterator<EntryFromEntryImpl, iterator, const Entry&> const_iterator;$/;"	t	class:nfd::cs::Cs
+const_iterator	fib.hpp	/^  class const_iterator : public std::iterator<std::forward_iterator_tag, const fib::Entry>$/;"	c	class:nfd::Fib
+const_iterator	fib.hpp	/^Fib::const_iterator::const_iterator(const NameTree::const_iterator& it)$/;"	f	class:nfd::Fib::const_iterator
+const_iterator	name-tree.cpp	/^NameTree::const_iterator::const_iterator()$/;"	f	class:nfd::NameTree::const_iterator
+const_iterator	name-tree.cpp	/^NameTree::const_iterator::const_iterator(NameTree::IteratorType type,$/;"	f	class:nfd::NameTree::const_iterator
+const_iterator	name-tree.hpp	/^  class const_iterator : public std::iterator<std::forward_iterator_tag, const name_tree::Entry>$/;"	c	class:nfd::NameTree
+const_iterator	pit.hpp	/^  class const_iterator : public std::iterator<std::forward_iterator_tag, const pit::Entry>$/;"	c	class:nfd::Pit
+const_iterator	pit.hpp	/^Pit::const_iterator::const_iterator()$/;"	f	class:nfd::Pit::const_iterator
+const_iterator	pit.hpp	/^Pit::const_iterator::const_iterator(const NameTree::const_iterator& it)$/;"	f	class:nfd::Pit::const_iterator
+const_iterator	strategy-choice.hpp	/^  class const_iterator$/;"	c	class:nfd::StrategyChoice
+const_iterator	strategy-choice.hpp	/^StrategyChoice::const_iterator::const_iterator(const NameTree::const_iterator& it)$/;"	f	class:nfd::StrategyChoice::const_iterator
+countMarks	dead-nonce-list.cpp	/^DeadNonceList::countMarks() const$/;"	f	class:nfd::DeadNonceList
+cs	cs-entry-impl.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs-entry-impl.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs-entry.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs-entry.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs-internal.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs-policy-lru.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs-policy-lru.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs-policy-priority-fifo.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs-policy-priority-fifo.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs-policy.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs-policy.hpp	/^namespace cs {$/;"	n	namespace:nfd
+cs	cs.cpp	/^namespace cs {$/;"	n	namespace:nfd	file:
+cs	cs.hpp	/^namespace cs {$/;"	n	namespace:nfd
+deleteInRecord	pit-entry.cpp	/^Entry::deleteInRecord(const Face& face)$/;"	f	class:nfd::pit::Entry
+deleteInRecords	pit-entry.cpp	/^Entry::deleteInRecords()$/;"	f	class:nfd::pit::Entry
+deleteOutRecord	pit-entry.cpp	/^Entry::deleteOutRecord(const Face& face)$/;"	f	class:nfd::pit::Entry
+detachQueue	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::detachQueue(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+doAfterInsert	cs-policy-lru.cpp	/^LruPolicy::doAfterInsert(iterator i)$/;"	f	class:nfd::cs::lru::LruPolicy
+doAfterInsert	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::doAfterInsert(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+doAfterRefresh	cs-policy-lru.cpp	/^LruPolicy::doAfterRefresh(iterator i)$/;"	f	class:nfd::cs::lru::LruPolicy
+doAfterRefresh	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::doAfterRefresh(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+doBeforeErase	cs-policy-lru.cpp	/^LruPolicy::doBeforeErase(iterator i)$/;"	f	class:nfd::cs::lru::LruPolicy
+doBeforeErase	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::doBeforeErase(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+doBeforeUse	cs-policy-lru.cpp	/^LruPolicy::doBeforeUse(iterator i)$/;"	f	class:nfd::cs::lru::LruPolicy
+doBeforeUse	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::doBeforeUse(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+dump	cs.cpp	/^Cs::dump()$/;"	f	class:nfd::cs::Cs
+dump	name-tree.cpp	/^NameTree::dump(std::ostream& output) const$/;"	f	class:nfd::NameTree
+end	cs.hpp	/^  end() const$/;"	f	class:nfd::cs::Cs
+end	fib.hpp	/^Fib::end() const$/;"	f	class:nfd::Fib
+end	name-tree.hpp	/^NameTree::end() const$/;"	f	class:nfd::NameTree
+end	pit.hpp	/^Pit::end() const$/;"	f	class:nfd::Pit
+end	strategy-choice.hpp	/^StrategyChoice::end() const$/;"	f	class:nfd::StrategyChoice
+erase	cs.hpp	/^  erase(const Name& exactName)$/;"	f	class:nfd::cs::Cs
+erase	fib.cpp	/^Fib::erase(const Name& prefix)$/;"	f	class:nfd::Fib
+erase	fib.cpp	/^Fib::erase(const fib::Entry& entry)$/;"	f	class:nfd::Fib
+erase	fib.cpp	/^Fib::erase(shared_ptr<name_tree::Entry> nameTreeEntry)$/;"	f	class:nfd::Fib
+erase	pit.cpp	/^Pit::erase(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::Pit
+erase	strategy-choice.cpp	/^StrategyChoice::erase(const Name& prefix)$/;"	f	class:nfd::StrategyChoice
+eraseEntryIfEmpty	name-tree.cpp	/^NameTree::eraseEntryIfEmpty(shared_ptr<name_tree::Entry> entry)$/;"	f	class:nfd::NameTree
+erasePitEntry	name-tree-entry.cpp	/^Entry::erasePitEntry(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::name_tree::Entry
+evictEntries	cs-policy-lru.cpp	/^LruPolicy::evictEntries()$/;"	f	class:nfd::cs::lru::LruPolicy
+evictEntries	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::evictEntries()$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+evictEntries	dead-nonce-list.cpp	/^DeadNonceList::evictEntries()$/;"	f	class:nfd::DeadNonceList
+evictOne	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::evictOne()$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+extendLifetime	measurements-accessor.hpp	/^MeasurementsAccessor::extendLifetime(measurements::Entry& entry,$/;"	f	class:nfd::MeasurementsAccessor
+extendLifetime	measurements.cpp	/^Measurements::extendLifetime(Entry& entry,$/;"	f	class:nfd::Measurements
+fib	fib-entry.cpp	/^namespace fib {$/;"	n	namespace:nfd	file:
+fib	fib-entry.hpp	/^namespace fib {$/;"	n	namespace:nfd
+fib	fib-nexthop.cpp	/^namespace fib {$/;"	n	namespace:nfd	file:
+fib	fib-nexthop.hpp	/^namespace fib {$/;"	n	namespace:nfd
+fib	measurements.hpp	/^namespace fib {$/;"	n	namespace:nfd
+filter	measurements-accessor.cpp	/^MeasurementsAccessor::filter(const shared_ptr<measurements::Entry>& entry) const$/;"	f	class:nfd::MeasurementsAccessor
+find	cs.cpp	/^Cs::find(const Interest& interest,$/;"	f	class:nfd::cs::Cs
+find	pit.hpp	/^Pit::find(const Interest& interest) const$/;"	f	class:nfd::Pit
+findAllDataMatches	pit.cpp	/^Pit::findAllDataMatches(const Data& data) const$/;"	f	class:nfd::Pit
+findAllMatches	name-tree.cpp	/^NameTree::findAllMatches(const Name& prefix,$/;"	f	class:nfd::NameTree
+findEffectiveStrategy	strategy-choice.cpp	/^StrategyChoice::findEffectiveStrategy(const Name& prefix) const$/;"	f	class:nfd::StrategyChoice
+findEffectiveStrategy	strategy-choice.cpp	/^StrategyChoice::findEffectiveStrategy(const measurements::Entry& measurementsEntry) const$/;"	f	class:nfd::StrategyChoice
+findEffectiveStrategy	strategy-choice.cpp	/^StrategyChoice::findEffectiveStrategy(const pit::Entry& pitEntry) const$/;"	f	class:nfd::StrategyChoice
+findEffectiveStrategy	strategy-choice.cpp	/^StrategyChoice::findEffectiveStrategy(shared_ptr<name_tree::Entry> nte) const$/;"	f	class:nfd::StrategyChoice
+findExactMatch	fib.cpp	/^Fib::findExactMatch(const Name& prefix) const$/;"	f	class:nfd::Fib
+findExactMatch	measurements-accessor.hpp	/^MeasurementsAccessor::findExactMatch(const Name& name) const$/;"	f	class:nfd::MeasurementsAccessor
+findExactMatch	measurements.cpp	/^Measurements::findExactMatch(const Name& name) const$/;"	f	class:nfd::Measurements
+findExactMatch	name-tree.cpp	/^NameTree::findExactMatch(const Name& prefix) const$/;"	f	class:nfd::NameTree
+findLeftmost	cs.cpp	/^Cs::findLeftmost(const Interest& interest, iterator first, iterator last) const$/;"	f	class:nfd::cs::Cs
+findLongestPrefixMatch	fib.cpp	/^Fib::findLongestPrefixMatch(const Name& prefix) const$/;"	f	class:nfd::Fib
+findLongestPrefixMatch	fib.cpp	/^Fib::findLongestPrefixMatch(const measurements::Entry& measurementsEntry) const$/;"	f	class:nfd::Fib
+findLongestPrefixMatch	fib.cpp	/^Fib::findLongestPrefixMatch(const pit::Entry& pitEntry) const$/;"	f	class:nfd::Fib
+findLongestPrefixMatch	fib.cpp	/^Fib::findLongestPrefixMatch(shared_ptr<name_tree::Entry> nameTreeEntry) const$/;"	f	class:nfd::Fib
+findLongestPrefixMatch	measurements-accessor.hpp	/^MeasurementsAccessor::findLongestPrefixMatch(const Name& name,$/;"	f	class:nfd::MeasurementsAccessor
+findLongestPrefixMatch	measurements-accessor.hpp	/^MeasurementsAccessor::findLongestPrefixMatch(const pit::Entry& pitEntry,$/;"	f	class:nfd::MeasurementsAccessor
+findLongestPrefixMatch	measurements.cpp	/^Measurements::findLongestPrefixMatch(const Name& name,$/;"	f	class:nfd::Measurements
+findLongestPrefixMatch	measurements.cpp	/^Measurements::findLongestPrefixMatch(const pit::Entry& pitEntry,$/;"	f	class:nfd::Measurements
+findLongestPrefixMatch	name-tree.cpp	/^NameTree::findLongestPrefixMatch(const Name& prefix, const name_tree::EntrySelector& entrySelector) const$/;"	f	class:nfd::NameTree
+findLongestPrefixMatch	name-tree.cpp	/^NameTree::findLongestPrefixMatch(shared_ptr<name_tree::Entry> entry,$/;"	f	class:nfd::NameTree
+findLongestPrefixMatchImpl	measurements.cpp	/^Measurements::findLongestPrefixMatchImpl(const K& key,$/;"	f	class:nfd::Measurements
+findNextHop	fib-entry.cpp	/^Entry::findNextHop(Face& face)$/;"	f	class:nfd::fib::Entry
+findNonce	pit-entry.cpp	/^Entry::findNonce(uint32_t nonce, const Face& face) const$/;"	f	class:nfd::pit::Entry
+findOrInsert	pit.cpp	/^Pit::findOrInsert(const Interest& interest, bool allowInsert)$/;"	f	class:nfd::Pit
+findRightmost	cs.cpp	/^Cs::findRightmost(const Interest& interest, iterator first, iterator last) const$/;"	f	class:nfd::cs::Cs
+findRightmostAmongExact	cs.cpp	/^Cs::findRightmostAmongExact(const Interest& interest, iterator first, iterator last) const$/;"	f	class:nfd::cs::Cs
+fullEnumerate	name-tree.cpp	/^NameTree::fullEnumerate(const name_tree::EntrySelector& entrySelector) const$/;"	f	class:nfd::NameTree
+fw	measurements-accessor.hpp	/^namespace fw {$/;"	n	namespace:nfd
+fw	strategy-choice-entry.hpp	/^namespace fw {$/;"	n	namespace:nfd
+get	measurements-accessor.hpp	/^MeasurementsAccessor::get(const Name& name)$/;"	f	class:nfd::MeasurementsAccessor
+get	measurements-accessor.hpp	/^MeasurementsAccessor::get(const fib::Entry& fibEntry)$/;"	f	class:nfd::MeasurementsAccessor
+get	measurements-accessor.hpp	/^MeasurementsAccessor::get(const pit::Entry& pitEntry)$/;"	f	class:nfd::MeasurementsAccessor
+get	measurements.cpp	/^Measurements::get(const Name& name)$/;"	f	class:nfd::Measurements
+get	measurements.cpp	/^Measurements::get(const fib::Entry& fibEntry)$/;"	f	class:nfd::Measurements
+get	measurements.cpp	/^Measurements::get(const pit::Entry& pitEntry)$/;"	f	class:nfd::Measurements
+get	measurements.cpp	/^Measurements::get(name_tree::Entry& nte)$/;"	f	class:nfd::Measurements
+get	name-tree.hpp	/^NameTree::get(const fib::Entry& fibEntry) const$/;"	f	class:nfd::NameTree
+get	name-tree.hpp	/^NameTree::get(const measurements::Entry& measurementsEntry) const$/;"	f	class:nfd::NameTree
+get	name-tree.hpp	/^NameTree::get(const pit::Entry& pitEntry) const$/;"	f	class:nfd::NameTree
+get	name-tree.hpp	/^NameTree::get(const strategy_choice::Entry& strategyChoiceEntry) const$/;"	f	class:nfd::NameTree
+get	strategy-choice.cpp	/^StrategyChoice::get(const Name& prefix) const$/;"	f	class:nfd::StrategyChoice
+getChildren	name-tree-entry.hpp	/^Entry::getChildren()$/;"	f	class:nfd::name_tree::Entry
+getCost	fib-nexthop.cpp	/^NextHop::getCost() const$/;"	f	class:nfd::fib::NextHop
+getCs	cs-policy.hpp	/^Policy::getCs() const$/;"	f	class:nfd::cs::Policy
+getData	cs-entry.hpp	/^  getData() const$/;"	f	class:nfd::cs::Entry
+getExpiry	pit-face-record.hpp	/^FaceRecord::getExpiry() const$/;"	f	class:nfd::pit::FaceRecord
+getFace	fib-nexthop.cpp	/^NextHop::getFace() const$/;"	f	class:nfd::fib::NextHop
+getFace	pit-face-record.hpp	/^FaceRecord::getFace() const$/;"	f	class:nfd::pit::FaceRecord
+getFibEntry	name-tree-entry.hpp	/^Entry::getFibEntry() const$/;"	f	class:nfd::name_tree::Entry
+getFullName	cs-entry.hpp	/^  getFullName() const$/;"	f	class:nfd::cs::Entry
+getHash	name-tree-entry.hpp	/^Entry::getHash() const$/;"	f	class:nfd::name_tree::Entry
+getInRecord	pit-entry.cpp	/^Entry::getInRecord(const Face& face) const$/;"	f	class:nfd::pit::Entry
+getInRecords	pit-entry.hpp	/^Entry::getInRecords() const$/;"	f	class:nfd::pit::Entry
+getIncomingNack	pit-out-record.hpp	/^  getIncomingNack() const$/;"	f	class:nfd::pit::OutRecord
+getInitialLifetime	measurements.hpp	/^Measurements::getInitialLifetime()$/;"	f	class:nfd::Measurements
+getInterest	pit-entry.hpp	/^Entry::getInterest() const$/;"	f	class:nfd::pit::Entry
+getInterest	pit-in-record.hpp	/^InRecord::getInterest() const$/;"	f	class:nfd::pit::InRecord
+getLastNonce	pit-face-record.hpp	/^FaceRecord::getLastNonce() const$/;"	f	class:nfd::pit::FaceRecord
+getLastRenewed	pit-face-record.hpp	/^FaceRecord::getLastRenewed() const$/;"	f	class:nfd::pit::FaceRecord
+getLifetime	dead-nonce-list.hpp	/^DeadNonceList::getLifetime() const$/;"	f	class:nfd::DeadNonceList
+getLimit	cs-policy.hpp	/^Policy::getLimit() const$/;"	f	class:nfd::cs::Policy
+getLimit	cs.cpp	/^Cs::getLimit() const$/;"	f	class:nfd::cs::Cs
+getMeasurementsEntry	name-tree-entry.hpp	/^Entry::getMeasurementsEntry() const$/;"	f	class:nfd::name_tree::Entry
+getNBuckets	name-tree.hpp	/^NameTree::getNBuckets() const$/;"	f	class:nfd::NameTree
+getName	cs-entry.hpp	/^  getName() const$/;"	f	class:nfd::cs::Entry
+getName	cs-policy.hpp	/^Policy::getName() const$/;"	f	class:nfd::cs::Policy
+getName	measurements-entry.hpp	/^Entry::getName() const$/;"	f	class:nfd::measurements::Entry
+getName	pit-entry.cpp	/^Entry::getName() const$/;"	f	class:nfd::pit::Entry
+getNextHops	fib-entry.hpp	/^Entry::getNextHops() const$/;"	f	class:nfd::fib::Entry
+getOrCreateStrategyInfo	strategy-info-host.hpp	/^StrategyInfoHost::getOrCreateStrategyInfo(A&&... args)$/;"	f	class:nfd::StrategyInfoHost
+getOutRecord	pit-entry.cpp	/^Entry::getOutRecord(const Face& face)$/;"	f	class:nfd::pit::Entry
+getOutRecords	pit-entry.hpp	/^Entry::getOutRecords() const$/;"	f	class:nfd::pit::Entry
+getParent	measurements-accessor.hpp	/^MeasurementsAccessor::getParent(const measurements::Entry& child)$/;"	f	class:nfd::MeasurementsAccessor
+getParent	measurements.cpp	/^Measurements::getParent(const Entry& child)$/;"	f	class:nfd::Measurements
+getParent	name-tree-entry.hpp	/^Entry::getParent() const$/;"	f	class:nfd::name_tree::Entry
+getPitEntries	name-tree-entry.hpp	/^Entry::getPitEntries() const$/;"	f	class:nfd::name_tree::Entry
+getPolicy	cs.hpp	/^  getPolicy() const$/;"	f	class:nfd::cs::Cs
+getPrefix	fib-entry.hpp	/^Entry::getPrefix() const$/;"	f	class:nfd::fib::Entry
+getPrefix	name-tree-entry.hpp	/^Entry::getPrefix() const$/;"	f	class:nfd::name_tree::Entry
+getPrefix	strategy-choice-entry.hpp	/^Entry::getPrefix() const$/;"	f	class:nfd::strategy_choice::Entry
+getStaleTime	cs-entry.hpp	/^  getStaleTime() const$/;"	f	class:nfd::cs::Entry
+getStrategy	strategy-choice-entry.hpp	/^Entry::getStrategy() const$/;"	f	class:nfd::strategy_choice::Entry
+getStrategy	strategy-choice.cpp	/^StrategyChoice::getStrategy(const Name& strategyName) const$/;"	f	class:nfd::StrategyChoice
+getStrategyChoiceEntry	name-tree-entry.hpp	/^Entry::getStrategyChoiceEntry() const$/;"	f	class:nfd::name_tree::Entry
+getStrategyInfo	strategy-info-host.hpp	/^StrategyInfoHost::getStrategyInfo() const$/;"	f	class:nfd::StrategyInfoHost
+getStrategyName	strategy-choice-entry.cpp	/^Entry::getStrategyName() const$/;"	f	class:nfd::strategy_choice::Entry
+has	dead-nonce-list.cpp	/^DeadNonceList::has(const Name& name, uint32_t nonce) const$/;"	f	class:nfd::DeadNonceList
+hasChildren	name-tree-entry.hpp	/^Entry::hasChildren() const$/;"	f	class:nfd::name_tree::Entry
+hasData	cs-entry.hpp	/^  hasData() const$/;"	f	class:nfd::cs::Entry
+hasLocalInRecord	pit-entry.cpp	/^Entry::hasLocalInRecord() const$/;"	f	class:nfd::pit::Entry
+hasNextHop	fib-entry.cpp	/^Entry::hasNextHop(shared_ptr<Face> face) const$/;"	f	class:nfd::fib::Entry
+hasNextHops	fib-entry.hpp	/^Entry::hasNextHops() const$/;"	f	class:nfd::fib::Entry
+hasPitEntries	name-tree-entry.hpp	/^Entry::hasPitEntries() const$/;"	f	class:nfd::name_tree::Entry
+hasStrategy	strategy-choice.cpp	/^StrategyChoice::hasStrategy(const Name& strategyName, bool isExact) const$/;"	f	class:nfd::StrategyChoice
+hasUnexpiredOutRecords	pit-entry.cpp	/^Entry::hasUnexpiredOutRecords() const$/;"	f	class:nfd::pit::Entry
+if_c	name-tree.cpp	/^typedef boost::mpl::if_c<sizeof(size_t) >= 8, Hash64, Hash32>::type CityHash;$/;"	t	class:nfd::name_tree::boost::mpl	file:
+insert	cs.cpp	/^Cs::insert(const Data& data, bool isUnsolicited)$/;"	f	class:nfd::cs::Cs
+insert	fib.cpp	/^Fib::insert(const Name& prefix)$/;"	f	class:nfd::Fib
+insert	name-tree.cpp	/^NameTree::insert(const Name& prefix)$/;"	f	class:nfd::NameTree
+insert	pit.hpp	/^Pit::insert(const Interest& interest)$/;"	f	class:nfd::Pit
+insert	strategy-choice.cpp	/^StrategyChoice::insert(const Name& prefix, const Name& strategyName)$/;"	f	class:nfd::StrategyChoice
+insertOrUpdateInRecord	pit-entry.cpp	/^Entry::insertOrUpdateInRecord(shared_ptr<Face> face, const Interest& interest)$/;"	f	class:nfd::pit::Entry
+insertOrUpdateOutRecord	pit-entry.cpp	/^Entry::insertOrUpdateOutRecord(shared_ptr<Face> face, const Interest& interest)$/;"	f	class:nfd::pit::Entry
+insertPitEntry	name-tree-entry.cpp	/^Entry::insertPitEntry(shared_ptr<pit::Entry> pitEntry)$/;"	f	class:nfd::name_tree::Entry
+insertToQueue	cs-policy-lru.cpp	/^LruPolicy::insertToQueue(iterator i, bool isNewEntry)$/;"	f	class:nfd::cs::lru::LruPolicy
+install	strategy-choice.cpp	/^StrategyChoice::install(shared_ptr<Strategy> strategy)$/;"	f	class:nfd::StrategyChoice
+isEmpty	name-tree-entry.cpp	/^Entry::isEmpty() const$/;"	f	class:nfd::name_tree::Entry
+isInProducerRegion	network-region-table.cpp	/^NetworkRegionTable::isInProducerRegion(const Link& link) const$/;"	f	class:nfd::NetworkRegionTable
+isQuery	cs-entry-impl.cpp	/^EntryImpl::isQuery() const$/;"	f	class:nfd::cs::EntryImpl
+isStale	cs-entry.cpp	/^Entry::isStale() const$/;"	f	class:nfd::cs::Entry
+isUnsolicited	cs-entry.hpp	/^  isUnsolicited() const$/;"	f	class:nfd::cs::Entry
+iterator	cs-internal.hpp	/^typedef Table::const_iterator iterator;$/;"	t	namespace:nfd::cs
+lookup	name-tree.cpp	/^NameTree::lookup(const Name& prefix)$/;"	f	class:nfd::NameTree
+lru	cs-policy-lru.cpp	/^namespace lru {$/;"	n	namespace:nfd::cs	file:
+lru	cs-policy-lru.hpp	/^namespace lru {$/;"	n	namespace:nfd::cs
+m_actualMarkCounts	dead-nonce-list.hpp	/^  std::multiset<size_t> m_actualMarkCounts;$/;"	m	class:nfd::DeadNonceList
+m_adjustCapacityEvent	dead-nonce-list.hpp	/^  scheduler::EventId m_adjustCapacityEvent;$/;"	m	class:nfd::DeadNonceList
+m_adjustCapacityInterval	dead-nonce-list.hpp	/^  time::nanoseconds m_adjustCapacityInterval;$/;"	m	class:nfd::DeadNonceList
+m_beforeEvictConnection	cs.hpp	/^  ndn::util::signal::ScopedConnection m_beforeEvictConnection;$/;"	m	class:nfd::cs::Cs
+m_buckets	name-tree.hpp	/^  name_tree::Node**             m_buckets; \/\/ Name Tree Buckets in the NPHT$/;"	m	class:nfd::NameTree
+m_capacity	dead-nonce-list.hpp	/^  size_t m_capacity;$/;"	m	class:nfd::DeadNonceList
+m_children	name-tree-entry.hpp	/^  std::vector<shared_ptr<Entry> > m_children; \/\/ Children pointers.$/;"	m	class:nfd::name_tree::Entry
+m_cleanup	measurements-entry.hpp	/^  scheduler::EventId m_cleanup;$/;"	m	class:nfd::measurements::Entry
+m_cost	fib-nexthop.hpp	/^  uint64_t m_cost;$/;"	m	class:nfd::fib::NextHop
+m_cs	cs-policy.hpp	/^  Cs* m_cs;$/;"	m	class:nfd::cs::Policy
+m_data	cs-entry.hpp	/^  shared_ptr<const Data> m_data;$/;"	m	class:nfd::cs::Entry
+m_end	name-tree.hpp	/^  shared_ptr<name_tree::Entry>  m_end;$/;"	m	class:nfd::NameTree
+m_endIterator	name-tree.hpp	/^  const_iterator                m_endIterator;$/;"	m	class:nfd::NameTree
+m_enlargeFactor	name-tree.hpp	/^  int                           m_enlargeFactor;$/;"	m	class:nfd::NameTree
+m_enlargeLoadFactor	name-tree.hpp	/^  double                        m_enlargeLoadFactor;$/;"	m	class:nfd::NameTree
+m_enlargeThreshold	name-tree.hpp	/^  size_t                        m_enlargeThreshold;$/;"	m	class:nfd::NameTree
+m_entry	name-tree-entry.hpp	/^  shared_ptr<Entry> m_entry; \/\/ Name Tree Entry (i.e., Name Prefix Entry)$/;"	m	class:nfd::name_tree::Node
+m_entry	name-tree.hpp	/^    shared_ptr<name_tree::Entry>                m_entry;$/;"	m	class:nfd::NameTree::const_iterator
+m_entryInfoMap	cs-policy-priority-fifo.hpp	/^  EntryInfoMapFifo m_entryInfoMap;$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+m_entrySelector	name-tree.hpp	/^    shared_ptr<name_tree::EntrySelector>        m_entrySelector;$/;"	m	class:nfd::NameTree::const_iterator
+m_entrySubTreeSelector	name-tree.hpp	/^    shared_ptr<name_tree::EntrySubTreeSelector> m_entrySubTreeSelector;$/;"	m	class:nfd::NameTree::const_iterator
+m_expiry	measurements-entry.hpp	/^  time::steady_clock::TimePoint m_expiry;$/;"	m	class:nfd::measurements::Entry
+m_expiry	pit-face-record.hpp	/^  time::steady_clock::TimePoint m_expiry;$/;"	m	class:nfd::pit::FaceRecord
+m_face	fib-nexthop.hpp	/^  shared_ptr<Face> m_face;$/;"	m	class:nfd::fib::NextHop
+m_face	pit-face-record.hpp	/^  shared_ptr<Face> m_face;$/;"	m	class:nfd::pit::FaceRecord
+m_fibEntry	name-tree-entry.hpp	/^  shared_ptr<fib::Entry> m_fibEntry;$/;"	m	class:nfd::name_tree::Entry
+m_hash	name-tree-entry.hpp	/^  size_t m_hash;$/;"	m	class:nfd::name_tree::Entry
+m_ht	dead-nonce-list.hpp	/^  Hashtable& m_ht;$/;"	m	class:nfd::DeadNonceList
+m_iPitEntry	pit.hpp	/^    size_t m_iPitEntry;$/;"	m	class:nfd::Pit::const_iterator
+m_inRecords	pit-entry.hpp	/^  InRecordCollection m_inRecords;$/;"	m	class:nfd::pit::Entry
+m_incomingNack	pit-out-record.hpp	/^  unique_ptr<lp::NackHeader> m_incomingNack;$/;"	m	class:nfd::pit::OutRecord
+m_index	dead-nonce-list.hpp	/^  Index m_index;$/;"	m	class:nfd::DeadNonceList
+m_interest	pit-entry.hpp	/^  shared_ptr<const Interest> m_interest;$/;"	m	class:nfd::pit::Entry
+m_interest	pit-in-record.hpp	/^  shared_ptr<const Interest> m_interest;$/;"	m	class:nfd::pit::InRecord
+m_isUnsolicited	cs-entry.hpp	/^  bool m_isUnsolicited;$/;"	m	class:nfd::cs::Entry
+m_items	strategy-info-host.hpp	/^  std::map<int, shared_ptr<fw::StrategyInfo>> m_items;$/;"	m	class:nfd::StrategyInfoHost
+m_lastNonce	pit-face-record.hpp	/^  uint32_t m_lastNonce;$/;"	m	class:nfd::pit::FaceRecord
+m_lastRenewed	pit-face-record.hpp	/^  time::steady_clock::TimePoint m_lastRenewed;$/;"	m	class:nfd::pit::FaceRecord
+m_lifetime	dead-nonce-list.hpp	/^  time::nanoseconds m_lifetime;$/;"	m	class:nfd::DeadNonceList
+m_limit	cs-policy.hpp	/^  size_t m_limit;$/;"	m	class:nfd::cs::Policy
+m_markEvent	dead-nonce-list.hpp	/^  scheduler::EventId m_markEvent;$/;"	m	class:nfd::DeadNonceList
+m_markInterval	dead-nonce-list.hpp	/^  time::nanoseconds m_markInterval;$/;"	m	class:nfd::DeadNonceList
+m_measurements	measurements-accessor.hpp	/^  Measurements& m_measurements;$/;"	m	class:nfd::MeasurementsAccessor
+m_measurementsEntry	name-tree-entry.hpp	/^  shared_ptr<measurements::Entry> m_measurementsEntry;$/;"	m	class:nfd::name_tree::Entry
+m_minNBuckets	name-tree.hpp	/^  size_t                        m_minNBuckets; \/\/ Minimum number of hash buckets$/;"	m	class:nfd::NameTree
+m_nBuckets	name-tree.hpp	/^  size_t                        m_nBuckets; \/\/ Number of hash buckets$/;"	m	class:nfd::NameTree
+m_nItems	fib.hpp	/^  size_t m_nItems;$/;"	m	class:nfd::Fib
+m_nItems	measurements.hpp	/^  size_t m_nItems;$/;"	m	class:nfd::Measurements
+m_nItems	name-tree.hpp	/^  size_t                        m_nItems;  \/\/ Number of items being stored$/;"	m	class:nfd::NameTree
+m_nItems	pit.hpp	/^  size_t m_nItems;$/;"	m	class:nfd::Pit
+m_nItems	strategy-choice.hpp	/^  size_t m_nItems;$/;"	m	class:nfd::StrategyChoice
+m_name	measurements-entry.hpp	/^  Name m_name;$/;"	m	class:nfd::measurements::Entry
+m_nameTree	fib.hpp	/^  NameTree& m_nameTree;$/;"	m	class:nfd::Fib
+m_nameTree	measurements.hpp	/^  NameTree& m_nameTree;$/;"	m	class:nfd::Measurements
+m_nameTree	name-tree.hpp	/^    const NameTree*                             m_nameTree;$/;"	m	class:nfd::NameTree::const_iterator
+m_nameTree	pit.hpp	/^  NameTree& m_nameTree;$/;"	m	class:nfd::Pit
+m_nameTree	strategy-choice.hpp	/^  NameTree& m_nameTree;$/;"	m	class:nfd::StrategyChoice
+m_nameTreeEntry	fib-entry.hpp	/^  shared_ptr<name_tree::Entry> m_nameTreeEntry;$/;"	m	class:nfd::fib::Entry
+m_nameTreeEntry	measurements-entry.hpp	/^  shared_ptr<name_tree::Entry> m_nameTreeEntry;$/;"	m	class:nfd::measurements::Entry
+m_nameTreeEntry	pit-entry.hpp	/^  shared_ptr<name_tree::Entry> m_nameTreeEntry;$/;"	m	class:nfd::pit::Entry
+m_nameTreeEntry	strategy-choice-entry.hpp	/^  shared_ptr<name_tree::Entry> m_nameTreeEntry;$/;"	m	class:nfd::strategy_choice::Entry
+m_nameTreeIterator	fib.hpp	/^    NameTree::const_iterator m_nameTreeIterator;$/;"	m	class:nfd::Fib::const_iterator
+m_nameTreeIterator	pit.hpp	/^    NameTree::const_iterator m_nameTreeIterator;$/;"	m	class:nfd::Pit::const_iterator
+m_nameTreeIterator	strategy-choice.hpp	/^    NameTree::const_iterator m_nameTreeIterator;$/;"	m	class:nfd::StrategyChoice::const_iterator
+m_next	name-tree-entry.hpp	/^  Node* m_next; \/\/ Next Name Tree Node (to resolve hash collision)$/;"	m	class:nfd::name_tree::Node
+m_nextHops	fib-entry.hpp	/^  NextHopList m_nextHops;$/;"	m	class:nfd::fib::Entry
+m_node	name-tree-entry.hpp	/^  Node* m_node;$/;"	m	class:nfd::name_tree::Entry
+m_outRecords	pit-entry.hpp	/^  OutRecordCollection m_outRecords;$/;"	m	class:nfd::pit::Entry
+m_parent	name-tree-entry.hpp	/^  shared_ptr<Entry> m_parent;     \/\/ Pointing to the parent entry.$/;"	m	class:nfd::name_tree::Entry
+m_pitEntries	name-tree-entry.hpp	/^  std::vector<shared_ptr<pit::Entry> > m_pitEntries;$/;"	m	class:nfd::name_tree::Entry
+m_policy	cs.hpp	/^  unique_ptr<Policy> m_policy;$/;"	m	class:nfd::cs::Cs
+m_policyName	cs-policy.hpp	/^  std::string m_policyName;$/;"	m	class:nfd::cs::Policy
+m_prefix	fib-entry.hpp	/^  Name m_prefix;$/;"	m	class:nfd::fib::Entry
+m_prefix	name-tree-entry.hpp	/^  Name m_prefix;$/;"	m	class:nfd::name_tree::Entry
+m_prefix	strategy-choice-entry.hpp	/^  Name m_prefix;$/;"	m	class:nfd::strategy_choice::Entry
+m_prev	name-tree-entry.hpp	/^  Node* m_prev; \/\/ Previous Name Tree Node (to resolve hash collision)$/;"	m	class:nfd::name_tree::Node
+m_queryName	cs-entry-impl.hpp	/^  Name m_queryName;$/;"	m	class:nfd::cs::EntryImpl
+m_queue	cs-policy-lru.hpp	/^  Queue m_queue;$/;"	m	class:nfd::cs::lru::LruPolicy
+m_queue	dead-nonce-list.hpp	/^  Queue& m_queue;$/;"	m	class:nfd::DeadNonceList
+m_queues	cs-policy-priority-fifo.hpp	/^  Queue m_queues[QUEUE_MAX];$/;"	m	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+m_shouldVisitChildren	name-tree.hpp	/^    bool                                        m_shouldVisitChildren;$/;"	m	class:nfd::NameTree::const_iterator
+m_shrinkFactor	name-tree.hpp	/^  double                        m_shrinkFactor;$/;"	m	class:nfd::NameTree
+m_shrinkLoadFactor	name-tree.hpp	/^  double                        m_shrinkLoadFactor;$/;"	m	class:nfd::NameTree
+m_shrinkThreshold	name-tree.hpp	/^  size_t                        m_shrinkThreshold;$/;"	m	class:nfd::NameTree
+m_staleTime	cs-entry.hpp	/^  time::steady_clock::TimePoint m_staleTime;$/;"	m	class:nfd::cs::Entry
+m_stragglerTimer	pit-entry.hpp	/^  scheduler::EventId m_stragglerTimer;$/;"	m	class:nfd::pit::Entry
+m_strategy	measurements-accessor.hpp	/^  const fw::Strategy* m_strategy;$/;"	m	class:nfd::MeasurementsAccessor
+m_strategy	strategy-choice-entry.hpp	/^  fw::Strategy* m_strategy;$/;"	m	class:nfd::strategy_choice::Entry
+m_strategyChoice	measurements-accessor.hpp	/^  const StrategyChoice& m_strategyChoice;$/;"	m	class:nfd::MeasurementsAccessor
+m_strategyChoiceEntry	name-tree-entry.hpp	/^  shared_ptr<strategy_choice::Entry> m_strategyChoiceEntry;$/;"	m	class:nfd::name_tree::Entry
+m_strategyInstances	strategy-choice.hpp	/^  StrategyInstanceTable m_strategyInstances;$/;"	m	class:nfd::StrategyChoice
+m_subTreeRoot	name-tree.hpp	/^    shared_ptr<name_tree::Entry>                m_subTreeRoot;$/;"	m	class:nfd::NameTree::const_iterator
+m_table	cs.hpp	/^  Table m_table;$/;"	m	class:nfd::cs::Cs
+m_type	name-tree.hpp	/^    NameTree::IteratorType                      m_type;$/;"	m	class:nfd::NameTree::const_iterator
+m_unsatisfyTimer	pit-entry.hpp	/^  scheduler::EventId m_unsatisfyTimer;$/;"	m	class:nfd::pit::Entry
+makeDefaultPolicy	cs.cpp	/^makeDefaultPolicy()$/;"	f	namespace:nfd::cs
+makeEntry	dead-nonce-list.cpp	/^DeadNonceList::makeEntry(const Name& name, uint32_t nonce)$/;"	f	class:nfd::DeadNonceList
+mark	dead-nonce-list.cpp	/^DeadNonceList::mark()$/;"	f	class:nfd::DeadNonceList
+measurements	fib.hpp	/^namespace measurements {$/;"	n	namespace:nfd
+measurements	measurements-entry.cpp	/^namespace measurements {$/;"	n	namespace:nfd	file:
+measurements	measurements-entry.hpp	/^namespace measurements {$/;"	n	namespace:nfd
+measurements	measurements.hpp	/^namespace measurements {$/;"	n	namespace:nfd
+moveStaleEventId	cs-policy-priority-fifo.hpp	/^  scheduler::EventId moveStaleEventId;$/;"	m	struct:nfd::cs::priority_fifo::EntryInfo
+moveToStaleQueue	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::moveToStaleQueue(iterator i)$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+name_tree	fib-entry.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+name_tree	measurements-entry.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+name_tree	name-tree-entry.cpp	/^namespace name_tree {$/;"	n	namespace:nfd	file:
+name_tree	name-tree-entry.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+name_tree	name-tree.cpp	/^namespace name_tree {$/;"	n	namespace:nfd	file:
+name_tree	name-tree.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+name_tree	pit-entry.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+name_tree	strategy-choice-entry.hpp	/^namespace name_tree {$/;"	n	namespace:nfd
+nfd	cs-entry-impl.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs-entry-impl.hpp	/^namespace nfd {$/;"	n
+nfd	cs-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs-entry.hpp	/^namespace nfd {$/;"	n
+nfd	cs-internal.hpp	/^namespace nfd {$/;"	n
+nfd	cs-policy-lru.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs-policy-lru.hpp	/^namespace nfd {$/;"	n
+nfd	cs-policy-priority-fifo.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs-policy-priority-fifo.hpp	/^namespace nfd {$/;"	n
+nfd	cs-policy.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs-policy.hpp	/^namespace nfd {$/;"	n
+nfd	cs.cpp	/^namespace nfd {$/;"	n	file:
+nfd	cs.hpp	/^namespace nfd {$/;"	n
+nfd	dead-nonce-list.cpp	/^namespace nfd {$/;"	n	file:
+nfd	dead-nonce-list.hpp	/^namespace nfd {$/;"	n
+nfd	fib-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	fib-entry.hpp	/^namespace nfd {$/;"	n
+nfd	fib-nexthop.cpp	/^namespace nfd {$/;"	n	file:
+nfd	fib-nexthop.hpp	/^namespace nfd {$/;"	n
+nfd	fib.cpp	/^namespace nfd {$/;"	n	file:
+nfd	fib.hpp	/^namespace nfd {$/;"	n
+nfd	measurements-accessor.cpp	/^namespace nfd {$/;"	n	file:
+nfd	measurements-accessor.hpp	/^namespace nfd {$/;"	n
+nfd	measurements-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	measurements-entry.hpp	/^namespace nfd {$/;"	n
+nfd	measurements.cpp	/^namespace nfd {$/;"	n	file:
+nfd	measurements.hpp	/^namespace nfd {$/;"	n
+nfd	name-tree-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	name-tree-entry.hpp	/^namespace nfd {$/;"	n
+nfd	name-tree.cpp	/^namespace nfd {$/;"	n	file:
+nfd	name-tree.hpp	/^namespace nfd {$/;"	n
+nfd	network-region-table.cpp	/^namespace nfd {$/;"	n	file:
+nfd	network-region-table.hpp	/^namespace nfd {$/;"	n
+nfd	pit-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	pit-entry.hpp	/^namespace nfd {$/;"	n
+nfd	pit-face-record.cpp	/^namespace nfd {$/;"	n	file:
+nfd	pit-face-record.hpp	/^namespace nfd {$/;"	n
+nfd	pit-in-record.cpp	/^namespace nfd {$/;"	n	file:
+nfd	pit-in-record.hpp	/^namespace nfd {$/;"	n
+nfd	pit-out-record.cpp	/^namespace nfd {$/;"	n	file:
+nfd	pit-out-record.hpp	/^namespace nfd {$/;"	n
+nfd	pit.cpp	/^namespace nfd {$/;"	n	file:
+nfd	pit.hpp	/^namespace nfd {$/;"	n
+nfd	strategy-choice-entry.cpp	/^namespace nfd {$/;"	n	file:
+nfd	strategy-choice-entry.hpp	/^namespace nfd {$/;"	n
+nfd	strategy-choice.cpp	/^namespace nfd {$/;"	n	file:
+nfd	strategy-choice.hpp	/^namespace nfd {$/;"	n
+nfd	strategy-info-host.cpp	/^namespace nfd {$/;"	n	file:
+nfd	strategy-info-host.hpp	/^namespace nfd {$/;"	n
+operator !=	fib.hpp	/^Fib::const_iterator::operator!=(const Fib::const_iterator& other) const$/;"	f	class:nfd::Fib::const_iterator
+operator !=	name-tree.hpp	/^NameTree::const_iterator::operator!=(const NameTree::const_iterator& other) const$/;"	f	class:nfd::NameTree::const_iterator
+operator !=	pit.hpp	/^Pit::const_iterator::operator!=(const Pit::const_iterator& other) const$/;"	f	class:nfd::Pit::const_iterator
+operator !=	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator!=(const StrategyChoice::const_iterator& other) const$/;"	f	class:nfd::StrategyChoice::const_iterator
+operator ()	cs-policy-lru.hpp	/^  operator()(const iterator& a, const iterator& b) const$/;"	f	struct:nfd::cs::lru::EntryItComparator
+operator ()	cs-policy-priority-fifo.hpp	/^  operator()(const iterator& a, const iterator& b) const$/;"	f	struct:nfd::cs::priority_fifo::EntryItComparator
+operator ()	cs.hpp	/^    operator()(const EntryImpl& entry) const$/;"	f	struct:nfd::cs::Cs::EntryFromEntryImpl
+operator ()	measurements.hpp	/^  operator()(const Entry& entry)$/;"	f	class:nfd::measurements::AnyEntry
+operator ()	measurements.hpp	/^  operator()(const Entry& entry)$/;"	f	class:nfd::measurements::EntryWithStrategyInfo
+operator ()	name-tree.hpp	/^  operator()(const Entry& entry)$/;"	f	struct:nfd::name_tree::AnyEntry
+operator ()	name-tree.hpp	/^  operator()(const Entry& entry)$/;"	f	struct:nfd::name_tree::AnyEntrySubTree
+operator *	fib.hpp	/^Fib::const_iterator::operator*() const$/;"	f	class:nfd::Fib::const_iterator
+operator *	name-tree.hpp	/^NameTree::const_iterator::operator*() const$/;"	f	class:nfd::NameTree::const_iterator
+operator *	pit.hpp	/^Pit::const_iterator::operator*() const$/;"	f	class:nfd::Pit::const_iterator
+operator *	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator*() const$/;"	f	class:nfd::StrategyChoice::const_iterator
+operator ++	fib.hpp	/^Fib::const_iterator::operator++()$/;"	f	class:nfd::Fib::const_iterator
+operator ++	fib.hpp	/^Fib::const_iterator::operator++(int)$/;"	f	class:nfd::Fib::const_iterator
+operator ++	name-tree.cpp	/^NameTree::const_iterator::operator++()$/;"	f	class:nfd::NameTree::const_iterator
+operator ++	name-tree.hpp	/^NameTree::const_iterator::operator++(int)$/;"	f	class:nfd::NameTree::const_iterator
+operator ++	pit.hpp	/^Pit::const_iterator::operator++()$/;"	f	class:nfd::Pit::const_iterator
+operator ++	pit.hpp	/^Pit::const_iterator::operator++(int)$/;"	f	class:nfd::Pit::const_iterator
+operator ++	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator++()$/;"	f	class:nfd::StrategyChoice::const_iterator
+operator ++	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator++(int)$/;"	f	class:nfd::StrategyChoice::const_iterator
+operator ->	fib.hpp	/^Fib::const_iterator::operator->() const$/;"	f	class:nfd::Fib::const_iterator
+operator ->	name-tree.hpp	/^NameTree::const_iterator::operator->() const$/;"	f	class:nfd::NameTree::const_iterator
+operator ->	pit.hpp	/^Pit::const_iterator::operator->() const$/;"	f	class:nfd::Pit::const_iterator
+operator ->	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator->() const$/;"	f	class:nfd::StrategyChoice::const_iterator
+operator <	cs-entry-impl.cpp	/^EntryImpl::operator<(const EntryImpl& other) const$/;"	f	class:nfd::cs::EntryImpl
+operator ==	fib.hpp	/^Fib::const_iterator::operator==(const Fib::const_iterator& other) const$/;"	f	class:nfd::Fib::const_iterator
+operator ==	name-tree.hpp	/^NameTree::const_iterator::operator==(const NameTree::const_iterator& other) const$/;"	f	class:nfd::NameTree::const_iterator
+operator ==	pit.hpp	/^Pit::const_iterator::operator==(const Pit::const_iterator& other) const$/;"	f	class:nfd::Pit::const_iterator
+operator ==	strategy-choice.hpp	/^StrategyChoice::const_iterator::operator==(const StrategyChoice::const_iterator& other) const$/;"	f	class:nfd::StrategyChoice::const_iterator
+partialEnumerate	name-tree.cpp	/^NameTree::partialEnumerate(const Name& prefix,$/;"	f	class:nfd::NameTree
+pit	fib.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	measurements.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	pit-entry.cpp	/^namespace pit {$/;"	n	namespace:nfd	file:
+pit	pit-entry.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	pit-face-record.cpp	/^namespace pit {$/;"	n	namespace:nfd	file:
+pit	pit-face-record.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	pit-in-record.cpp	/^namespace pit {$/;"	n	namespace:nfd	file:
+pit	pit-in-record.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	pit-out-record.cpp	/^namespace pit {$/;"	n	namespace:nfd	file:
+pit	pit-out-record.hpp	/^namespace pit {$/;"	n	namespace:nfd
+pit	pit.cpp	/^namespace pit {$/;"	n	namespace:nfd	file:
+pit	pit.hpp	/^namespace pit {$/;"	n	namespace:nfd
+predicate_NameTreeEntry_hasFibEntry	fib.cpp	/^predicate_NameTreeEntry_hasFibEntry(const name_tree::Entry& entry)$/;"	f	namespace:nfd
+priority_fifo	cs-policy-priority-fifo.cpp	/^namespace priority_fifo {$/;"	n	namespace:nfd::cs	file:
+priority_fifo	cs-policy-priority-fifo.hpp	/^namespace priority_fifo {$/;"	n	namespace:nfd::cs
+queueIt	cs-policy-priority-fifo.hpp	/^  QueueIt queueIt;$/;"	m	struct:nfd::cs::priority_fifo::EntryInfo
+queueType	cs-policy-priority-fifo.hpp	/^  QueueType queueType;$/;"	m	struct:nfd::cs::priority_fifo::EntryInfo
+removeNextHop	fib-entry.cpp	/^Entry::removeNextHop(shared_ptr<Face> face)$/;"	f	class:nfd::fib::Entry
+removeNextHopFromAllEntries	fib.cpp	/^Fib::removeNextHopFromAllEntries(shared_ptr<Face> face)$/;"	f	class:nfd::Fib
+reset	cs-entry.cpp	/^Entry::reset()$/;"	f	class:nfd::cs::Entry
+resize	name-tree.cpp	/^NameTree::resize(size_t newNBuckets)$/;"	f	class:nfd::NameTree
+result_type	cs.hpp	/^    typedef const Entry& result_type;$/;"	t	struct:nfd::cs::Cs::EntryFromEntryImpl
+s_emptyEntry	fib.cpp	/^const shared_ptr<fib::Entry> Fib::s_emptyEntry = make_shared<fib::Entry>(Name());$/;"	m	class:nfd::Fib	file:
+s_emptyEntry	fib.hpp	/^  static const shared_ptr<fib::Entry> s_emptyEntry;$/;"	m	class:nfd::Fib
+setCost	fib-nexthop.cpp	/^NextHop::setCost(uint64_t cost)$/;"	f	class:nfd::fib::NextHop
+setCs	cs-policy.hpp	/^Policy::setCs(Cs *cs)$/;"	f	class:nfd::cs::Policy
+setData	cs-entry.cpp	/^Entry::setData(shared_ptr<const Data> data, bool isUnsolicited)$/;"	f	class:nfd::cs::Entry
+setData	cs-entry.hpp	/^  setData(const Data& data, bool isUnsolicited)$/;"	f	class:nfd::cs::Entry
+setDefaultStrategy	strategy-choice.cpp	/^StrategyChoice::setDefaultStrategy(shared_ptr<Strategy> strategy)$/;"	f	class:nfd::StrategyChoice
+setFibEntry	name-tree-entry.cpp	/^Entry::setFibEntry(shared_ptr<fib::Entry> fibEntry)$/;"	f	class:nfd::name_tree::Entry
+setHash	name-tree-entry.hpp	/^Entry::setHash(size_t hash)$/;"	f	class:nfd::name_tree::Entry
+setIncomingNack	pit-out-record.cpp	/^OutRecord::setIncomingNack(const lp::Nack& nack)$/;"	f	class:nfd::pit::OutRecord
+setLimit	cs-policy.cpp	/^Policy::setLimit(size_t nMaxEntries)$/;"	f	class:nfd::cs::Policy
+setLimit	cs.cpp	/^Cs::setLimit(size_t nMaxPackets)$/;"	f	class:nfd::cs::Cs
+setMeasurementsEntry	name-tree-entry.cpp	/^Entry::setMeasurementsEntry(shared_ptr<measurements::Entry> measurementsEntry)$/;"	f	class:nfd::name_tree::Entry
+setParent	name-tree-entry.hpp	/^Entry::setParent(shared_ptr<Entry> parent)$/;"	f	class:nfd::name_tree::Entry
+setPolicy	cs.cpp	/^Cs::setPolicy(unique_ptr<Policy> policy)$/;"	f	class:nfd::cs::Cs
+setPolicyImpl	cs.cpp	/^Cs::setPolicyImpl(unique_ptr<Policy>& policy)$/;"	f	class:nfd::cs::Cs
+setStrategy	strategy-choice-entry.hpp	/^Entry::setStrategy(fw::Strategy& strategy)$/;"	f	class:nfd::strategy_choice::Entry
+setStrategyChoiceEntry	name-tree-entry.cpp	/^Entry::setStrategyChoiceEntry(shared_ptr<strategy_choice::Entry> strategyChoiceEntry)$/;"	f	class:nfd::name_tree::Entry
+setStrategyInfo	strategy-info-host.hpp	/^StrategyInfoHost::setStrategyInfo(shared_ptr<T> item)$/;"	f	class:nfd::StrategyInfoHost
+size	cs.hpp	/^  size() const$/;"	f	class:nfd::cs::Cs
+size	dead-nonce-list.cpp	/^DeadNonceList::size() const$/;"	f	class:nfd::DeadNonceList
+size	fib.hpp	/^Fib::size() const$/;"	f	class:nfd::Fib
+size	measurements.hpp	/^Measurements::size() const$/;"	f	class:nfd::Measurements
+size	name-tree.hpp	/^NameTree::size() const$/;"	f	class:nfd::NameTree
+size	pit.hpp	/^Pit::size() const$/;"	f	class:nfd::Pit
+size	strategy-choice.hpp	/^StrategyChoice::size() const$/;"	f	class:nfd::StrategyChoice
+sortNextHops	fib-entry.cpp	/^Entry::sortNextHops()$/;"	f	class:nfd::fib::Entry
+strategy_choice	strategy-choice-entry.cpp	/^namespace strategy_choice {$/;"	n	namespace:nfd	file:
+strategy_choice	strategy-choice-entry.hpp	/^namespace strategy_choice {$/;"	n	namespace:nfd
+unsetUnsolicited	cs-entry-impl.cpp	/^EntryImpl::unsetUnsolicited()$/;"	f	class:nfd::cs::EntryImpl
+update	pit-face-record.cpp	/^FaceRecord::update(const Interest& interest)$/;"	f	class:nfd::pit::FaceRecord
+update	pit-in-record.cpp	/^InRecord::update(const Interest& interest)$/;"	f	class:nfd::pit::InRecord
+updateStaleTime	cs-entry.cpp	/^Entry::updateStaleTime()$/;"	f	class:nfd::cs::Entry
+violatesScope	pit-entry.cpp	/^Entry::violatesScope(const Face& face) const$/;"	f	class:nfd::pit::Entry
+~DeadNonceList	dead-nonce-list.cpp	/^DeadNonceList::~DeadNonceList()$/;"	f	class:nfd::DeadNonceList
+~Entry	name-tree-entry.cpp	/^Entry::~Entry()$/;"	f	class:nfd::name_tree::Entry
+~Fib	fib.cpp	/^Fib::~Fib()$/;"	f	class:nfd::Fib
+~MeasurementsAccessor	measurements-accessor.cpp	/^MeasurementsAccessor::~MeasurementsAccessor()$/;"	f	class:nfd::MeasurementsAccessor
+~NameTree	name-tree.cpp	/^NameTree::~NameTree()$/;"	f	class:nfd::NameTree
+~Node	name-tree-entry.cpp	/^Node::~Node()$/;"	f	class:nfd::name_tree::Node
+~Pit	pit.cpp	/^Pit::~Pit()$/;"	f	class:nfd::Pit
+~Policy	cs-policy.cpp	/^Policy::~Policy()$/;"	f	class:nfd::cs::Policy
+~PriorityFifoPolicy	cs-policy-priority-fifo.cpp	/^PriorityFifoPolicy::~PriorityFifoPolicy()$/;"	f	class:nfd::cs::priority_fifo::PriorityFifoPolicy
+~const_iterator	fib.hpp	/^Fib::const_iterator::~const_iterator()$/;"	f	class:nfd::Fib::const_iterator
+~const_iterator	name-tree.hpp	/^inline NameTree::const_iterator::~const_iterator()$/;"	f	class:nfd::NameTree::const_iterator
+~const_iterator	pit.hpp	/^Pit::const_iterator::~const_iterator()$/;"	f	class:nfd::Pit::const_iterator
+~const_iterator	strategy-choice.hpp	/^StrategyChoice::const_iterator::~const_iterator()$/;"	f	class:nfd::StrategyChoice::const_iterator
